@@ -1,6 +1,7 @@
 {
   "item.aitplus.creative_tab_item": "Creative Tab Item",
   "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
+  "biome.aitplus.trenzalor_plains": "Trenzalor Plains",
   "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
   "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
   "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
@@ -14,5 +15,6 @@
   "biome.aitplus.gallifrey_planes": "Gallifrey Plains",
   "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
   "item_group.aitplus.ai_t_plus": "AiT Plus",
+  "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
   "block.aitplus.schlenk_blossom": "Schlenk Blossom"
 }

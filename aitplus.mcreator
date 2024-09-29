@@ -3,7 +3,7 @@
     {
       "name": "GallifreyPlanes",
       "type": "biome",
-      "sortid": 2,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_planes",
@@ -19,7 +19,7 @@
     {
       "name": "Shack",
       "type": "structure",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
@@ -35,7 +35,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -50,7 +50,7 @@
     {
       "name": "GallifreyPeaks",
       "type": "biome",
-      "sortid": 1,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_peaks",
@@ -66,6 +66,7 @@
     {
       "name": "TakeMeToGallifreyRightclicked",
       "type": "procedure",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey_rightclicked",
@@ -85,7 +86,7 @@
     {
       "name": "TakeMeToGallifrey",
       "type": "item",
-      "sortid": 3,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey",
@@ -100,7 +101,7 @@
     {
       "name": "CreativeTabItem",
       "type": "item",
-      "sortid": 5,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_item",
@@ -115,6 +116,7 @@
     {
       "name": "AiTPlus",
       "type": "tab",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ai_t_plus",
@@ -126,7 +128,7 @@
     {
       "name": "MadeviniaAridosa",
       "type": "plant",
-      "sortid": 6,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "madevinia_aridosa",
@@ -145,7 +147,7 @@
     {
       "name": "SchlenkBlossom",
       "type": "plant",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "schlenk_blossom",
@@ -164,7 +166,7 @@
     {
       "name": "UlandaFlower",
       "type": "plant",
-      "sortid": 8,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ulanda_flower",
@@ -183,7 +185,7 @@
     {
       "name": "TardisGraveyard",
       "type": "structure",
-      "sortid": 9,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_graveyard",
@@ -199,7 +201,7 @@
     {
       "name": "GallifreyHouse1",
       "type": "structure",
-      "sortid": 11,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_1",
@@ -215,7 +217,7 @@
     {
       "name": "GallifreyHouse2",
       "type": "structure",
-      "sortid": 12,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_2",
@@ -231,7 +233,7 @@
     {
       "name": "AitPlusBlockTag",
       "type": "tag",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ait_plus_block_tag",
@@ -245,7 +247,7 @@
     {
       "name": "TrenzalorianStone",
       "type": "block",
-      "sortid": 13,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone",
@@ -262,7 +264,7 @@
     {
       "name": "TrenzalorianStoneStairs",
       "type": "block",
-      "sortid": 14,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs",
@@ -281,7 +283,7 @@
     {
       "name": "TrenzalorianStoneSlab",
       "type": "block",
-      "sortid": 15,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab",
@@ -300,7 +302,7 @@
     {
       "name": "TrenzalorianStoneWall",
       "type": "block",
-      "sortid": 16,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall",
@@ -320,7 +322,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -334,7 +336,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe",
@@ -348,7 +350,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipeOp",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_op",
@@ -362,7 +364,7 @@
     {
       "name": "TrenzalorianStoneSlabRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe",
@@ -376,7 +378,7 @@
     {
       "name": "TrenzalorianStoneWallRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe",
@@ -390,7 +392,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipeAlt",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_alt",
@@ -404,7 +406,7 @@
     {
       "name": "TrenzalorianStoneSlabRecipeAlt",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe_alt",
@@ -418,7 +420,7 @@
     {
       "name": "TrenzalorianStoneWallRecipeAlt",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe_alt",
@@ -428,6 +430,70 @@
         ]
       },
       "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorPlains",
+      "type": "biome",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalor_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/biome/trenzalor_plains.json"
+        ]
+      },
+      "path": "~/Planets/Trenzalor"
+    },
+    {
+      "name": "Trenzalor",
+      "type": "dimension",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/dimension_type/trenzalor.json",
+          "src/main/resources/data/aitplus/dimension/trenzalor.json"
+        ]
+      },
+      "path": "~/Planets/Trenzalor"
+    },
+    {
+      "name": "TakeMeToTrenzalor",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_me_to_trenzalor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/TakeMeToTrenzalorItem.java",
+          "src/main/resources/assets/aitplus/models/item/take_me_to_trenzalor.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "TakeMeToTrenzalorRightClicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_me_to_trenzalor_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/TakeMeToTrenzalorRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -469,6 +535,7 @@
     "en_us": {
       "item.aitplus.creative_tab_item": "Creative Tab Item",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
+      "biome.aitplus.trenzalor_plains": "Trenzalor Plains",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
@@ -482,6 +549,7 @@
       "biome.aitplus.gallifrey_planes": "Gallifrey Plains",
       "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
+      "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
       "block.aitplus.schlenk_blossom": "Schlenk Blossom"
     }
   },
@@ -493,6 +561,10 @@
         "children": [
           {
             "name": "Gallifrey",
+            "children": []
+          },
+          {
+            "name": "Trenzalor",
             "children": []
           }
         ]
