@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MadeviniaAridosa"
+      },
+      {
+        "value": "CUSTOM:SchlenkBlossom"
+      },
+      {
+        "value": "CUSTOM:UlandaFlower"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStone"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneStairs"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneSlab"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "ait_plus_block_tag",
+    "namespace": "mod"
+  }
+}

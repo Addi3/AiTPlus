@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "aitplus:trenzalorian_stone",
+    "aitplus:trenzalorian_stone_stairs",
+    "aitplus:trenzalorian_stone_slab",
+    "aitplus:trenzalorian_stone_wall"
+  ]
+}

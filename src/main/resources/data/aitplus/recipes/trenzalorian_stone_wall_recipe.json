@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:trenzalorian_stone"
+    }
+  },
+  "result": {
+    "item": "aitplus:trenzalorian_stone_wall",
+    "count": 6
+  }
+}

@@ -195,6 +195,239 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "GallifreyHouse1",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_house_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_1.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/gallifrey_house_1.json",
+          "src/main/resources/data/aitplus/worldgen/structure/gallifrey_house_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "GallifreyHouse2",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_house_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/template_pool/gallifrey_house_2.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_2.json",
+          "src/main/resources/data/aitplus/worldgen/structure/gallifrey_house_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "AitPlusBlockTag",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ait_plus_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/tags/blocks/ait_plus_block_tag.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "TrenzalorianStone",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneBlock.java",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone.json",
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone.json",
+          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone.json"
+        ]
+      },
+      "path": "~/Blocks/Nature"
+    },
+    {
+      "name": "TrenzalorianStoneStairs",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs_outer.json",
+          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_stairs.json",
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs_inner.json",
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Nature"
+    },
+    {
+      "name": "TrenzalorianStoneSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_slab.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_top.json",
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneSlabBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_slab.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Nature"
+    },
+    {
+      "name": "TrenzalorianStoneWall",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneWallBlock.java",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_post.json",
+          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_wall.json",
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_wall.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_side_tall.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Nature"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "TrenzalorianStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneStairsRecipeOp",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_stairs_recipe_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe_op.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneStairsRecipeAlt",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_stairs_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe_alt.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneSlabRecipeAlt",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_slab_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_slab_recipe_alt.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
+    },
+    {
+      "name": "TrenzalorianStoneWallRecipeAlt",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trenzalorian_stone_wall_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/trenzalorian_stone_wall_recipe_alt.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies"
     }
   ],
   "variable_elements": [],
@@ -235,14 +468,18 @@
   "language_map": {
     "en_us": {
       "item.aitplus.creative_tab_item": "Creative Tab Item",
+      "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
+      "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
+      "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
+      "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
       "subtitles.gallifrey_ambiance2": "",
       "block.aitplus.ulanda_flower": "Ulanda Flower",
       "subtitles.trenzalor_ambiance2": "",
       "subtitles.gallifrey_ambiance": "",
       "subtitles.trenzalor_ambiance": "",
       "block.aitplus.madevinia_aridosa": "Madevinia Aridosa",
-      "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+      "biome.aitplus.gallifrey_planes": "Gallifrey Plains",
       "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "block.aitplus.schlenk_blossom": "Schlenk Blossom"
@@ -273,6 +510,14 @@
         "children": [
           {
             "name": "Plants",
+            "children": []
+          },
+          {
+            "name": "Nature",
+            "children": []
+          },
+          {
+            "name": "Recipies",
             "children": []
           }
         ]
