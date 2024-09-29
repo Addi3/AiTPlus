@@ -24,6 +24,10 @@
       "value": -1,
       "falpha": 0.0
     },
+    "waterColor": {
+      "value": -16750900,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": "CUSTOM:gallifrey_ambiance"
     },

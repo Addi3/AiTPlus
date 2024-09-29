@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class TrenzalorianStoneWallBlock extends WallBlock {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(3f, 15f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3f, 15f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 
 	public TrenzalorianStoneWallBlock() {
 		super(PROPERTIES);
