@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "aitplus",
+  "version": "1.0.0",
+  "name": "AitPlus",
+  "authors": [
+    "lelan, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "aitplus.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.addie.aitplus.AitplusMod"
+    ],
+    "client": [
+      "net.addie.aitplus.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "aitplus.mixins.json"
+  ]
+}

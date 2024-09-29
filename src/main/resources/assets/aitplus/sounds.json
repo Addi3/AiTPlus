@@ -1,0 +1,38 @@
+{
+  "gallifrey_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:gallifrey_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "gallifrey_ambiance2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:gallifrey_ambiance2",
+        "stream": false
+      }
+    ]
+  },
+  "trenzalor_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:trenzalor_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "trenzalor_ambiance2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:trenzalor_ambiance2",
+        "stream": false
+      }
+    ]
+  }
+}

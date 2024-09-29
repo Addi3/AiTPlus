@@ -1,0 +1,128 @@
+{
+  "mod_elements": [
+    {
+      "name": "GallifreyPlanes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_planes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_planes_tree.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_planes_tree.json",
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_planes.json"
+        ]
+      },
+      "path": "~/Planets/Gallifrey"
+    },
+    {
+      "name": "Shack",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/template_pool/shack.json",
+          "src/main/resources/data/aitplus/worldgen/structure/shack.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/shack.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Gallifrey",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/dimension_type/gallifrey.json",
+          "src/main/resources/data/aitplus/dimension/gallifrey.json"
+        ]
+      },
+      "path": "~/Planets/Gallifrey"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gallifrey_ambiance",
+      "files": [
+        "gallifrey_ambiance"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "gallifrey_ambiance2",
+      "files": [
+        "gallifrey_ambiance2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "trenzalor_ambiance",
+      "files": [
+        "trenzalor_ambiance"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "trenzalor_ambiance2",
+      "files": [
+        "trenzalor_ambiance2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.trenzalor_ambiance": "",
+      "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+      "subtitles.gallifrey_ambiance2": "",
+      "subtitles.trenzalor_ambiance2": "",
+      "subtitles.gallifrey_ambiance": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Planets",
+        "children": [
+          {
+            "name": "Gallifrey",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "aitplus",
+    "modName": "AitPlus",
+    "version": "1.0.0",
+    "author": "lelan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.addie.aitplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
