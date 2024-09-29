@@ -1,12 +1,12 @@
 {
-  "type": "aitplus:trenzalor",
+  "type": "aitplus:trenzalore",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "aitplus:trenzalor_plains",
+          "biome": "aitplus:trenzalore_plains",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -20,7 +20,7 @@
       ]
     },
     "settings": {
-      "name": "aitplus:trenzalor",
+      "name": "aitplus:trenzalore",
       "sea_level": 63,
       "legacy_random_source": false,
       "disable_mob_generation": false,
@@ -383,7 +383,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "aitplus:trenzalor_plains"
+                "aitplus:trenzalore_plains"
               ]
             },
             "then_run": {
