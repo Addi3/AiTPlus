@@ -18,8 +18,11 @@ import org.apache.logging.log4j.LogManager;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.api.ModInitializer;
 
+import net.addie.aitplus.init.AitplusModTabs;
 import net.addie.aitplus.init.AitplusModSounds;
+import net.addie.aitplus.init.AitplusModProcedures;
 import net.addie.aitplus.init.AitplusModItems;
+import net.addie.aitplus.init.AitplusModFeatures;
 import net.addie.aitplus.init.AitplusModBlocks;
 import net.addie.aitplus.init.AitplusModBiomes;
 
@@ -31,8 +34,14 @@ public class AitplusMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing AitplusMod");
 
+		AitplusModTabs.load();
+
 		AitplusModBlocks.load();
 		AitplusModItems.load();
+
+		AitplusModFeatures.load();
+
+		AitplusModProcedures.load();
 
 		AitplusModSounds.load();
 

@@ -16,6 +16,7 @@ import net.minecraft.core.Registry;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModBiomes {
+	public static ResourceKey<Biome> GALLIFREY_PEAKS = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "gallifrey_peaks"));
 	public static ResourceKey<Biome> GALLIFREY_PLANES = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "gallifrey_planes"));
 
 	public static void loadEndBiomes() {

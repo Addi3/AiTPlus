@@ -92,6 +92,12 @@
         "weight": 20,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "goat",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],
@@ -139,7 +145,7 @@
     [],
     [],
     [
-      "aitplus:gallifrey_planes_tree",
+      "aitplus:gallifrey_peaks_tree",
       "minecraft:patch_tall_grass",
       "minecraft:patch_grass_forest"
     ],

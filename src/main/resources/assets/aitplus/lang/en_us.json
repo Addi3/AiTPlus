@@ -1,7 +1,14 @@
 {
-  "subtitles.trenzalor_ambiance": "",
-  "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+  "item.aitplus.creative_tab_item": "Creative Tab Item",
+  "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
   "subtitles.gallifrey_ambiance2": "",
+  "block.aitplus.ulanda_flower": "Ulanda Flower",
   "subtitles.trenzalor_ambiance2": "",
-  "subtitles.gallifrey_ambiance": ""
+  "subtitles.gallifrey_ambiance": "",
+  "subtitles.trenzalor_ambiance": "",
+  "block.aitplus.madevinia_aridosa": "Madevinia Aridosa",
+  "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+  "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
+  "item_group.aitplus.ai_t_plus": "AiT Plus",
+  "block.aitplus.schlenk_blossom": "Schlenk Blossom"
 }

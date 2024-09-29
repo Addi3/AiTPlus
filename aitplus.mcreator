@@ -3,6 +3,7 @@
     {
       "name": "GallifreyPlanes",
       "type": "biome",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_planes",
@@ -18,6 +19,7 @@
     {
       "name": "Shack",
       "type": "structure",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
@@ -33,6 +35,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -43,6 +46,155 @@
         ]
       },
       "path": "~/Planets/Gallifrey"
+    },
+    {
+      "name": "GallifreyPeaks",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_peaks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_peaks_tree.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_peaks_tree.json",
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_peaks.json"
+        ]
+      },
+      "path": "~/Planets/Gallifrey"
+    },
+    {
+      "name": "TakeMeToGallifreyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_me_to_gallifrey_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/TakeMeToGallifreyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "TakeMeToGallifrey",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_me_to_gallifrey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/TakeMeToGallifreyItem.java",
+          "src/main/resources/assets/aitplus/models/item/take_me_to_gallifrey.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CreativeTabItem",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/CreativeTabItemItem.java",
+          "src/main/resources/assets/aitplus/models/item/creative_tab_item.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "AiTPlus",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_t_plus",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "MadeviniaAridosa",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madevinia_aridosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/madevinia_aridosa.json",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/madevinia_aridosa.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/madevinia_aridosa.json",
+          "src/main/java/net/addie/aitplus/block/MadeviniaAridosaBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/madevinia_aridosa.json",
+          "src/main/resources/assets/aitplus/models/item/madevinia_aridosa.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "SchlenkBlossom",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlenk_blossom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/blockstates/schlenk_blossom.json",
+          "src/main/resources/assets/aitplus/models/block/schlenk_blossom.json",
+          "src/main/java/net/addie/aitplus/block/SchlenkBlossomBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/schlenk_blossom.json",
+          "src/main/resources/assets/aitplus/models/item/schlenk_blossom.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/schlenk_blossom.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "UlandaFlower",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulanda_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/blockstates/ulanda_flower.json",
+          "src/main/resources/assets/aitplus/models/item/ulanda_flower.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/ulanda_flower.json",
+          "src/main/java/net/addie/aitplus/block/UlandaFlowerBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/ulanda_flower.json",
+          "src/main/resources/assets/aitplus/models/block/ulanda_flower.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "TardisGraveyard",
+      "type": "structure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_graveyard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/template_pool/tardis_graveyard.json",
+          "src/main/resources/data/aitplus/worldgen/structure/tardis_graveyard.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/tardis_graveyard.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],
@@ -82,11 +234,18 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.trenzalor_ambiance": "",
-      "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+      "item.aitplus.creative_tab_item": "Creative Tab Item",
+      "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "subtitles.gallifrey_ambiance2": "",
+      "block.aitplus.ulanda_flower": "Ulanda Flower",
       "subtitles.trenzalor_ambiance2": "",
-      "subtitles.gallifrey_ambiance": ""
+      "subtitles.gallifrey_ambiance": "",
+      "subtitles.trenzalor_ambiance": "",
+      "block.aitplus.madevinia_aridosa": "Madevinia Aridosa",
+      "biome.aitplus.gallifrey_planes": "Gallifrey Planes",
+      "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
+      "item_group.aitplus.ai_t_plus": "AiT Plus",
+      "block.aitplus.schlenk_blossom": "Schlenk Blossom"
     }
   },
   "foldersRoot": {
@@ -104,6 +263,19 @@
       {
         "name": "Structures",
         "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Plants",
+            "children": []
+          }
+        ]
       }
     ]
   },
