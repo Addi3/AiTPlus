@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CadonwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:CadonwoodStairs"
+      },
+      {
+        "value": "CUSTOM:CadonwoodSlab"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFence"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFenceGate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

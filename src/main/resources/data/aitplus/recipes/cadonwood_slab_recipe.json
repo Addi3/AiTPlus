@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:cadonwood_planks"
+    }
+  },
+  "result": {
+    "item": "aitplus:cadonwood_slab",
+    "count": 6
+  }
+}

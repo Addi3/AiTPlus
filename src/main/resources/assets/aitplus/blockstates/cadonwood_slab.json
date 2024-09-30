@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aitplus:block/cadonwood_slab"
+    },
+    "type=top": {
+      "model": "aitplus:block/cadonwood_slab_top"
+    },
+    "type=double": {
+      "model": "aitplus:block/cadonwood_slab_full"
+    }
+  }
+}

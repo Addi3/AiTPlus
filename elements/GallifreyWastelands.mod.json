@@ -4,13 +4,13 @@
   "definition": {
     "name": "Gallifrey Wastelands",
     "groundBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.SAND#0"
     },
     "undergroundBlock": {
-      "value": "Blocks.RED_SANDSTONE#0"
+      "value": "Blocks.SMOOTH_SANDSTONE"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.SAND#0"
     },
     "airColor": {
       "value": -6337218,
@@ -48,16 +48,16 @@
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
     "temperature": 2.0,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.5,
+      "min": -1.0,
       "max": 0.5
     },
     "genHumidity": {
-      "min": -0.5,
-      "max": 0.5
+      "min": -1.0,
+      "max": 1.0
     },
     "genContinentalness": {
       "min": 0.3,
@@ -90,13 +90,16 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "DeadBushes",
+      "DesertFeatures",
+      "ExtraGoldOre",
+      "Fossils"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": true,
     "spawnPillagerOutpost": false,
-    "villageType": "savanna",
+    "villageType": "desert",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -130,15 +133,6 @@
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityAllay"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "creature"
       }
     ]
   }

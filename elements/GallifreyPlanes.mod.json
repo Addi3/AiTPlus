@@ -47,7 +47,7 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 1.0,
-    "temperature": 0.05,
+    "temperature": 0.15,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -73,13 +73,13 @@
     },
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:Cadonwood"
     },
     "treeBranch": {
-      "value": ""
+      "value": "Blocks.LEAVES#0"
     },
     "treeVines": {
       "value": ""

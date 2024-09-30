@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aitplus:cadonwood_planks",
+    "aitplus:cadonwood_stairs",
+    "aitplus:cadonwood_slab",
+    "aitplus:cadonwood_fence",
+    "aitplus:cadonwood_fence_gate"
+  ]
+}

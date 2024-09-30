@@ -26,14 +26,7 @@
         "maxCount": 4
       }
     ],
-    "creature": [
-      {
-        "type": "allay",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
@@ -55,8 +48,13 @@
       "minecraft:lake_lava_underground"
     ],
     [],
-    [],
-    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
     [],
     [
       "minecraft:ore_coal_upper",
@@ -74,13 +72,14 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra"
     ],
     [],
     [],
-    [],
     [
-      "minecraft:freeze_top_layer"
-    ]
+      "minecraft:patch_dead_bush_2"
+    ],
+    []
   ]
 }

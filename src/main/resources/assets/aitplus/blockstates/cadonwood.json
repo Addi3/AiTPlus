@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aitplus:block/cadonwood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aitplus:block/cadonwood"
+    },
+    "axis=z": {
+      "model": "aitplus:block/cadonwood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "aitplus:block/cadonwood_planks",
+    "top": "aitplus:block/cadonwood_planks",
+    "side": "aitplus:block/cadonwood_planks"
+  },
+  "render_type": "solid"
+}

@@ -22,6 +22,7 @@ import net.addie.aitplus.init.AitplusModTabs;
 import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModProcedures;
 import net.addie.aitplus.init.AitplusModItems;
+import net.addie.aitplus.init.AitplusModFeatures;
 import net.addie.aitplus.init.AitplusModBlocks;
 import net.addie.aitplus.init.AitplusModBiomes;
 
@@ -37,6 +38,8 @@ public class AitplusMod implements ModInitializer {
 
 		AitplusModBlocks.load();
 		AitplusModItems.load();
+
+		AitplusModFeatures.load();
 
 		AitplusModProcedures.load();
 
