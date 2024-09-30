@@ -18,6 +18,8 @@ import net.addie.aitplus.block.RedPetaledOrchidBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
+import net.addie.aitplus.block.CandonwoodPressurePlateBlock;
+import net.addie.aitplus.block.CandonwoodButtonBlock;
 import net.addie.aitplus.block.CadonwoodTrapdoorBlock;
 import net.addie.aitplus.block.CadonwoodStairsBlock;
 import net.addie.aitplus.block.CadonwoodSlabBlock;
@@ -50,6 +52,8 @@ public class AitplusModBlocks {
 	public static Block CADONWOOD_TRAPDOOR;
 	public static Block CADONWOOD_DOOR;
 	public static Block CADON_LOG;
+	public static Block CANDONWOOD_BUTTON;
+	public static Block CANDONWOOD_PRESSURE_PLATE;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -71,6 +75,8 @@ public class AitplusModBlocks {
 		CADONWOOD_TRAPDOOR = register("cadonwood_trapdoor", new CadonwoodTrapdoorBlock());
 		CADONWOOD_DOOR = register("cadonwood_door", new CadonwoodDoorBlock());
 		CADON_LOG = register("cadon_log", new CadonLogBlock());
+		CANDONWOOD_BUTTON = register("candonwood_button", new CandonwoodButtonBlock());
+		CANDONWOOD_PRESSURE_PLATE = register("candonwood_pressure_plate", new CandonwoodPressurePlateBlock());
 	}
 
 	public static void clientLoad() {
@@ -93,6 +99,8 @@ public class AitplusModBlocks {
 		CadonwoodTrapdoorBlock.clientInit();
 		CadonwoodDoorBlock.clientInit();
 		CadonLogBlock.clientInit();
+		CandonwoodButtonBlock.clientInit();
+		CandonwoodPressurePlateBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

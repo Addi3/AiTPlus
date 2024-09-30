@@ -42,6 +42,8 @@ public class AitplusModItems {
 	public static Item CADONWOOD_TRAPDOOR;
 	public static Item CADONWOOD_DOOR;
 	public static Item CADON_LOG;
+	public static Item CANDONWOOD_BUTTON;
+	public static Item CANDONWOOD_PRESSURE_PLATE;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -85,6 +87,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CADONWOOD_DOOR));
 		CADON_LOG = register("cadon_log", new BlockItem(AitplusModBlocks.CADON_LOG, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CADON_LOG));
+		CANDONWOOD_BUTTON = register("candonwood_button", new BlockItem(AitplusModBlocks.CANDONWOOD_BUTTON, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDONWOOD_BUTTON));
+		CANDONWOOD_PRESSURE_PLATE = register("candonwood_pressure_plate", new BlockItem(AitplusModBlocks.CANDONWOOD_PRESSURE_PLATE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDONWOOD_PRESSURE_PLATE));
 	}
 
 	public static void clientLoad() {

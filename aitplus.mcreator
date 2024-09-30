@@ -934,6 +934,71 @@
         ]
       },
       "path": "~/Planets/Gallifrey"
+    },
+    {
+      "name": "CandonwoodButton",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candonwood_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/block/CandonwoodButtonBlock.java",
+          "src/main/resources/assets/aitplus/models/block/candonwood_button.json",
+          "src/main/resources/assets/aitplus/models/block/candonwood_button_pressed.json",
+          "src/main/resources/assets/aitplus/models/item/candonwood_button.json",
+          "src/main/resources/assets/aitplus/blockstates/candonwood_button.json",
+          "src/main/resources/assets/aitplus/models/block/candonwood_button_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Woods/Cadonwood"
+    },
+    {
+      "name": "CandonwoodPressurePlate",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candonwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/blockstates/candonwood_pressure_plate.json",
+          "src/main/resources/assets/aitplus/models/block/candonwood_pressure_plate_down.json",
+          "src/main/java/net/addie/aitplus/block/CandonwoodPressurePlateBlock.java",
+          "src/main/resources/assets/aitplus/models/block/candonwood_pressure_plate.json",
+          "src/main/resources/assets/aitplus/models/item/candonwood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Woods/Cadonwood"
+    },
+    {
+      "name": "CandonwoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candonwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/candonwood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies/Cadonwood"
+    },
+    {
+      "name": "CandonwoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candonwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/candonwood_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipies/Cadonwood"
     }
   ],
   "variable_elements": [],
@@ -977,6 +1042,7 @@
       "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "biome.aitplus.trenzalore_plains": "Trenzalore Plains",
       "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
+      "block.aitplus.candonwood_pressure_plate": "Candon Wood Pressure Plate",
       "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
       "subtitles.trenzalor_ambiance": "",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
@@ -984,6 +1050,7 @@
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
       "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
       "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
+      "block.aitplus.candonwood_button": "Candon Wood Button",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "block.aitplus.cadon_log": "Cadon Log",

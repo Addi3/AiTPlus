@@ -13,6 +13,8 @@
     "aitplus:cadonwood_fence_gate",
     "aitplus:cadonwood_trapdoor",
     "aitplus:cadonwood_door",
-    "aitplus:cadon_log"
+    "aitplus:cadon_log",
+    "aitplus:candonwood_button",
+    "aitplus:candonwood_pressure_plate"
   ]
 }
