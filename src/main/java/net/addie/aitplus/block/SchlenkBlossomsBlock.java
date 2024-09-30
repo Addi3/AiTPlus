@@ -31,8 +31,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class SchlenkBlossomsBlock extends FlowerBlock {
-	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_peaks")),
-			ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_planes")), ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_wastelands")));
+	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_drylands")));
 
 	public SchlenkBlossomsBlock() {
 		super(MobEffects.FIRE_RESISTANCE, 100, BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission());
@@ -55,7 +54,7 @@ public class SchlenkBlossomsBlock extends FlowerBlock {
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
 		return groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.MYCELIUM) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.COARSE_DIRT) || groundState.is(Blocks.PODZOL) || groundState.is(Blocks.ROOTED_DIRT)
-				|| groundState.is(Blocks.SAND);
+				|| groundState.is(Blocks.SAND) || groundState.is(Blocks.RED_SAND);
 	}
 
 	@Override

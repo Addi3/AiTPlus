@@ -13,10 +13,7 @@
     "separation": 29,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:GallifreyPlanes"
-      },
-      {
-        "value": "CUSTOM:GallifreyPeaks"
+        "value": "CUSTOM:GallifreyPlains"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",

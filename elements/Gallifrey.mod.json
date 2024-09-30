@@ -4,13 +4,13 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:GallifreyPlanes"
-      },
-      {
-        "value": "CUSTOM:GallifreyPeaks"
-      },
-      {
         "value": "CUSTOM:GallifreyWastelands"
+      },
+      {
+        "value": "CUSTOM:GallifreyPlains"
+      },
+      {
+        "value": "CUSTOM:GallifreyMountains"
       }
     ],
     "worldGenType": "Normal world gen",

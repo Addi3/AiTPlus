@@ -1,7 +1,7 @@
 {
 	"texture": "aitplus:environment/gallifrey_sun_1.png",
 	"display": {
-		"scale": "30",
+		"scale": "15",
 		"pos_x": "40",
 		"pos_y": "0",
 		"pos_z": "40",

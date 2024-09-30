@@ -13,8 +13,6 @@ import net.addie.aitplus.block.TrenzalorianStoneWallBlock;
 import net.addie.aitplus.block.TrenzalorianStoneStairsBlock;
 import net.addie.aitplus.block.TrenzalorianStoneSlabBlock;
 import net.addie.aitplus.block.TrenzalorianStoneBlock;
-import net.addie.aitplus.block.StrippedCadonwoodLogBlock;
-import net.addie.aitplus.block.StrippedCadonwoodBlock;
 import net.addie.aitplus.block.SchlenkBlossomsBlock;
 import net.addie.aitplus.block.RedPetaledOrchidBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
@@ -51,9 +49,7 @@ public class AitplusModBlocks {
 	public static Block CADONWOOD_FENCE_GATE;
 	public static Block CADONWOOD_TRAPDOOR;
 	public static Block CADONWOOD_DOOR;
-	public static Block STRIPPED_CADONWOOD;
 	public static Block CADON_LOG;
-	public static Block STRIPPED_CADONWOOD_LOG;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -74,9 +70,7 @@ public class AitplusModBlocks {
 		CADONWOOD_FENCE_GATE = register("cadonwood_fence_gate", new CadonwoodFenceGateBlock());
 		CADONWOOD_TRAPDOOR = register("cadonwood_trapdoor", new CadonwoodTrapdoorBlock());
 		CADONWOOD_DOOR = register("cadonwood_door", new CadonwoodDoorBlock());
-		STRIPPED_CADONWOOD = register("stripped_cadonwood", new StrippedCadonwoodBlock());
 		CADON_LOG = register("cadon_log", new CadonLogBlock());
-		STRIPPED_CADONWOOD_LOG = register("stripped_cadonwood_log", new StrippedCadonwoodLogBlock());
 	}
 
 	public static void clientLoad() {
@@ -98,9 +92,7 @@ public class AitplusModBlocks {
 		CadonwoodFenceGateBlock.clientInit();
 		CadonwoodTrapdoorBlock.clientInit();
 		CadonwoodDoorBlock.clientInit();
-		StrippedCadonwoodBlock.clientInit();
 		CadonLogBlock.clientInit();
-		StrippedCadonwoodLogBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

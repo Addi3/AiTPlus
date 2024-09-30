@@ -13,11 +13,11 @@
       "value": "Blocks.SAND#1"
     },
     "airColor": {
-      "value": -6337218,
+      "value": -7454156,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -5761792,
+      "value": -7530489,
       "falpha": 0.0
     },
     "foliageColor": {
@@ -25,7 +25,7 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16750900,
+      "value": -14056226,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -49,29 +49,29 @@
     "rainingPossibility": 1.0,
     "temperature": 0.15,
     "spawnBiome": false,
-    "spawnInCaves": false,
+    "spawnInCaves": true,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -1.0,
-      "max": 2.0
+      "min": -0.9,
+      "max": 1.0
     },
     "genHumidity": {
-      "min": -1.0,
-      "max": 2.0
-    },
-    "genContinentalness": {
-      "min": 0.3,
-      "max": 1.0
-    },
-    "genErosion": {
-      "min": -0.5,
+      "min": -0.9,
       "max": 0.5
     },
-    "genWeirdness": {
-      "min": -1.0,
-      "max": 1.0
+    "genContinentalness": {
+      "min": -0.9,
+      "max": 0.1
     },
-    "treesPerChunk": 1,
+    "genErosion": {
+      "min": -0.8,
+      "max": 0.1
+    },
+    "genWeirdness": {
+      "min": -2.0,
+      "max": 0.6
+    },
+    "treesPerChunk": 5,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
@@ -90,15 +90,14 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "PlainsTallGrass",
       "ForestGrass",
-      "FrozenTopLayer"
+      "PlainsTallGrass"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": true,
-    "spawnMineshaftMesa": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -119,8 +118,8 @@
         "entity": {
           "value": "EntityCreeper"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
@@ -128,17 +127,26 @@
         "entity": {
           "value": "EntityZombie"
         },
-        "minGroup": 2,
-        "maxGroup": 8,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
       {
         "entity": {
-          "value": "EntitySpider"
+          "value": "EntityWitch"
         },
-        "minGroup": 1,
-        "maxGroup": 2,
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCaveSpider"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
@@ -146,16 +154,25 @@
         "entity": {
           "value": "EntitySkeleton"
         },
-        "minGroup": 1,
-        "maxGroup": 5,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
       {
         "entity": {
-          "value": "EntityPig"
+          "value": "EntityZombieVillager"
         },
-        "minGroup": 2,
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 4,
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "creature"
@@ -164,17 +181,17 @@
         "entity": {
           "value": "EntityCow"
         },
-        "minGroup": 1,
-        "maxGroup": 6,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "creature"
       },
       {
         "entity": {
-          "value": "EntitySheep"
+          "value": "EntityPig"
         },
         "minGroup": 4,
-        "maxGroup": 6,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "creature"
       },
@@ -182,35 +199,8 @@
         "entity": {
           "value": "EntityChicken"
         },
-        "minGroup": 2,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityHorse"
-        },
         "minGroup": 4,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityMule"
-        },
-        "minGroup": 1,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityDonkey"
-        },
-        "minGroup": 4,
-        "maxGroup": 5,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "creature"
       },
@@ -218,8 +208,8 @@
         "entity": {
           "value": "EntityFox"
         },
-        "minGroup": 1,
-        "maxGroup": 3,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "creature"
       }

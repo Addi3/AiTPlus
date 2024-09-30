@@ -11,10 +11,10 @@
       "block_search_extent": 2
     },
     "foliage_color": -1,
-    "grass_color": -5761792,
-    "sky_color": -6337218,
-    "fog_color": -6337218,
-    "water_color": -16750900,
+    "grass_color": -7530489,
+    "sky_color": -7454156,
+    "fog_color": -7454156,
+    "water_color": -14056226,
     "water_fog_color": 329011
   },
   "spawners": {
@@ -22,76 +22,70 @@
       {
         "type": "creeper",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "zombie",
         "weight": 20,
-        "minCount": 2,
-        "maxCount": 8
+        "minCount": 4,
+        "maxCount": 4
       },
       {
-        "type": "spider",
+        "type": "witch",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 2
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "cave_spider",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "skeleton",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 5
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie_villager",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "creature": [
       {
-        "type": "pig",
+        "type": "sheep",
         "weight": 20,
-        "minCount": 2,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "cow",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 6
+        "minCount": 4,
+        "maxCount": 4
       },
       {
-        "type": "sheep",
+        "type": "pig",
         "weight": 20,
         "minCount": 4,
-        "maxCount": 6
+        "maxCount": 4
       },
       {
         "type": "chicken",
         "weight": 20,
-        "minCount": 2,
-        "maxCount": 5
-      },
-      {
-        "type": "horse",
-        "weight": 20,
         "minCount": 4,
-        "maxCount": 5
-      },
-      {
-        "type": "mule",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 5
-      },
-      {
-        "type": "donkey",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 5
+        "maxCount": 4
       },
       {
         "type": "fox",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 3
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "ambient": [],
@@ -139,12 +133,10 @@
     [],
     [],
     [
-      "aitplus:gallifrey_planes_tree",
+      "aitplus:gallifrey_plains_tree",
       "minecraft:patch_tall_grass",
       "minecraft:patch_grass_forest"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

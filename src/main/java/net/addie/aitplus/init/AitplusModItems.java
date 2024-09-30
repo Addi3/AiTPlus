@@ -41,9 +41,7 @@ public class AitplusModItems {
 	public static Item CADONWOOD_FENCE_GATE;
 	public static Item CADONWOOD_TRAPDOOR;
 	public static Item CADONWOOD_DOOR;
-	public static Item STRIPPED_CADONWOOD;
 	public static Item CADON_LOG;
-	public static Item STRIPPED_CADONWOOD_LOG;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -85,12 +83,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CADONWOOD_TRAPDOOR));
 		CADONWOOD_DOOR = register("cadonwood_door", new BlockItem(AitplusModBlocks.CADONWOOD_DOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CADONWOOD_DOOR));
-		STRIPPED_CADONWOOD = register("stripped_cadonwood", new BlockItem(AitplusModBlocks.STRIPPED_CADONWOOD, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_CADONWOOD));
 		CADON_LOG = register("cadon_log", new BlockItem(AitplusModBlocks.CADON_LOG, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CADON_LOG));
-		STRIPPED_CADONWOOD_LOG = register("stripped_cadonwood_log", new BlockItem(AitplusModBlocks.STRIPPED_CADONWOOD_LOG, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_CADONWOOD_LOG));
 	}
 
 	public static void clientLoad() {

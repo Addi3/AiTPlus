@@ -10,9 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "aitplus:gallifrey_planes",
-    "aitplus:gallifrey_peaks"
-  ],
+  "biomes": "aitplus:gallifrey_plains",
   "use_expansion_hack": false
 }

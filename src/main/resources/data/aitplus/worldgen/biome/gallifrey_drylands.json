@@ -4,11 +4,11 @@
   "downfall": 0,
   "effects": {
     "ambient_sound": "aitplus:gallifrey_ambiance",
-    "foliage_color": -1,
-    "grass_color": -5761792,
-    "sky_color": -6337218,
-    "fog_color": -6337218,
-    "water_color": -16750900,
+    "foliage_color": -2960686,
+    "grass_color": -7530489,
+    "sky_color": -7454156,
+    "fog_color": -7454156,
+    "water_color": -14056226,
     "water_fog_color": 329011
   },
   "spawners": {
@@ -78,6 +78,7 @@
     [],
     [],
     [
+      "aitplus:gallifrey_drylands_tree",
       "minecraft:patch_dead_bush_2"
     ],
     []

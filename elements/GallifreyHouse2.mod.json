@@ -9,18 +9,15 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 35,
+    "spacing": 45,
     "separation": 30,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:GallifreyPeaks"
-      },
-      {
-        "value": "CUSTOM:GallifreyPlanes"
+        "value": "CUSTOM:GallifreyPlains"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "terrainAdaptation": "none",
+    "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES"
   }
 }

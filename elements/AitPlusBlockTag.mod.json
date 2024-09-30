@@ -36,7 +36,31 @@
         "value": "CUSTOM:SchlenkBlossoms"
       },
       {
-        "value": "CUSTOM:GallifreyanSand"
+        "value": "CUSTOM:Cadonwood"
+      },
+      {
+        "value": "CUSTOM:CadonwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:CadonwoodStairs"
+      },
+      {
+        "value": "CUSTOM:CadonwoodSlab"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFence"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFenceGate"
+      },
+      {
+        "value": "CUSTOM:CadonwoodTrapdoor"
+      },
+      {
+        "value": "CUSTOM:CadonwoodDoor"
+      },
+      {
+        "value": "CUSTOM:CadonLog"
       }
     ],
     "functions": [],

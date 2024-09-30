@@ -99,6 +99,9 @@
       },
       {
         "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
       }
     ],
     "isBonemealable": false,

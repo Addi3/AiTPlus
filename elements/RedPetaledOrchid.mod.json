@@ -103,10 +103,10 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:GallifreyPeaks"
+        "value": "CUSTOM:GallifreyPlains"
       },
       {
-        "value": "CUSTOM:GallifreyPlanes"
+        "value": "CUSTOM:GallifreyMountains"
       }
     ],
     "generationType": "Flower",

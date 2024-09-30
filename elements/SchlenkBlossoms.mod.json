@@ -99,18 +99,15 @@
       },
       {
         "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
       }
     ],
     "isBonemealable": false,
     "frequencyOnChunks": 3,
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:GallifreyPeaks"
-      },
-      {
-        "value": "CUSTOM:GallifreyPlanes"
-      },
       {
         "value": "CUSTOM:GallifreyWastelands"
       }

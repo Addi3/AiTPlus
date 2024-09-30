@@ -31,8 +31,8 @@ import java.util.List;
 import java.util.Collections;
 
 public class ArkytiorBlock extends FlowerBlock {
-	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_peaks")),
-			ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_planes")));
+	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_plains")),
+			ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:gallifrey_mountains")));
 
 	public ArkytiorBlock() {
 		super(MobEffects.DIG_SLOWDOWN, 100, BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission());

@@ -1,22 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "GallifreyPlanes",
-      "type": "biome",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gallifrey_planes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_planes_tree.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_planes_tree.json",
-          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_planes.json"
-        ]
-      },
-      "path": "~/Planets/Gallifrey"
-    },
-    {
       "name": "Shack",
       "type": "structure",
       "sortid": 17,
@@ -43,22 +27,6 @@
         "files": [
           "src/main/resources/data/aitplus/dimension_type/gallifrey.json",
           "src/main/resources/data/aitplus/dimension/gallifrey.json"
-        ]
-      },
-      "path": "~/Planets/Gallifrey"
-    },
-    {
-      "name": "GallifreyPeaks",
-      "type": "biome",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gallifrey_peaks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_peaks_tree.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_peaks_tree.json",
-          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_peaks.json"
         ]
       },
       "path": "~/Planets/Gallifrey"
@@ -444,10 +412,12 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gallifrey_wastelands",
+      "registry_name": "gallifrey_drylands",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_wastelands.json"
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_drylands.json",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_drylands_tree.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_drylands_tree.json"
         ]
       },
       "path": "~/Planets/Gallifrey"
@@ -735,23 +705,6 @@
       "path": "~/Blocks/Woods/Cadonwood"
     },
     {
-      "name": "StrippedCadonwood",
-      "type": "block",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_cadonwood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/addie/aitplus/block/StrippedCadonwoodBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_cadonwood.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_cadonwood.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_cadonwood.json"
-        ]
-      },
-      "path": "~/Blocks/Woods/Cadonwood"
-    },
-    {
       "name": "CadonLog",
       "type": "block",
       "sortid": 47,
@@ -792,20 +745,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aitplus/recipes/cadonwood_planks_recipe_alt.json"
-        ]
-      },
-      "path": "~/Blocks/Recipies/Cadonwood"
-    },
-    {
-      "name": "CadonwoodPlanksRecipeAlt2",
-      "type": "recipe",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cadonwood_planks_recipe_alt_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aitplus/recipes/cadonwood_planks_recipe_alt_2.json"
         ]
       },
       "path": "~/Blocks/Recipies/Cadonwood"
@@ -951,107 +890,50 @@
       "path": "~/Misc"
     },
     {
-      "name": "CadonwoodOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 61,
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cadonwood_on_block_right_clicked",
+      "registry_name": "log_blocks",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/procedures/CadonwoodOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
         ]
       },
-      "path": "~/Blocks/Woods/Cadonwood"
+      "path": "~/Misc"
     },
     {
-      "name": "StrippedCadonwoodLog",
-      "type": "block",
-      "sortid": 62,
+      "name": "GallifreyPlains",
+      "type": "biome",
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stripped_cadonwood_log",
+      "registry_name": "gallifrey_plains",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_cadonwood_log.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_cadonwood_log.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_cadonwood_log.json",
-          "src/main/java/net/addie/aitplus/block/StrippedCadonwoodLogBlock.java"
+          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_plains_tree.json",
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_plains.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_plains_tree.json"
         ]
       },
-      "path": "~/Blocks/Woods/Cadonwood"
+      "path": "~/Planets/Gallifrey"
     },
     {
-      "name": "StrippedCadonwoodLogRecipe",
-      "type": "recipe",
-      "sortid": 63,
+      "name": "GallifreyMountains",
+      "type": "biome",
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stripped_cadonwood_log_recipe",
+      "registry_name": "gallifrey_mountains",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/recipes/stripped_cadonwood_log_recipe.json"
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_mountains.json",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_mountains_tree.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_mountains_tree.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
-    },
-    {
-      "name": "CadonLogOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cadon_log_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/addie/aitplus/procedures/CadonLogOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Woods/Cadonwood"
+      "path": "~/Planets/Gallifrey"
     }
   ],
   "variable_elements": [],
@@ -1094,21 +976,20 @@
       "item.aitplus.creative_tab_item": "Creative Tab Item",
       "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "biome.aitplus.trenzalore_plains": "Trenzalore Plains",
+      "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
       "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
-      "block.aitplus.stripped_cadonwood_log": "Stripped Cadon Wood Log",
       "subtitles.trenzalor_ambiance": "",
-      "biome.aitplus.gallifrey_planes": "Gallifrey Plains",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
-      "biome.aitplus.gallifrey_wastelands": "Gallifrey Wastelands",
+      "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
+      "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "block.aitplus.cadon_log": "Cadon Log",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
       "block.aitplus.red_petaled_orchid": "Red Petaled Orchid",
       "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
-      "block.aitplus.stripped_cadonwood": "Stripped Cadon Wood",
       "subtitles.gallifrey_ambiance2": "",
       "block.aitplus.arkytior": "Arkytior",
       "block.aitplus.cadonwood_slab": "Cadon Wood Slab",
@@ -1116,7 +997,6 @@
       "block.aitplus.cadonwood_stairs": "Cadon Wood Stairs",
       "subtitles.gallifrey_ambiance": "",
       "block.aitplus.moonlight_bloom": "Moonlight Bloom",
-      "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
       "block.aitplus.cadonwood_fence": "Cadon Wood Fence",
       "block.aitplus.cadonwood_door": "Cadon Wood Door",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
