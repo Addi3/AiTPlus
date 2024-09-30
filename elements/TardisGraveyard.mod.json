@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "tardis_graveyard",
-    "projection": "rigid",
+    "projection": "terrain_matching",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"

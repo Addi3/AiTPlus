@@ -126,63 +126,6 @@
       "path": "~/Misc"
     },
     {
-      "name": "MadeviniaAridosa",
-      "type": "plant",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "madevinia_aridosa",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aitplus/models/block/madevinia_aridosa.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/madevinia_aridosa.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/madevinia_aridosa.json",
-          "src/main/java/net/addie/aitplus/block/MadeviniaAridosaBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/madevinia_aridosa.json",
-          "src/main/resources/assets/aitplus/models/item/madevinia_aridosa.json"
-        ]
-      },
-      "path": "~/Blocks/Plants"
-    },
-    {
-      "name": "SchlenkBlossom",
-      "type": "plant",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "schlenk_blossom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aitplus/blockstates/schlenk_blossom.json",
-          "src/main/resources/assets/aitplus/models/block/schlenk_blossom.json",
-          "src/main/java/net/addie/aitplus/block/SchlenkBlossomBlock.java",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/schlenk_blossom.json",
-          "src/main/resources/assets/aitplus/models/item/schlenk_blossom.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/schlenk_blossom.json"
-        ]
-      },
-      "path": "~/Blocks/Plants"
-    },
-    {
-      "name": "UlandaFlower",
-      "type": "plant",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ulanda_flower",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aitplus/blockstates/ulanda_flower.json",
-          "src/main/resources/assets/aitplus/models/item/ulanda_flower.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/ulanda_flower.json",
-          "src/main/java/net/addie/aitplus/block/UlandaFlowerBlock.java",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/ulanda_flower.json",
-          "src/main/resources/assets/aitplus/models/block/ulanda_flower.json"
-        ]
-      },
-      "path": "~/Blocks/Plants"
-    },
-    {
       "name": "TardisGraveyard",
       "type": "structure",
       "sortid": 18,
@@ -494,6 +437,20 @@
         ]
       },
       "path": "~/Misc"
+    },
+    {
+      "name": "GallifreyWastelands",
+      "type": "biome",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_wastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_wastelands.json"
+        ]
+      },
+      "path": "~/Planets/Gallifrey"
     }
   ],
   "variable_elements": [],
@@ -541,16 +498,14 @@
       "biome.aitplus.trenzalore_plains": "Trenzalore Plains",
       "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
       "subtitles.gallifrey_ambiance2": "",
-      "block.aitplus.ulanda_flower": "Ulanda Flower",
       "subtitles.trenzalor_ambiance2": "",
       "subtitles.gallifrey_ambiance": "",
       "subtitles.trenzalor_ambiance": "",
-      "block.aitplus.madevinia_aridosa": "Madevinia Aridosa",
       "biome.aitplus.gallifrey_planes": "Gallifrey Plains",
       "biome.aitplus.gallifrey_peaks": "Gallifrey Peaks",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
-      "block.aitplus.schlenk_blossom": "Schlenk Blossom"
+      "biome.aitplus.gallifrey_wastelands": "Gallifrey Wastelands"
     }
   },
   "foldersRoot": {

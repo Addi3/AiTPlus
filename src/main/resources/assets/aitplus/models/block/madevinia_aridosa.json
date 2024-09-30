@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/madevinia_aridosa",
-    "particle": "aitplus:block/madevinia_aridosa"
-  },
-  "render_type": "cutout"
-}

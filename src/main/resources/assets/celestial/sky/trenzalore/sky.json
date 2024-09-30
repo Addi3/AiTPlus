@@ -1,13 +1,6 @@
 {
 	"sky_objects": [
-		"moon",
-		"moon_1",
-		"sun",
-		"stars",
-		"stars_1",
-		"stars_2",
-		"stars_3",
-		"sun_1"
+		"rings"
 	],
 	"environment": {
 		"fog_color": {

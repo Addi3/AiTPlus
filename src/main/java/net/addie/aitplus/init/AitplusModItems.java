@@ -20,9 +20,6 @@ import net.addie.aitplus.item.CreativeTabItemItem;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModItems {
-	public static Item MADEVINIA_ARIDOSA;
-	public static Item SCHLENK_BLOSSOM;
-	public static Item ULANDA_FLOWER;
 	public static Item TRENZALORIAN_STONE;
 	public static Item TRENZALORIAN_STONE_STAIRS;
 	public static Item TRENZALORIAN_STONE_SLAB;
@@ -32,12 +29,6 @@ public class AitplusModItems {
 	public static Item CREATIVE_TAB_ITEM;
 
 	public static void load() {
-		MADEVINIA_ARIDOSA = register("madevinia_aridosa", new BlockItem(AitplusModBlocks.MADEVINIA_ARIDOSA, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(MADEVINIA_ARIDOSA));
-		SCHLENK_BLOSSOM = register("schlenk_blossom", new BlockItem(AitplusModBlocks.SCHLENK_BLOSSOM, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(SCHLENK_BLOSSOM));
-		ULANDA_FLOWER = register("ulanda_flower", new BlockItem(AitplusModBlocks.ULANDA_FLOWER, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ULANDA_FLOWER));
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(TRENZALORIAN_STONE));
 		TRENZALORIAN_STONE_STAIRS = register("trenzalorian_stone_stairs", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE_STAIRS, new Item.Properties()));

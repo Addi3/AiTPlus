@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "biome",
   "definition": {
-    "name": "Gallifrey Plains",
+    "name": "Gallifrey Wastelands",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.SAND#1"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "Blocks.RED_SANDSTONE#0"
     },
     "underwaterBlock": {
       "value": "Blocks.SAND#1"
@@ -38,7 +38,7 @@
       "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:gallifrey_ambiance2"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": false,
@@ -46,18 +46,18 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 1.0,
-    "temperature": 0.05,
-    "spawnBiome": false,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -1.0,
-      "max": 2.0
+      "min": -0.5,
+      "max": 0.5
     },
     "genHumidity": {
-      "min": -1.0,
-      "max": 2.0
+      "min": -0.5,
+      "max": 0.5
     },
     "genContinentalness": {
       "min": 0.3,
@@ -71,7 +71,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
@@ -90,15 +90,13 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "PlainsTallGrass",
-      "ForestGrass",
       "FrozenTopLayer"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": true,
+    "spawnMineshaft": false,
     "spawnMineshaftMesa": true,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "savanna",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -117,28 +115,10 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityCreeper"
+          "value": "EntityHusk"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityZombie"
-        },
-        "minGroup": 2,
-        "maxGroup": 8,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntitySpider"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
@@ -146,80 +126,17 @@
         "entity": {
           "value": "EntitySkeleton"
         },
-        "minGroup": 1,
-        "maxGroup": 5,
+        "minGroup": 4,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       },
       {
         "entity": {
-          "value": "EntityPig"
+          "value": "EntityAllay"
         },
-        "minGroup": 2,
+        "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityCow"
-        },
-        "minGroup": 1,
-        "maxGroup": 6,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntitySheep"
-        },
-        "minGroup": 4,
-        "maxGroup": 6,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityChicken"
-        },
-        "minGroup": 2,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityHorse"
-        },
-        "minGroup": 4,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityMule"
-        },
-        "minGroup": 1,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityDonkey"
-        },
-        "minGroup": 4,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityFox"
-        },
-        "minGroup": 1,
-        "maxGroup": 3,
         "weight": 20,
         "spawnType": "creature"
       }

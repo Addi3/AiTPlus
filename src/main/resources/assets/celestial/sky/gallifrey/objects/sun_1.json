@@ -1,10 +1,10 @@
 {
-	"texture": "aitplus:environment/gallifrey_sun.png",
+	"texture": "aitplus:environment/gallifrey_sun_1.png",
 	"display": {
 		"scale": "30",
-		"pos_x": "0",
+		"pos_x": "40",
 		"pos_y": "0",
-		"pos_z": "0",
+		"pos_z": "40",
 		"distance": "100"
 	},
 	"rotation": {
