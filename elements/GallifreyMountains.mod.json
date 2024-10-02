@@ -32,13 +32,13 @@
       "value": "CUSTOM:gallifrey_ambiance"
     },
     "additionsSound": {
-      "value": ""
+      "value": "CUSTOM:gallifrey_ambiance2"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:gallifrey_ambiance2"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": false,
@@ -65,13 +65,13 @@
     },
     "genErosion": {
       "min": -0.5,
-      "max": 0.5
+      "max": 2.0
     },
     "genWeirdness": {
       "min": -1.0,
       "max": 2.0
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
@@ -92,7 +92,8 @@
       "Ores",
       "FrozenTopLayer",
       "ForestGrass",
-      "PlainsTallGrass"
+      "PlainsTallGrass",
+      "TaigaGrassAndMushrooms"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -175,6 +176,15 @@
         },
         "minGroup": 1,
         "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Fly"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
         "weight": 20,
         "spawnType": "creature"
       }

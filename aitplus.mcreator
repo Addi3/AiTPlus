@@ -1015,6 +1015,38 @@
         ]
       },
       "path": "~/entities"
+    },
+    {
+      "name": "Fly",
+      "type": "livingentity",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/fly_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/entity/FlyEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/FlyRenderer.java"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "Citadel",
+      "type": "structure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citadel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/structure/citadel.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/citadel.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/citadel.json"
+        ]
+      },
+      "path": "~/Structures/Gallifrey"
     }
   ],
   "variable_elements": [],
@@ -1074,6 +1106,7 @@
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
       "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
+      "entity.aitplus.fly": "Flutterwing",
       "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
       "block.aitplus.candonwood_button": "Candon Wood Button",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
@@ -1096,6 +1129,7 @@
       "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
       "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
       "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
+      "item.aitplus.fly_spawn_egg": "Flutterwing Spawn Egg",
       "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
       "subtitles.flutterwing_fluttering": ""
     }

@@ -23,9 +23,15 @@
     "creature": [
       {
         "type": "rabbit",
-        "weight": 20,
+        "weight": 50,
         "minCount": 1,
         "maxCount": 6
+      },
+      {
+        "type": "aitplus:fly",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],

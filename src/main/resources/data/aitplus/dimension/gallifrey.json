@@ -9,16 +9,16 @@
           "biome": "aitplus:gallifrey_drylands",
           "parameters": {
             "temperature": [
-              -0.1,
+              -0.5,
               1
             ],
             "humidity": [
-              -0.1,
+              -0.5,
               1
             ],
             "continentalness": [
               -0.8,
-              -0.1
+              0
             ],
             "weirdness": [
               -1.5,
@@ -26,7 +26,7 @@
             ],
             "erosion": [
               -0.5,
-              0.5
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -80,7 +80,7 @@
             ],
             "erosion": [
               -0.5,
-              0.5
+              2
             ],
             "depth": 0,
             "offset": 0
@@ -99,9 +99,9 @@
         "Name": "minecraft:stone"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
+        "Name": "minecraft:grass_block",
         "Properties": {
-          "level": "0"
+          "snowy": "false"
         }
       },
       "spawn_target": [],

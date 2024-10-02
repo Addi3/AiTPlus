@@ -11,6 +11,7 @@
   "block.aitplus.cadonwood": "Cadon Wood",
   "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
   "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
+  "entity.aitplus.fly": "Flutterwing",
   "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
   "block.aitplus.candonwood_button": "Candon Wood Button",
   "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
@@ -33,6 +34,7 @@
   "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
   "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
   "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
+  "item.aitplus.fly_spawn_egg": "Flutterwing Spawn Egg",
   "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
   "subtitles.flutterwing_fluttering": ""
 }

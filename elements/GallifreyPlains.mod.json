@@ -32,13 +32,13 @@
       "value": "CUSTOM:gallifrey_ambiance"
     },
     "additionsSound": {
-      "value": ""
+      "value": "CUSTOM:gallifrey_ambiance2"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:gallifrey_ambiance2"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": false,
@@ -91,7 +91,8 @@
       "Caves",
       "Ores",
       "ForestGrass",
-      "PlainsTallGrass"
+      "PlainsTallGrass",
+      "TaigaGrassAndMushrooms"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -167,6 +168,15 @@
         "maxGroup": 2,
         "weight": 10,
         "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Fly"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "creature"
       }
     ]
   }

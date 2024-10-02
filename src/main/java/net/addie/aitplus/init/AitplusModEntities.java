@@ -15,17 +15,23 @@ import net.minecraft.core.Registry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
+import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModEntities {
 	public static EntityType<FlutterwingEntity> FLUTTERWING;
+	public static EntityType<FlyEntity> FLY;
 
 	public static void load() {
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlutterwingEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		FlutterwingEntity.init();
 		FabricDefaultAttributeRegistry.register(FLUTTERWING, FlutterwingEntity.createAttributes());
+		FLY = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "fly"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlyEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		FlyEntity.init();
+		FabricDefaultAttributeRegistry.register(FLY, FlyEntity.createAttributes());
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {
