@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:TrenzalorPlains"
+        "value": "CUSTOM:TrenzaloreWastes"
       }
     ],
     "worldGenType": "Normal world gen",

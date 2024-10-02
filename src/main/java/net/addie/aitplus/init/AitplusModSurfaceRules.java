@@ -12,14 +12,29 @@
 */
 package net.addie.aitplus.init;
 
+import net.minecraft.world.level.levelgen.placement.CaveSurface;
 import net.minecraft.world.level.levelgen.SurfaceRules;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.biome.Biome;
+import net.minecraft.resources.ResourceKey;
 
 public class AitplusModSurfaceRules {
 	public static SurfaceRules.RuleSource makeOverworldRules() {
-		return SurfaceRules.sequence();
+		return SurfaceRules.sequence(preliminarySurfaceRule(AitplusModBiomes.GALLIFREY_DEATH_ZONE, Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()),
+				preliminarySurfaceRule(AitplusModBiomes.TRENZALORE_WASTES, AitplusModBlocks.TRENZALORIAN_STONE.defaultBlockState(), Blocks.BLACKSTONE.defaultBlockState(), Blocks.BLACKSTONE.defaultBlockState()));
 	}
 
 	public static SurfaceRules.RuleSource makeNetherRules() {
 		return SurfaceRules.sequence();
+	}
+
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
 	}
 }

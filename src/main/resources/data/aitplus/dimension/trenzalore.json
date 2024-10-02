@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "aitplus:trenzalore_plains",
+          "biome": "aitplus:trenzalore_wastes",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -383,7 +383,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "aitplus:trenzalore_plains"
+                "aitplus:trenzalore_wastes"
               ]
             },
             "then_run": {

@@ -1,39 +1,18 @@
 {
-  "has_precipitation": false,
-  "temperature": 2,
-  "downfall": 0,
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
   "effects": {
-    "ambient_sound": "aitplus:gallifrey_ambiance",
-    "foliage_color": -16738048,
-    "grass_color": -7530489,
-    "sky_color": -7454156,
-    "fog_color": -7454156,
-    "water_color": -12242,
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "husk",
-        "weight": 15,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "creature": [
-      {
-        "type": "rabbit",
-        "weight": 50,
-        "minCount": 1,
-        "maxCount": 6
-      },
-      {
-        "type": "aitplus:fly",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
+    "monster": [],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
@@ -55,13 +34,8 @@
       "minecraft:lake_lava_underground"
     ],
     [],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower"
-    ],
-    [
-      "minecraft:desert_well"
-    ],
+    [],
+    [],
     [],
     [
       "minecraft:ore_coal_upper",
@@ -79,14 +53,15 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:ore_gold_extra"
+      "minecraft:underwater_magma"
     ],
     [],
     [],
     [
-      "minecraft:patch_dead_bush_2"
+      "aitplus:gallifrey_death_zone_tree"
     ],
-    []
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ]
 }
