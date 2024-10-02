@@ -118,20 +118,20 @@
     "spawnEntries": [
       {
         "entity": {
+          "value": "EntityRabbit"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
           "value": "EntityHusk"
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntitySkeleton"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
+        "weight": 15,
         "spawnType": "monster"
       }
     ]

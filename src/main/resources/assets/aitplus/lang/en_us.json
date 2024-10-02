@@ -7,6 +7,7 @@
   "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
   "subtitles.trenzalor_ambiance": "",
   "item_group.aitplus.ai_t_plus": "AiT Plus",
+  "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
   "block.aitplus.cadonwood": "Cadon Wood",
   "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
   "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
@@ -17,6 +18,7 @@
   "block.aitplus.cadon_log": "Cadon Log",
   "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
   "block.aitplus.red_petaled_orchid": "Red Petaled Orchid",
+  "entity.aitplus.flutterwing": "Flutterwing",
   "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
   "subtitles.gallifrey_ambiance2": "",
   "block.aitplus.arkytior": "Arkytior",
@@ -31,5 +33,6 @@
   "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
   "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
   "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
-  "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor"
+  "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
+  "subtitles.flutterwing_fluttering": ""
 }

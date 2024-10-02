@@ -15,18 +15,19 @@
     "monster": [
       {
         "type": "husk",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "skeleton",
-        "weight": 20,
+        "weight": 15,
         "minCount": 4,
         "maxCount": 4
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "rabbit",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 6
+      }
+    ],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

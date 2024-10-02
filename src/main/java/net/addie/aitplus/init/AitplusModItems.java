@@ -3,6 +3,7 @@
  */
 package net.addie.aitplus.init;
 
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
@@ -44,6 +45,7 @@ public class AitplusModItems {
 	public static Item CADON_LOG;
 	public static Item CANDONWOOD_BUTTON;
 	public static Item CANDONWOOD_PRESSURE_PLATE;
+	public static Item FLUTTERWING_SPAWN_EGG;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -91,6 +93,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDONWOOD_BUTTON));
 		CANDONWOOD_PRESSURE_PLATE = register("candonwood_pressure_plate", new BlockItem(AitplusModBlocks.CANDONWOOD_PRESSURE_PLATE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDONWOOD_PRESSURE_PLATE));
+		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 	}
 
 	public static void clientLoad() {

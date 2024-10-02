@@ -117,56 +117,20 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityCreeper"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntitySkeleton"
-        },
-        "minGroup": 3,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntitySpider"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityZombie"
-        },
-        "minGroup": 4,
-        "maxGroup": 6,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityWitch"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntitySheep"
+          "value": "CUSTOM:Flutterwing"
         },
         "minGroup": 2,
-        "maxGroup": 4,
+        "maxGroup": 6,
         "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCat"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 15,
         "spawnType": "creature"
       },
       {
@@ -174,34 +138,43 @@
           "value": "EntityCow"
         },
         "minGroup": 2,
-        "maxGroup": 6,
-        "weight": 20,
+        "maxGroup": 4,
+        "weight": 30,
         "spawnType": "creature"
       },
       {
         "entity": {
-          "value": "EntityChicken"
+          "value": "EntityRabbit"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 25,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAxolotl"
         },
         "minGroup": 1,
         "maxGroup": 2,
-        "weight": 20,
-        "spawnType": "creature"
+        "weight": 10,
+        "spawnType": "waterCreature"
       },
       {
         "entity": {
-          "value": "EntityGoat"
+          "value": "EntityHorse"
         },
         "minGroup": 1,
         "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityPig"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
         "weight": 20,
         "spawnType": "creature"
       }

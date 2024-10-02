@@ -16,6 +16,8 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
 
+import net.addie.aitplus.init.AitplusModModels;
+import net.addie.aitplus.init.AitplusModEntityRenderers;
 import net.addie.aitplus.init.AitplusModBlocks;
 
 @Environment(EnvType.CLIENT)
@@ -25,5 +27,7 @@ public class ClientInit implements ClientModInitializer {
 
 		AitplusModBlocks.clientLoad();
 
+		AitplusModModels.load();
+		AitplusModEntityRenderers.load();
 	}
 }

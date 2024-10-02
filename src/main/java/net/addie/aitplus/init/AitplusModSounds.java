@@ -14,11 +14,13 @@ public class AitplusModSounds {
 	public static SoundEvent GALLIFREY_AMBIANCE2 = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "gallifrey_ambiance2"));
 	public static SoundEvent TRENZALOR_AMBIANCE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "trenzalor_ambiance"));
 	public static SoundEvent TRENZALOR_AMBIANCE2 = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "trenzalor_ambiance2"));
+	public static SoundEvent FLUTTERWING_FLUTTERING = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "flutterwing_fluttering"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance2"), GALLIFREY_AMBIANCE2);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "trenzalor_ambiance"), TRENZALOR_AMBIANCE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "trenzalor_ambiance2"), TRENZALOR_AMBIANCE2);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "flutterwing_fluttering"), FLUTTERWING_FLUTTERING);
 	}
 }
