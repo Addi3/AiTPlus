@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -2960686,
+      "value": -16738048,
       "falpha": 0.0
     },
     "waterColor": {
@@ -40,7 +40,7 @@
     "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 8000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -60,8 +60,8 @@
       "max": 1.0
     },
     "genContinentalness": {
-      "min": -0.8,
-      "max": 0.0
+      "min": 0.3,
+      "max": 1.0
     },
     "genErosion": {
       "min": -0.5,
@@ -71,9 +71,9 @@
       "min": -1.5,
       "max": 1.5
     },
-    "treesPerChunk": 1,
-    "vanillaTreeType": "Savanna trees",
-    "treeType": 1,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
     "minHeight": 5,
     "treeStem": {
       "value": "CUSTOM:CadonLog"

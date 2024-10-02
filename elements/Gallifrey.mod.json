@@ -18,7 +18,7 @@
       "value": "Blocks.STONE#0"
     },
     "fluidBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.FLOWING_WATER"
     },
     "canRespawnHere": true,
     "hasFog": false,

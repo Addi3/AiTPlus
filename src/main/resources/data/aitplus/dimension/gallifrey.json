@@ -17,8 +17,8 @@
               1
             ],
             "continentalness": [
-              -0.8,
-              0
+              0.3,
+              1
             ],
             "weirdness": [
               -1.5,
@@ -99,9 +99,9 @@
         "Name": "minecraft:stone"
       },
       "default_fluid": {
-        "Name": "minecraft:grass_block",
+        "Name": "minecraft:water",
         "Properties": {
-          "snowy": "false"
+          "level": "0"
         }
       },
       "spawn_target": [],

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:stripped_cadonwood"
+    }
+  },
+  "result": {
+    "item": "aitplus:stripped_cadon_log",
+    "count": 3
+  }
+}

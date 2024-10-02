@@ -4,7 +4,7 @@
   "downfall": 0,
   "effects": {
     "ambient_sound": "aitplus:gallifrey_ambiance",
-    "foliage_color": -2960686,
+    "foliage_color": -16738048,
     "grass_color": -7530489,
     "sky_color": -7454156,
     "fog_color": -7454156,
@@ -85,7 +85,6 @@
     [],
     [],
     [
-      "aitplus:gallifrey_drylands_tree",
       "minecraft:patch_dead_bush_2"
     ],
     []

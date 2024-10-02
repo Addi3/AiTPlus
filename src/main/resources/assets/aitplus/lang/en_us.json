@@ -1,6 +1,7 @@
 {
   "item.aitplus.creative_tab_item": "Creative Tab Item",
   "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
+  "block.aitplus.stripped_cadon_log": "Stripped Cadon Log",
   "biome.aitplus.trenzalore_plains": "Trenzalore Plains",
   "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
   "block.aitplus.candonwood_pressure_plate": "Candon Wood Pressure Plate",
@@ -21,6 +22,7 @@
   "block.aitplus.red_petaled_orchid": "Red Petaled Orchid",
   "entity.aitplus.flutterwing": "Flutterwing",
   "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
+  "block.aitplus.stripped_cadonwood": "Stripped Cadon Wood",
   "subtitles.gallifrey_ambiance2": "",
   "block.aitplus.arkytior": "Arkytior",
   "block.aitplus.cadonwood_slab": "Cadon Wood Slab",
@@ -36,5 +38,6 @@
   "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
   "item.aitplus.fly_spawn_egg": "Flutterwing Spawn Egg",
   "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
+  "block.aitplus.candonwood_leaves": "Candonwood Leaves",
   "subtitles.flutterwing_fluttering": ""
 }
