@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Flutterwing",
+    "mobName": "Fly",
     "mobLabel": "",
     "mobModelName": "Modelfly",
     "mobModelTexture": "fly.png",
@@ -22,9 +22,9 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "modelWidth": 0.4,
+    "modelHeight": 0.4,
+    "modelShadowSize": 0.4,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -103,21 +103,21 @@
       "value": ""
     },
     "livingSound": {
-      "value": "entity.bee.loop"
+      "value": "CUSTOM:fly_loop"
     },
     "hurtSound": {
-      "value": "entity.bee.hurt"
+      "value": "CUSTOM:fly_hurt"
     },
     "deathSound": {
-      "value": "entity.bee.death"
+      "value": "CUSTOM:fly_death"
     },
     "stepSound": {
-      "value": "entity.bee.loop"
+      "value": "CUSTOM:fly_loop"
     },
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_entity\"><field name=\"speed\">1</field><field name=\"maxrange\">10</field><field name=\"followarea\">5</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"climb_powder_snow\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_entity\"><field name=\"speed\">1</field><field name=\"maxrange\">5</field><field name=\"followarea\">2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"climb_powder_snow\"><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

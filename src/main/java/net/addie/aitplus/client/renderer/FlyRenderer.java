@@ -10,7 +10,7 @@ import net.addie.aitplus.client.model.Modelfly;
 
 public class FlyRenderer extends MobRenderer<FlyEntity, Modelfly<FlyEntity>> {
 	public FlyRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelfly(context.bakeLayer(Modelfly.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelfly(context.bakeLayer(Modelfly.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override

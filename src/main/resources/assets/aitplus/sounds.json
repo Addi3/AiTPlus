@@ -28,9 +28,100 @@
   },
   "flutterwing_fluttering": {
     "category": "neutral",
+    "subtitle": "subtitles.flutterwing_fluttering",
     "sounds": [
       {
         "name": "aitplus:flutterwing_fluttering",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_ambient": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_ambient",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_step": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_step",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_step",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_death",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_death",
+        "stream": false
+      }
+    ]
+  },
+  "flutterwing_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.flutterwing_death",
+    "sounds": [
+      {
+        "name": "aitplus:flutterwing_death",
+        "stream": false
+      }
+    ]
+  },
+  "flutterwing_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.flutterwing_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:flutterwing_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fly_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_death",
+    "sounds": [
+      {
+        "name": "aitplus:fly_death",
+        "stream": false
+      }
+    ]
+  },
+  "fly_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:fly_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fly_loop": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_loop",
+    "sounds": [
+      {
+        "name": "aitplus:fly_loop",
         "stream": false
       }
     ]

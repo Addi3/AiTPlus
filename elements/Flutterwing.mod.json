@@ -22,9 +22,9 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "modelWidth": 0.7,
+    "modelHeight": 0.6,
+    "modelShadowSize": 0.7,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -103,13 +103,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:flutterwing_fluttering"
     },
     "hurtSound": {
-      "value": "entity.axolotl.hurt"
+      "value": "CUSTOM:flutterwing_hurt"
     },
     "deathSound": {
-      "value": "entity.axolotl.death"
+      "value": "CUSTOM:flutterwing_death"
     },
     "stepSound": {
       "value": "CUSTOM:flutterwing_fluttering"
@@ -117,7 +117,7 @@
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"climb_powder_snow\"><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:MoonlightBloom</field></block></value></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"climb_powder_snow\"><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">0.9</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:MoonlightBloom</field></block></value><next><block type=\"panic_when_attacked\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">0.9</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": true,
     "tameable": false,
     "breedTriggerItems": [

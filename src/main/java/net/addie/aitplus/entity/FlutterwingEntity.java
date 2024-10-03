@@ -12,8 +12,10 @@ import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.goal.ClimbOnTopOfPowderSnowGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -32,7 +34,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
@@ -75,7 +76,9 @@ public class FlutterwingEntity extends Animal {
 		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(3, new FloatGoal(this));
 		this.goalSelector.addGoal(4, new ClimbOnTopOfPowderSnowGoal(this, this.level()));
-		this.goalSelector.addGoal(5, new TemptGoal(this, 1, Ingredient.of(AitplusModBlocks.MOONLIGHT_BLOOM.asItem()), false));
+		this.goalSelector.addGoal(5, new TemptGoal(this, 0.9, Ingredient.of(AitplusModBlocks.MOONLIGHT_BLOOM.asItem()), false));
+		this.goalSelector.addGoal(6, new PanicGoal(this, 1));
+		this.goalSelector.addGoal(7, new BreedGoal(this, 0.9));
 	}
 
 	@Override
@@ -89,18 +92,23 @@ public class FlutterwingEntity extends Animal {
 	}
 
 	@Override
+	public SoundEvent getAmbientSound() {
+		return AitplusModSounds.FLUTTERWING_FLUTTERING;
+	}
+
+	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
 		this.playSound(AitplusModSounds.FLUTTERWING_FLUTTERING, 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.axolotl.hurt"));
+		return AitplusModSounds.FLUTTERWING_HURT;
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.axolotl.death"));
+		return AitplusModSounds.FLUTTERWING_DEATH;
 	}
 
 	@Override

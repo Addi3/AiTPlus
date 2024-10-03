@@ -1262,54 +1262,135 @@
         "flutterwing_fluttering"
       ],
       "category": "neutral",
-      "subtitle": ""
+      "subtitle": "Flutterwing Flutters"
+    },
+    {
+      "name": "flubble_hurt",
+      "files": [
+        "flubble_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Flubble Hurt"
+    },
+    {
+      "name": "flubble_ambient",
+      "files": [
+        "flubble_ambient"
+      ],
+      "category": "neutral",
+      "subtitle": "Flubble Communicates"
+    },
+    {
+      "name": "flubble_step",
+      "files": [
+        "flubble_step"
+      ],
+      "category": "neutral",
+      "subtitle": "Flubble Steps"
+    },
+    {
+      "name": "flubble_death",
+      "files": [
+        "flubble_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Flubble Dies"
+    },
+    {
+      "name": "flutterwing_death",
+      "files": [
+        "flutterwing_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Flutterwing Dies"
+    },
+    {
+      "name": "flutterwing_hurt",
+      "files": [
+        "flutterwing_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Flutterwing Hurt"
+    },
+    {
+      "name": "fly_death",
+      "files": [
+        "fly_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Fly Dies"
+    },
+    {
+      "name": "fly_hurt",
+      "files": [
+        "fly_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Fly Hurt"
+    },
+    {
+      "name": "fly_loop",
+      "files": [
+        "fly_loop"
+      ],
+      "category": "neutral",
+      "subtitle": "Fly"
     }
   ],
   "language_map": {
     "en_us": {
       "item.aitplus.creative_tab_item": "Creative Tab Item",
-      "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "block.aitplus.stripped_cadon_log": "Stripped Cadon Log",
-      "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
-      "block.aitplus.candonwood_pressure_plate": "Candon Wood Pressure Plate",
-      "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
-      "subtitles.trenzalor_ambiance": "",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
-      "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
-      "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
-      "entity.aitplus.fly": "Flutterwing",
-      "biome.aitplus.trenzalore_wastes": "Trenzalore Wastes",
-      "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
+      "entity.aitplus.fly": "Fly",
       "block.aitplus.candonwood_button": "Candon Wood Button",
+      "subtitles.flubble_hurt": "Flubble Hurt",
+      "subtitles.flubble_ambient": "Flubble Communicates",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "block.aitplus.cadon_log": "Cadon Log",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
+      "block.aitplus.arkytior": "Arkytior",
+      "subtitles.trenzalor_ambiance2": "",
+      "subtitles.gallifrey_ambiance": "",
+      "block.aitplus.moonlight_bloom": "Moonlight Bloom",
+      "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
+      "item.aitplus.flubble_spawn_egg": "Flubble Spawn Egg",
+      "subtitles.flutterwing_death": "Flutterwing Dies",
+      "block.aitplus.candonwood_leaves": "Candonwood Leaves",
+      "subtitles.flutterwing_fluttering": "Flutterwing Flutters",
+      "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
+      "subtitles.flutterwing_hurt": "Flutterwing Hurt",
+      "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
+      "subtitles.flubble_death": "Flubble Dies",
+      "block.aitplus.candonwood_pressure_plate": "Candon Wood Pressure Plate",
+      "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
+      "subtitles.trenzalor_ambiance": "",
+      "subtitles.fly_death": "Fly Dies",
+      "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
+      "subtitles.fly_loop": "Fly",
+      "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
+      "biome.aitplus.trenzalore_wastes": "Trenzalore Wastes",
+      "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
       "block.aitplus.red_petaled_orchid": "Red Petaled Orchid",
       "entity.aitplus.flutterwing": "Flutterwing",
       "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
       "block.aitplus.stripped_cadonwood": "Stripped Cadon Wood",
+      "subtitles.flubble_step": "Flubble Steps",
       "subtitles.gallifrey_ambiance2": "",
-      "block.aitplus.arkytior": "Arkytior",
       "block.aitplus.cadonwood_slab": "Cadon Wood Slab",
-      "subtitles.trenzalor_ambiance2": "",
       "block.aitplus.cadonwood_stairs": "Cadon Wood Stairs",
-      "subtitles.gallifrey_ambiance": "",
       "entity.aitplus.flubble": "Flubble",
-      "block.aitplus.moonlight_bloom": "Moonlight Bloom",
       "block.aitplus.cadonwood_fence": "Cadon Wood Fence",
       "block.aitplus.cadonwood_door": "Cadon Wood Door",
-      "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
       "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
       "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
-      "item.aitplus.flubble_spawn_egg": "Flubble Spawn Egg",
+      "subtitles.fly_hurt": "Fly Hurt",
       "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
-      "item.aitplus.fly_spawn_egg": "Flutterwing Spawn Egg",
-      "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
-      "block.aitplus.candonwood_leaves": "Candonwood Leaves",
-      "subtitles.flutterwing_fluttering": ""
+      "item.aitplus.fly_spawn_egg": "Fly Spawn Egg",
+      "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor"
     }
   },
   "foldersRoot": {

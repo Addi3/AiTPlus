@@ -23,7 +23,7 @@
     },
     "modelLayers": [],
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 0.5,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -103,24 +103,28 @@
       "value": ""
     },
     "livingSound": {
-      "value": "entity.panda.ambient"
+      "value": "CUSTOM:flubble_ambient"
     },
     "hurtSound": {
-      "value": "entity.panda.hurt"
+      "value": "CUSTOM:flubble_hurt"
     },
     "deathSound": {
-      "value": "entity.panda.death"
+      "value": "CUSTOM:flubble_death"
     },
     "stepSound": {
-      "value": "entity.panda.step"
+      "value": "CUSTOM:flubble_step"
     },
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.4</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">0.6</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.4</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">0.6</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">0.6</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">0.7</field><field name=\"min_distance\">5</field><field name=\"max_distance\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">0.5</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Blocks.BAMBOO</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": true,
-    "tameable": false,
-    "breedTriggerItems": [],
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Blocks.BAMBOO"
+      }
+    ],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""

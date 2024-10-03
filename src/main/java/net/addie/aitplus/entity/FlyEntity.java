@@ -6,6 +6,7 @@ import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
+import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.FollowMobGoal;
@@ -27,13 +28,13 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 
+import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModEntities;
 import net.addie.aitplus.AitplusMod;
 
@@ -65,10 +66,11 @@ public class FlyEntity extends PathfinderMob {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(2, new FollowMobGoal(this, 1, (float) 10, (float) 5));
+		this.goalSelector.addGoal(2, new FollowMobGoal(this, 1, (float) 5, (float) 2));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new ClimbOnTopOfPowderSnowGoal(this, this.level()));
+		this.targetSelector.addGoal(6, new HurtByTargetGoal(this).setAlertOthers());
 	}
 
 	@Override
@@ -83,22 +85,22 @@ public class FlyEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.bee.loop"));
+		return AitplusModSounds.FLY_LOOP;
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.bee.loop")), 0.15f, 1);
+		this.playSound(AitplusModSounds.FLY_LOOP, 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.bee.hurt"));
+		return AitplusModSounds.FLY_HURT;
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.bee.death"));
+		return AitplusModSounds.FLY_DEATH;
 	}
 
 	@Override
