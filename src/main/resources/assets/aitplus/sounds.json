@@ -8,15 +8,6 @@
       }
     ]
   },
-  "gallifrey_ambiance2": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "aitplus:gallifrey_ambiance2",
-        "stream": false
-      }
-    ]
-  },
   "trenzalor_ambiance": {
     "category": "ambient",
     "sounds": [

@@ -17,11 +17,13 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
+import net.addie.aitplus.entity.FlubbleEntity;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModEntities {
 	public static EntityType<FlutterwingEntity> FLUTTERWING;
 	public static EntityType<FlyEntity> FLY;
+	public static EntityType<FlubbleEntity> FLUBBLE;
 
 	public static void load() {
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
@@ -32,6 +34,10 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlyEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		FlyEntity.init();
 		FabricDefaultAttributeRegistry.register(FLY, FlyEntity.createAttributes());
+		FLUBBLE = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flubble"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlubbleEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		FlubbleEntity.init();
+		FabricDefaultAttributeRegistry.register(FLUBBLE, FlubbleEntity.createAttributes());
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

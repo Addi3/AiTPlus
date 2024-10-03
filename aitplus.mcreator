@@ -3,7 +3,7 @@
     {
       "name": "Shack",
       "type": "structure",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
@@ -19,7 +19,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -34,7 +34,7 @@
     {
       "name": "TakeMeToGallifreyRightclicked",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey_rightclicked",
@@ -54,7 +54,7 @@
     {
       "name": "TakeMeToGallifrey",
       "type": "item",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey",
@@ -69,7 +69,7 @@
     {
       "name": "CreativeTabItem",
       "type": "item",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_item",
@@ -84,7 +84,7 @@
     {
       "name": "AiTPlus",
       "type": "tab",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ai_t_plus",
@@ -96,7 +96,7 @@
     {
       "name": "TardisGraveyard",
       "type": "structure",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_graveyard",
@@ -112,7 +112,7 @@
     {
       "name": "GallifreyHouse1",
       "type": "structure",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_1",
@@ -128,7 +128,7 @@
     {
       "name": "GallifreyHouse2",
       "type": "structure",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_2",
@@ -144,7 +144,7 @@
     {
       "name": "AitPlusBlockTag",
       "type": "tag",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ait_plus_block_tag",
@@ -233,7 +233,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -247,7 +247,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe",
@@ -261,7 +261,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipeOp",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_op",
@@ -275,7 +275,7 @@
     {
       "name": "TrenzalorianStoneSlabRecipe",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe",
@@ -289,7 +289,7 @@
     {
       "name": "TrenzalorianStoneWallRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe",
@@ -303,7 +303,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipeAlt",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_alt",
@@ -317,7 +317,7 @@
     {
       "name": "TrenzalorianStoneSlabRecipeAlt",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe_alt",
@@ -331,7 +331,7 @@
     {
       "name": "TrenzalorianStoneWallRecipeAlt",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe_alt",
@@ -345,7 +345,7 @@
     {
       "name": "Trenzalor",
       "type": "dimension",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalore",
@@ -360,7 +360,7 @@
     {
       "name": "TakeMeToTrenzalor",
       "type": "item",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor",
@@ -1184,22 +1184,6 @@
       "path": "~/Blocks/Woods/Cadonwood"
     },
     {
-      "name": "GallifreyDeathZone",
-      "type": "biome",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "gallifrey_death_zone",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aitplus/worldgen/configured_feature/gallifrey_death_zone_tree.json",
-          "src/main/resources/data/aitplus/worldgen/biome/gallifrey_death_zone.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/gallifrey_death_zone_tree.json"
-        ]
-      },
-      "path": "~/Planets/Gallifrey"
-    },
-    {
       "name": "DeadTardis",
       "type": "structure",
       "sortid": 74,
@@ -1228,6 +1212,22 @@
         ]
       },
       "path": "~/Planets/Trenzalor"
+    },
+    {
+      "name": "Flubble",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flubble",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/entity/FlubbleEntity.java",
+          "src/main/resources/assets/aitplus/models/item/flubble_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/client/renderer/FlubbleRenderer.java"
+        ]
+      },
+      "path": "~/entities"
     }
   ],
   "variable_elements": [],
@@ -1236,14 +1236,6 @@
       "name": "gallifrey_ambiance",
       "files": [
         "gallifrey_ambiance"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "gallifrey_ambiance2",
-      "files": [
-        "gallifrey_ambiance2"
       ],
       "category": "ambient",
       "subtitle": ""
@@ -1286,7 +1278,6 @@
       "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
-      "biome.aitplus.gallifrey_death_zone": "Gallifrey Death Zone",
       "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
       "entity.aitplus.fly": "Flutterwing",
       "biome.aitplus.trenzalore_wastes": "Trenzalore Wastes",
@@ -1306,12 +1297,14 @@
       "subtitles.trenzalor_ambiance2": "",
       "block.aitplus.cadonwood_stairs": "Cadon Wood Stairs",
       "subtitles.gallifrey_ambiance": "",
+      "entity.aitplus.flubble": "Flubble",
       "block.aitplus.moonlight_bloom": "Moonlight Bloom",
       "block.aitplus.cadonwood_fence": "Cadon Wood Fence",
       "block.aitplus.cadonwood_door": "Cadon Wood Door",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
       "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
       "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
+      "item.aitplus.flubble_spawn_egg": "Flubble Spawn Egg",
       "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
       "item.aitplus.fly_spawn_egg": "Flutterwing Spawn Egg",
       "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",

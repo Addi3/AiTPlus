@@ -10,11 +10,13 @@ import net.fabricmc.api.EnvType;
 
 import net.addie.aitplus.client.model.Modelfly;
 import net.addie.aitplus.client.model.Modelflutterwing;
+import net.addie.aitplus.client.model.Modelflubble;
 
 @Environment(EnvType.CLIENT)
 public class AitplusModModels {
 	public static void load() {
 		EntityModelLayerRegistry.registerModelLayer(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelflutterwing.LAYER_LOCATION, Modelflutterwing::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(Modelflubble.LAYER_LOCATION, Modelflubble::createBodyLayer);
 	}
 }

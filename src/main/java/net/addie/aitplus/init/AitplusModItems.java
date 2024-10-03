@@ -47,6 +47,7 @@ public class AitplusModItems {
 	public static Item SCHLENK_BLOSSOMS;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
+	public static Item FLUBBLE_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item CREATIVE_TAB_ITEM;
@@ -104,6 +105,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLY_SPAWN_EGG));
+		FLUBBLE_SPAWN_EGG = register("flubble_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUBBLE, -9268588, -7876402, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUBBLE_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
