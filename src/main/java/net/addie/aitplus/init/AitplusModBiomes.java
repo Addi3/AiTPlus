@@ -20,6 +20,7 @@ public class AitplusModBiomes {
 	public static ResourceKey<Biome> GALLIFREY_PLAINS = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "gallifrey_plains"));
 	public static ResourceKey<Biome> GALLIFREY_MOUNTAINS = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "gallifrey_mountains"));
 	public static ResourceKey<Biome> TRENZALORE_WASTES = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "trenzalore_wastes"));
+	public static ResourceKey<Biome> DEATH_ZONE = ResourceKey.create(Registries.BIOME, new ResourceLocation(AitplusMod.MODID, "death_zone"));
 
 	public static void loadEndBiomes() {
 	}

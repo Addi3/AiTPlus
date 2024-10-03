@@ -1228,6 +1228,22 @@
         ]
       },
       "path": "~/entities"
+    },
+    {
+      "name": "DeathZone",
+      "type": "biome",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_zone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/configured_feature/death_zone_tree.json",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/death_zone_tree.json",
+          "src/main/resources/data/aitplus/worldgen/biome/death_zone.json"
+        ]
+      },
+      "path": "~/Planets/Gallifrey"
     }
   ],
   "variable_elements": [],
@@ -1341,6 +1357,7 @@
     "en_us": {
       "item.aitplus.creative_tab_item": "Creative Tab Item",
       "block.aitplus.stripped_cadon_log": "Stripped Cadon Log",
+      "biome.aitplus.death_zone": "Death Zone",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",

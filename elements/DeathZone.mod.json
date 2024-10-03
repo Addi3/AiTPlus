@@ -2,34 +2,22 @@
   "_fv": 57,
   "_type": "biome",
   "definition": {
-    "name": "Gallifrey Drylands",
+    "name": "Death Zone",
     "groundBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.SMOOTH_RED_SANDSTONE"
+      "value": "Blocks.DIRT#0"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#1"
-    },
-    "airColor": {
-      "value": -7454156,
-      "falpha": 0.0
+      "value": "Blocks.SAND#0"
     },
     "grassColor": {
-      "value": -7530489,
+      "value": -13395712,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -16738048,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -16744551,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -16744551,
+      "value": -13395712,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -44,19 +32,19 @@
     "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 8000,
+    "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.0,
-    "temperature": 2.0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.5,
+      "min": 0.0,
       "max": 1.0
     },
     "genHumidity": {
@@ -65,25 +53,25 @@
     },
     "genContinentalness": {
       "min": 0.3,
-      "max": 1.0
+      "max": 2.0
     },
     "genErosion": {
-      "min": -0.5,
+      "min": -0.8,
       "max": 1.0
     },
     "genWeirdness": {
-      "min": -1.5,
-      "max": 1.5
+      "min": -1.0,
+      "max": 1.0
     },
-    "treesPerChunk": 0,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 0,
-    "minHeight": 5,
+    "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:CadonLog"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeVines": {
       "value": ""
@@ -94,14 +82,12 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "DeadBushes",
-      "DesertFeatures",
-      "ExtraGoldOre",
-      "Fossils"
+      "ForestGrass",
+      "PlainsTallGrass"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
-    "spawnMineshaftMesa": true,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
     "spawnWoodlandMansion": false,
@@ -119,34 +105,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityRabbit"
-        },
-        "minGroup": 1,
-        "maxGroup": 6,
-        "weight": 50,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityHusk"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 15,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:Fly"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 20,
-        "spawnType": "creature"
-      }
-    ]
+    "spawnEntries": []
   }
 }

@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:GallifreyMountains"
+      },
+      {
+        "value": "CUSTOM:DeathZone"
       }
     ],
     "worldGenType": "Normal world gen",
