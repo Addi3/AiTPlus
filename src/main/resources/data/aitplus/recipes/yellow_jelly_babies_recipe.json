@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:yellow_dye"
+    },
+    "c": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "aitplus:yellow_jelly_babies",
+    "count": 3
+  }
+}

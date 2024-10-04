@@ -3,7 +3,7 @@
     {
       "name": "Shack",
       "type": "structure",
-      "sortid": 32,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
@@ -19,7 +19,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
-      "sortid": 30,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -34,7 +34,7 @@
     {
       "name": "TakeMeToGallifreyRightclicked",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey_rightclicked",
@@ -54,7 +54,7 @@
     {
       "name": "TakeMeToGallifrey",
       "type": "item",
-      "sortid": 28,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey",
@@ -69,7 +69,7 @@
     {
       "name": "CreativeTabItem",
       "type": "item",
-      "sortid": 34,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_item",
@@ -84,7 +84,7 @@
     {
       "name": "AiTPlus",
       "type": "tab",
-      "sortid": 35,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ai_t_plus",
@@ -96,7 +96,7 @@
     {
       "name": "TardisGraveyard",
       "type": "structure",
-      "sortid": 36,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_graveyard",
@@ -112,7 +112,7 @@
     {
       "name": "GallifreyHouse1",
       "type": "structure",
-      "sortid": 37,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_1",
@@ -128,7 +128,7 @@
     {
       "name": "GallifreyHouse2",
       "type": "structure",
-      "sortid": 38,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_2",
@@ -144,7 +144,7 @@
     {
       "name": "AitPlusBlockTag",
       "type": "tag",
-      "sortid": 39,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ait_plus_block_tag",
@@ -233,7 +233,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 40,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -247,7 +247,7 @@
     {
       "name": "TrenzalorianStoneStairsRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe",
@@ -256,12 +256,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneStairsRecipeOp",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_op",
@@ -270,12 +270,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe_op.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneSlabRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe",
@@ -284,12 +284,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneWallRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe",
@@ -298,12 +298,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_wall_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneStairsRecipeAlt",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_stairs_recipe_alt",
@@ -312,12 +312,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_stairs_recipe_alt.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneSlabRecipeAlt",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_slab_recipe_alt",
@@ -326,12 +326,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_slab_recipe_alt.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "TrenzalorianStoneWallRecipeAlt",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorian_stone_wall_recipe_alt",
@@ -340,12 +340,12 @@
           "src/main/resources/data/aitplus/recipes/trenzalorian_stone_wall_recipe_alt.json"
         ]
       },
-      "path": "~/Blocks/Recipies/TrenzalorianStone"
+      "path": "~/Blocks/Nature/Trenzalore/Recipes"
     },
     {
       "name": "Trenzalor",
       "type": "dimension",
-      "sortid": 31,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalore",
@@ -360,7 +360,7 @@
     {
       "name": "TakeMeToTrenzalor",
       "type": "item",
-      "sortid": 29,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor",
@@ -375,7 +375,7 @@
     {
       "name": "TakeMeToTrenzalorRightClicked",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor_right_clicked",
@@ -395,7 +395,7 @@
     {
       "name": "GallifreyWastelands",
       "type": "biome",
-      "sortid": 49,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_drylands",
@@ -423,7 +423,7 @@
           "src/main/resources/assets/aitplus/models/block/arkytior.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "FlowerOfRemeberance",
@@ -442,7 +442,7 @@
           "src/main/resources/data/aitplus/worldgen/configured_feature/flower_of_remeberance.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "IridescentVelvetRedMadeviniaAridosa",
@@ -461,7 +461,7 @@
           "src/main/resources/assets/aitplus/blockstates/iridescent_velvet_red_madevinia_aridosa.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "MoonlightBloom",
@@ -480,7 +480,7 @@
           "src/main/resources/assets/aitplus/blockstates/moonlight_bloom.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "RedPetaledOrchid",
@@ -499,7 +499,7 @@
           "src/main/resources/data/aitplus/worldgen/configured_feature/red_petaled_orchid.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "SchlenkBlossoms",
@@ -518,7 +518,7 @@
           "src/main/resources/assets/aitplus/blockstates/schlenk_blossoms.json"
         ]
       },
-      "path": "~/Blocks/Plants/Gallifrey"
+      "path": "~/Blocks/Nature/Plants/Gallifrey"
     },
     {
       "name": "Cadonwood",
@@ -614,7 +614,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 50,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -708,7 +708,7 @@
     {
       "name": "CadonwoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_planks_recipe",
@@ -717,12 +717,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_planks_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodPlanksRecipeAlt",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_planks_recipe_alt",
@@ -731,12 +731,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_planks_recipe_alt.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodStairsRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_stairs_recipe",
@@ -745,12 +745,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_stairs_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodStairsRecipeOp",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_stairs_recipe_op",
@@ -759,12 +759,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_stairs_recipe_op.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodSlabRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_slab_recipe",
@@ -773,12 +773,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodFenceRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_fence_recipe",
@@ -787,12 +787,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_fence_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodFenceGateRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_fence_gate_recipe",
@@ -801,12 +801,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_fence_gate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodTrapDoorRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_trap_door_recipe",
@@ -815,12 +815,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_trap_door_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodDoorRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_door_recipe",
@@ -829,12 +829,12 @@
           "src/main/resources/data/aitplus/recipes/cadonwood_door_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonLogRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadon_log_recipe",
@@ -843,12 +843,12 @@
           "src/main/resources/data/aitplus/recipes/cadon_log_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 61,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -862,7 +862,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 62,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_items",
@@ -876,7 +876,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 63,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -890,7 +890,7 @@
     {
       "name": "GallifreyPlains",
       "type": "biome",
-      "sortid": 64,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_plains",
@@ -906,7 +906,7 @@
     {
       "name": "GallifreyMountains",
       "type": "biome",
-      "sortid": 65,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_mountains",
@@ -959,7 +959,7 @@
     {
       "name": "CandonwoodPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candonwood_pressure_plate_recipe",
@@ -968,12 +968,12 @@
           "src/main/resources/data/aitplus/recipes/candonwood_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CandonwoodButtonRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candonwood_button_recipe",
@@ -982,12 +982,12 @@
           "src/main/resources/data/aitplus/recipes/candonwood_button_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "Flutterwing",
       "type": "livingentity",
-      "sortid": 25,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flutterwing",
@@ -1003,7 +1003,7 @@
     {
       "name": "Fly",
       "type": "livingentity",
-      "sortid": 26,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fly",
@@ -1019,7 +1019,7 @@
     {
       "name": "Citadel",
       "type": "structure",
-      "sortid": 68,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citadel",
@@ -1052,7 +1052,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 69,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -1100,7 +1100,7 @@
     {
       "name": "StrippedCadonLogRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_cadon_log_recipe",
@@ -1109,12 +1109,12 @@
           "src/main/resources/data/aitplus/recipes/stripped_cadon_log_recipe.json"
         ]
       },
-      "path": "~/Blocks/Recipies/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/Recipes"
     },
     {
       "name": "CadonwoodOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadonwood_on_block_right_clicked",
@@ -1145,12 +1145,12 @@
           }
         ]
       },
-      "path": "~/Blocks/Woods/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/StrippingScripts"
     },
     {
       "name": "CadonLogOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cadon_log_on_block_right_clicked",
@@ -1181,12 +1181,12 @@
           }
         ]
       },
-      "path": "~/Blocks/Woods/Cadonwood"
+      "path": "~/Blocks/Woods/Cadonwood/StrippingScripts"
     },
     {
       "name": "DeadTardis",
       "type": "structure",
-      "sortid": 74,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_tardis",
@@ -1202,7 +1202,7 @@
     {
       "name": "TrenzaloreWastes",
       "type": "biome",
-      "sortid": 75,
+      "sortid": 90,
       "compiles": true,
       "locked_code": true,
       "registry_name": "trenzalore_wastes",
@@ -1216,7 +1216,7 @@
     {
       "name": "Flubble",
       "type": "livingentity",
-      "sortid": 27,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flubble",
@@ -1232,7 +1232,7 @@
     {
       "name": "DeathZone",
       "type": "biome",
-      "sortid": 76,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "death_zone",
@@ -1244,6 +1244,470 @@
         ]
       },
       "path": "~/Planets/Gallifrey"
+    },
+    {
+      "name": "YellowJellyBabies",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/YellowJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/yellow_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "RedJellyBabies",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/red_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/RedJellyBabiesItem.java"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "PurpleJellyBabies",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/PurpleJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/purple_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "PinkJellyBabies",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/PinkJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/pink_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "OrangeJellyBabies",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/OrangeJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/orange_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "MagentaJellyBabies",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/MagentaJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/magenta_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "LimejellyBabies",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limejelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/LimejellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/limejelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "LightBlueJellyBabies",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/light_blue_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/LightBlueJellyBabiesItem.java"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "GreenJellyBabies",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/GreenJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/green_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "CyanJellyBabies",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/CyanJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/cyan_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "BlueJellyBabies",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/blue_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/BlueJellyBabiesItem.java"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "BlackJellyBabies",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/BlackJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/black_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "TheMightyJellyBabies",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_mighty_jelly_babies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/TheMightyJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/the_mighty_jelly_babies.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies"
+    },
+    {
+      "name": "YellowJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/yellow_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "RedJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/red_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "PurpleJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/purple_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "PinkJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/pink_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "OrangeJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/orange_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "MagentaJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/magenta_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "LimeJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/lime_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "LightBlueJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/light_blue_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "GreenJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/green_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "CyanJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/cyan_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "BlueJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/blue_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "BlackJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/black_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "TheMightyJellyBabiesRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_mighty_jelly_babies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/the_mighty_jelly_babies_recipe.json"
+        ]
+      },
+      "path": "~/Items/JellyBabies/Recipes"
+    },
+    {
+      "name": "FishFingers",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_fingers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/fish_fingers.json",
+          "src/main/java/net/addie/aitplus/item/FishFingersItem.java"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard"
+    },
+    {
+      "name": "Custard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/custard.json",
+          "src/main/java/net/addie/aitplus/item/CustardItem.java"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard"
+    },
+    {
+      "name": "FishFingersAndCustard",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_fingers_and_custard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/FishFingersAndCustardItem.java",
+          "src/main/resources/assets/aitplus/models/item/fish_fingers_and_custard.json"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard"
+    },
+    {
+      "name": "FishFingersRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_fingers_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/fish_fingers_recipe.json"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard/Recipes"
+    },
+    {
+      "name": "CustardRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/custard_recipe.json"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard/Recipes"
+    },
+    {
+      "name": "FishFingersAndCustardRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_fingers_and_custard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/fish_fingers_and_custard_recipe.json"
+        ]
+      },
+      "path": "~/Items/FishFingerAndCustard/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1358,6 +1822,7 @@
       "item.aitplus.creative_tab_item": "Creative Tab Item",
       "block.aitplus.stripped_cadon_log": "Stripped Cadon Log",
       "biome.aitplus.death_zone": "Death Zone",
+      "item.aitplus.the_mighty_jelly_babies": "The Mighty Jelly Babies",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
@@ -1375,39 +1840,54 @@
       "block.aitplus.moonlight_bloom": "Moonlight Bloom",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
       "item.aitplus.flubble_spawn_egg": "Flubble Spawn Egg",
+      "item.aitplus.red_jelly_babies": "Red Jelly Babies",
       "subtitles.flutterwing_death": "Flutterwing Dies",
       "block.aitplus.candonwood_leaves": "Candonwood Leaves",
       "subtitles.flutterwing_fluttering": "Flutterwing Flutters",
+      "item.aitplus.pink_jelly_babies": "Pink Jelly Babies",
+      "item.aitplus.cyan_jelly_babies": "Cyan Jelly Babies",
       "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "subtitles.flutterwing_hurt": "Flutterwing Hurt",
+      "item.aitplus.orange_jelly_babies": "Orange Jelly Babies",
       "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
       "subtitles.flubble_death": "Flubble Dies",
       "block.aitplus.candonwood_pressure_plate": "Candon Wood Pressure Plate",
+      "item.aitplus.black_jelly_babies": "Black Jelly Babies",
       "block.aitplus.cadonwood_trapdoor": "Cadon Wood Trapdoor",
       "subtitles.trenzalor_ambiance": "",
       "subtitles.fly_death": "Fly Dies",
       "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
+      "item.aitplus.green_jelly_babies": "Green Jelly Babies",
       "subtitles.fly_loop": "Fly",
       "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
       "biome.aitplus.trenzalore_wastes": "Trenzalore Wastes",
+      "item.aitplus.yellow_jelly_babies": "Yellow Jelly Babies",
       "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
+      "item.aitplus.blue_jelly_babies": "Blue Jelly Babies",
+      "item.aitplus.custard": "Custard",
       "block.aitplus.red_petaled_orchid": "Red Petaled Orchid",
       "entity.aitplus.flutterwing": "Flutterwing",
       "block.aitplus.trenzalorian_stone_slab": "Trenzalorian Stone Slab",
       "block.aitplus.stripped_cadonwood": "Stripped Cadon Wood",
       "subtitles.flubble_step": "Flubble Steps",
       "subtitles.gallifrey_ambiance2": "",
+      "item.aitplus.purple_jelly_babies": "Purple Jelly Babies",
+      "item.aitplus.light_blue_jelly_babies": "Light Blue Jelly Babies",
       "block.aitplus.cadonwood_slab": "Cadon Wood Slab",
       "block.aitplus.cadonwood_stairs": "Cadon Wood Stairs",
       "entity.aitplus.flubble": "Flubble",
+      "item.aitplus.fish_fingers": "Fish Fingers",
       "block.aitplus.cadonwood_fence": "Cadon Wood Fence",
       "block.aitplus.cadonwood_door": "Cadon Wood Door",
+      "item.aitplus.limejelly_babies": "Lime Jelly Babies",
       "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
       "block.aitplus.cadonwood_fence_gate": "Cadon Wood Fence Gate",
       "subtitles.fly_hurt": "Fly Hurt",
       "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
       "item.aitplus.fly_spawn_egg": "Fly Spawn Egg",
-      "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor"
+      "item.aitplus.take_me_to_trenzalor": "Take Me To Trenzalor",
+      "item.aitplus.magenta_jelly_babies": "Magenta Jelly Babies",
+      "item.aitplus.fish_fingers_and_custard": "Custard"
     }
   },
   "foldersRoot": {
@@ -1447,33 +1927,25 @@
         "name": "Blocks",
         "children": [
           {
-            "name": "Plants",
-            "children": [
-              {
-                "name": "Gallifrey",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "Nature",
             "children": [
               {
                 "name": "Trenzalore",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Recipies",
-            "children": [
-              {
-                "name": "TrenzalorianStone",
-                "children": []
+                "children": [
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  }
+                ]
               },
               {
-                "name": "Cadonwood",
-                "children": []
+                "name": "Plants",
+                "children": [
+                  {
+                    "name": "Gallifrey",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -1482,7 +1954,16 @@
             "children": [
               {
                 "name": "Cadonwood",
-                "children": []
+                "children": [
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "StrippingScripts",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
@@ -1491,6 +1972,29 @@
       {
         "name": "entities",
         "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "JellyBabies",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "FishFingerAndCustard",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
