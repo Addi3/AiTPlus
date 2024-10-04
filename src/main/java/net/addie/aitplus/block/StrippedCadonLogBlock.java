@@ -73,6 +73,6 @@ public class StrippedCadonLogBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STRIPPED_CADON_LOG, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STRIPPED_CADON_WOOD, RenderType.solid());
 	}
 }

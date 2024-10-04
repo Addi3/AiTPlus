@@ -73,6 +73,6 @@ public class CadonLogBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CADON_LOG, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CADON_WOOD, RenderType.solid());
 	}
 }

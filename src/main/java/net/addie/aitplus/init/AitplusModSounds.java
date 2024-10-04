@@ -23,6 +23,12 @@ public class AitplusModSounds {
 	public static SoundEvent FLY_DEATH = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "fly_death"));
 	public static SoundEvent FLY_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "fly_hurt"));
 	public static SoundEvent FLY_LOOP = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "fly_loop"));
+	public static SoundEvent SKARO_AMBIANCE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "skaro_ambiance"));
+	public static SoundEvent DALEK_MOVE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_move"));
+	public static SoundEvent DALEK_LASER = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_laser"));
+	public static SoundEvent DALEK_EXTERMINATE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_exterminate"));
+	public static SoundEvent DALEK_DEATH = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_death"));
+	public static SoundEvent DALEK_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_hurt"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
@@ -38,5 +44,11 @@ public class AitplusModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "fly_death"), FLY_DEATH);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "fly_hurt"), FLY_HURT);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "fly_loop"), FLY_LOOP);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "skaro_ambiance"), SKARO_AMBIANCE);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_move"), DALEK_MOVE);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_laser"), DALEK_LASER);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_exterminate"), DALEK_EXTERMINATE);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_death"), DALEK_DEATH);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_hurt"), DALEK_HURT);
 	}
 }

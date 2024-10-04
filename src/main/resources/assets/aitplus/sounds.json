@@ -125,5 +125,64 @@
         "stream": false
       }
     ]
+  },
+  "skaro_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:skaro_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_move": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_move",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_move",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_laser": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_laser",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_laser",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_exterminate": {
+    "category": "neutral",
+    "subtitle": "subtitles.dalek_exterminate",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_exterminate",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_death",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_death",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_hurt",
+        "stream": false
+      }
+    ]
   }
 }

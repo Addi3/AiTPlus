@@ -39,13 +39,13 @@ public class CadonLogOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == AitplusModBlocks.CADON_LOG) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == AitplusModBlocks.CADON_WOOD) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = AitplusModBlocks.STRIPPED_CADON_LOG.defaultBlockState();
+					BlockState _bs = AitplusModBlocks.STRIPPED_CADON_WOOD.defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

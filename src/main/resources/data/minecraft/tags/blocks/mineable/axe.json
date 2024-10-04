@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "aitplus:cadonwood",
-    "aitplus:cadon_log",
-    "aitplus:stripped_cadonwood",
-    "aitplus:stripped_cadon_log",
+    "aitplus:cadonwood_log",
+    "aitplus:cadon_wood",
+    "aitplus:stripped_cadonwood_log",
+    "aitplus:stripped_cadon_wood",
     "aitplus:cadonwood_planks",
     "aitplus:cadonwood_stairs",
     "aitplus:cadonwood_slab",
@@ -13,6 +13,10 @@
     "aitplus:cadonwood_door",
     "aitplus:cadonwood_trapdoor",
     "aitplus:candonwood_button",
-    "aitplus:candonwood_pressure_plate"
+    "aitplus:candonwood_pressure_plate",
+    "aitplus:thalma_log",
+    "aitplus:thalma_wood",
+    "aitplus:stripped_thalma_log",
+    "aitplus:stripped_thalma_wood"
   ]
 }

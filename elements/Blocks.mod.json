@@ -1,0 +1,169 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TrenzalorianStone"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneStairs"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneSlab"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneWall"
+      },
+      {
+        "value": "CUSTOM:Trenzalor.portal"
+      },
+      {
+        "value": "CUSTOM:Arkytior"
+      },
+      {
+        "value": "CUSTOM:FlowerOfRemeberance"
+      },
+      {
+        "value": "CUSTOM:IridescentVelvetRedMadeviniaAridosa"
+      },
+      {
+        "value": "CUSTOM:MoonlightBloom"
+      },
+      {
+        "value": "CUSTOM:RedPetaledOrchid"
+      },
+      {
+        "value": "CUSTOM:SchlenkBlossoms"
+      },
+      {
+        "value": "CUSTOM:Cadonwood"
+      },
+      {
+        "value": "CUSTOM:CadonwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:CadonwoodStairs"
+      },
+      {
+        "value": "CUSTOM:CadonwoodSlab"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFence"
+      },
+      {
+        "value": "CUSTOM:CadonwoodFenceGate"
+      },
+      {
+        "value": "CUSTOM:CadonwoodTrapdoor"
+      },
+      {
+        "value": "CUSTOM:CadonwoodDoor"
+      },
+      {
+        "value": "CUSTOM:CadonLog"
+      },
+      {
+        "value": "CUSTOM:CandonwoodButton"
+      },
+      {
+        "value": "CUSTOM:CandonwoodPressurePlate"
+      },
+      {
+        "value": "CUSTOM:CandonwoodLeaves"
+      },
+      {
+        "value": "CUSTOM:StrippedCadonwood"
+      },
+      {
+        "value": "CUSTOM:StrippedCadonLog"
+      },
+      {
+        "value": "CUSTOM:LEDRoundel"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelBlack"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelBlue"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelCyan"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelGray"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelGreen"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelOrange"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelPink"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelPurple"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelRed"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelYellow"
+      },
+      {
+        "value": "CUSTOM:Thalma"
+      },
+      {
+        "value": "CUSTOM:ThalmaLog"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaWood"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaLog"
+      },
+      {
+        "value": "CUSTOM:ThalmaLeaves"
+      },
+      {
+        "value": "CUSTOM:Skaro.portal"
+      },
+      {
+        "value": "CUSTOM:ThalmaPlanks"
+      },
+      {
+        "value": "CUSTOM:ThalmaStairs"
+      },
+      {
+        "value": "CUSTOM:ThalmaSlab"
+      },
+      {
+        "value": "CUSTOM:ThalmaButton"
+      },
+      {
+        "value": "CUSTOM:ThalmaPressurePlate"
+      },
+      {
+        "value": "CUSTOM:ThalmaTrapdoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaDoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaFence"
+      },
+      {
+        "value": "CUSTOM:ThalmaFenceGate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blocks",
+    "namespace": "minecraft"
+  }
+}

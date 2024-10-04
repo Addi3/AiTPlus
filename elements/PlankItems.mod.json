@@ -18,6 +18,39 @@
       },
       {
         "value": "CUSTOM:CadonwoodFenceGate"
+      },
+      {
+        "value": "CUSTOM:CadonwoodTrapdoor"
+      },
+      {
+        "value": "CUSTOM:CadonwoodDoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaPlanks"
+      },
+      {
+        "value": "CUSTOM:ThalmaStairs"
+      },
+      {
+        "value": "CUSTOM:ThalmaSlab"
+      },
+      {
+        "value": "CUSTOM:ThalmaButton"
+      },
+      {
+        "value": "CUSTOM:ThalmaPressurePlate"
+      },
+      {
+        "value": "CUSTOM:ThalmaTrapdoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaDoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaFence"
+      },
+      {
+        "value": "CUSTOM:ThalmaFenceGate"
       }
     ],
     "blocks": [],

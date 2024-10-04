@@ -18,7 +18,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "aitplus:cadonwood",
+        "Name": "aitplus:cadonwood_log",
         "Properties": {
           "axis": "y"
         }

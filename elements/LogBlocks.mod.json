@@ -10,6 +10,24 @@
       },
       {
         "value": "CUSTOM:CadonLog"
+      },
+      {
+        "value": "CUSTOM:StrippedCadonwood"
+      },
+      {
+        "value": "CUSTOM:StrippedCadonLog"
+      },
+      {
+        "value": "CUSTOM:Thalma"
+      },
+      {
+        "value": "CUSTOM:ThalmaLog"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaWood"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaLog"
       }
     ],
     "functions": [],

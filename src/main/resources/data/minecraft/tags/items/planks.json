@@ -5,6 +5,17 @@
     "aitplus:cadonwood_stairs",
     "aitplus:cadonwood_slab",
     "aitplus:cadonwood_fence",
-    "aitplus:cadonwood_fence_gate"
+    "aitplus:cadonwood_fence_gate",
+    "aitplus:cadonwood_trapdoor",
+    "aitplus:cadonwood_door",
+    "aitplus:thalma_planks",
+    "aitplus:thalma_stairs",
+    "aitplus:thalma_slab",
+    "aitplus:thalma_button",
+    "aitplus:thalma_pressure_plate",
+    "aitplus:thalma_trapdoor",
+    "aitplus:thalma_door",
+    "aitplus:thalma_fence",
+    "aitplus:thalma_fence_gate"
   ]
 }

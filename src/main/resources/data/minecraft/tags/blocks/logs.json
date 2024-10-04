@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "aitplus:cadonwood",
-    "aitplus:cadon_log"
+    "aitplus:cadonwood_log",
+    "aitplus:cadon_wood",
+    "aitplus:stripped_cadonwood_log",
+    "aitplus:stripped_cadon_wood",
+    "aitplus:thalma_log",
+    "aitplus:thalma_wood",
+    "aitplus:stripped_thalma_log",
+    "aitplus:stripped_thalma_wood"
   ]
 }
