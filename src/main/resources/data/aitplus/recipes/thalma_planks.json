@@ -4,7 +4,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "aitplus:thalma_logs"
+      "tag": "aitplus:blocks/thalma_logs"
     }
   ],
   "result": {
