@@ -1230,22 +1230,6 @@
       "path": "~/entities"
     },
     {
-      "name": "DeathZone",
-      "type": "biome",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "death_zone",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aitplus/worldgen/configured_feature/death_zone_tree.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/death_zone_tree.json",
-          "src/main/resources/data/aitplus/worldgen/biome/death_zone.json"
-        ]
-      },
-      "path": "~/Planets/Gallifrey"
-    },
-    {
       "name": "YellowJellyBabies",
       "type": "item",
       "sortid": 25,
@@ -1708,6 +1692,34 @@
         ]
       },
       "path": "~/Items/FishFingerAndCustard/Recipes"
+    },
+    {
+      "name": "TheMightyJellyBabiesAdvancement",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_mighty_jelly_babies_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/advancements/the_mighty_jelly_babies_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GallifreyAdvancement",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallifrey_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/advancements/gallifrey_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1821,18 +1833,21 @@
     "en_us": {
       "item.aitplus.creative_tab_item": "Creative Tab Item",
       "block.aitplus.stripped_cadon_log": "Stripped Cadon Log",
-      "biome.aitplus.death_zone": "Death Zone",
+      "advancements.gallifrey_advancement.title": "The Shining World of the Seven Systems",
       "item.aitplus.the_mighty_jelly_babies": "The Mighty Jelly Babies",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
+      "advancements.the_mighty_jelly_babies_advancement.descr": "Make The The Mighty Jelly Babies!",
       "block.aitplus.cadonwood": "Cadon Wood",
       "block.aitplus.cadonwood_planks": "Cadon Wood Planks",
       "entity.aitplus.fly": "Fly",
+      "advancements.the_mighty_jelly_babies_advancement.title": "The Mightiest Of All Jelly Babies",
       "block.aitplus.candonwood_button": "Candon Wood Button",
       "subtitles.flubble_hurt": "Flubble Hurt",
       "subtitles.flubble_ambient": "Flubble Communicates",
       "block.aitplus.trenzalorian_stone": "Trenzalorian Stone",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
       "block.aitplus.cadon_log": "Cadon Log",
+      "advancements.gallifrey_advancement.descr": "Go To Gallifrey!",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
       "block.aitplus.arkytior": "Arkytior",
       "subtitles.trenzalor_ambiance2": "",
@@ -1995,6 +2010,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
       }
     ]
   },

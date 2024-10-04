@@ -97,7 +97,8 @@
       "DeadBushes",
       "DesertFeatures",
       "ExtraGoldOre",
-      "Fossils"
+      "Fossils",
+      "TallSeagrassLush"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -146,6 +147,24 @@
         "maxGroup": 2,
         "weight": 20,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCod"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntitySalmon"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "waterCreature"
       }
     ]
   }

@@ -37,7 +37,20 @@
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
-    "water_creature": [],
+    "water_creature": [
+      {
+        "type": "cod",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "salmon",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "water_ambient": [],
     "misc": []
   },
@@ -85,7 +98,8 @@
     [],
     [],
     [
-      "minecraft:patch_dead_bush_2"
+      "minecraft:patch_dead_bush_2",
+      "minecraft:seagrass_simple"
     ],
     []
   ]
