@@ -3,7 +3,7 @@
     {
       "name": "Shack",
       "type": "structure",
-      "sortid": 67,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
@@ -19,7 +19,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
-      "sortid": 64,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -34,7 +34,7 @@
     {
       "name": "TakeMeToGallifreyRightclicked",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey_rightclicked",
@@ -54,7 +54,7 @@
     {
       "name": "TakeMeToGallifrey",
       "type": "item",
-      "sortid": 61,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey",
@@ -69,7 +69,7 @@
     {
       "name": "CreativeTabItem",
       "type": "item",
-      "sortid": 69,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_item",
@@ -84,7 +84,7 @@
     {
       "name": "AiTPlus",
       "type": "tab",
-      "sortid": 70,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ai_t_plus",
@@ -96,7 +96,7 @@
     {
       "name": "TardisGraveyard",
       "type": "structure",
-      "sortid": 71,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_graveyard",
@@ -112,7 +112,7 @@
     {
       "name": "GallifreyHouse1",
       "type": "structure",
-      "sortid": 72,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_1",
@@ -128,7 +128,7 @@
     {
       "name": "GallifreyHouse2",
       "type": "structure",
-      "sortid": 73,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_2",
@@ -219,7 +219,7 @@
     {
       "name": "Trenzalor",
       "type": "dimension",
-      "sortid": 65,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalore",
@@ -234,7 +234,7 @@
     {
       "name": "TakeMeToTrenzalor",
       "type": "item",
-      "sortid": 62,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor",
@@ -249,7 +249,7 @@
     {
       "name": "TakeMeToTrenzalorRightClicked",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor_right_clicked",
@@ -269,7 +269,7 @@
     {
       "name": "GallifreyWastelands",
       "type": "biome",
-      "sortid": 75,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_drylands",
@@ -283,7 +283,7 @@
     {
       "name": "Arkytior",
       "type": "plant",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arkytior",
@@ -302,7 +302,7 @@
     {
       "name": "FlowerOfRemeberance",
       "type": "plant",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_of_remeberance",
@@ -321,7 +321,7 @@
     {
       "name": "IridescentVelvetRedMadeviniaAridosa",
       "type": "plant",
-      "sortid": 36,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridescent_velvet_red_madevinia_aridosa",
@@ -340,7 +340,7 @@
     {
       "name": "MoonlightBloom",
       "type": "plant",
-      "sortid": 37,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonlight_bloom",
@@ -359,7 +359,7 @@
     {
       "name": "RedPetaledOrchid",
       "type": "plant",
-      "sortid": 38,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_petaled_orchid",
@@ -378,7 +378,7 @@
     {
       "name": "SchlenkBlossoms",
       "type": "plant",
-      "sortid": 39,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "schlenk_blossoms",
@@ -397,7 +397,7 @@
     {
       "name": "GallifreyPlains",
       "type": "biome",
-      "sortid": 76,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_plains",
@@ -413,7 +413,7 @@
     {
       "name": "GallifreyMountains",
       "type": "biome",
-      "sortid": 77,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_mountains",
@@ -429,7 +429,7 @@
     {
       "name": "Flutterwing",
       "type": "livingentity",
-      "sortid": 56,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flutterwing",
@@ -445,7 +445,7 @@
     {
       "name": "Fly",
       "type": "livingentity",
-      "sortid": 57,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fly",
@@ -461,7 +461,7 @@
     {
       "name": "Citadel",
       "type": "structure",
-      "sortid": 78,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citadel",
@@ -477,7 +477,7 @@
     {
       "name": "DeadTardis",
       "type": "structure",
-      "sortid": 79,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_tardis",
@@ -493,7 +493,7 @@
     {
       "name": "TrenzaloreWastes",
       "type": "biome",
-      "sortid": 80,
+      "sortid": 86,
       "compiles": true,
       "locked_code": true,
       "registry_name": "trenzalore_wastes",
@@ -507,7 +507,7 @@
     {
       "name": "Flubble",
       "type": "livingentity",
-      "sortid": 58,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flubble",
@@ -523,7 +523,7 @@
     {
       "name": "YellowJellyBabies",
       "type": "item",
-      "sortid": 40,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_jelly_babies",
@@ -538,7 +538,7 @@
     {
       "name": "RedJellyBabies",
       "type": "item",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_jelly_babies",
@@ -553,7 +553,7 @@
     {
       "name": "PurpleJellyBabies",
       "type": "item",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_jelly_babies",
@@ -568,7 +568,7 @@
     {
       "name": "PinkJellyBabies",
       "type": "item",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_jelly_babies",
@@ -583,7 +583,7 @@
     {
       "name": "OrangeJellyBabies",
       "type": "item",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_jelly_babies",
@@ -598,7 +598,7 @@
     {
       "name": "MagentaJellyBabies",
       "type": "item",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_jelly_babies",
@@ -613,7 +613,7 @@
     {
       "name": "LimejellyBabies",
       "type": "item",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limejelly_babies",
@@ -628,7 +628,7 @@
     {
       "name": "LightBlueJellyBabies",
       "type": "item",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_jelly_babies",
@@ -643,7 +643,7 @@
     {
       "name": "GreenJellyBabies",
       "type": "item",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_jelly_babies",
@@ -658,7 +658,7 @@
     {
       "name": "CyanJellyBabies",
       "type": "item",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_jelly_babies",
@@ -673,7 +673,7 @@
     {
       "name": "BlueJellyBabies",
       "type": "item",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_jelly_babies",
@@ -688,7 +688,7 @@
     {
       "name": "BlackJellyBabies",
       "type": "item",
-      "sortid": 51,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_jelly_babies",
@@ -703,7 +703,7 @@
     {
       "name": "TheMightyJellyBabies",
       "type": "item",
-      "sortid": 52,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies",
@@ -718,7 +718,7 @@
     {
       "name": "YellowJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_jelly_babies_recipe",
@@ -732,7 +732,7 @@
     {
       "name": "RedJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_jelly_babies_recipe",
@@ -746,7 +746,7 @@
     {
       "name": "PurpleJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_jelly_babies_recipe",
@@ -760,7 +760,7 @@
     {
       "name": "PinkJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_jelly_babies_recipe",
@@ -774,7 +774,7 @@
     {
       "name": "OrangeJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_jelly_babies_recipe",
@@ -788,7 +788,7 @@
     {
       "name": "MagentaJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_jelly_babies_recipe",
@@ -802,7 +802,7 @@
     {
       "name": "LimeJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_jelly_babies_recipe",
@@ -816,7 +816,7 @@
     {
       "name": "LightBlueJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_jelly_babies_recipe",
@@ -830,7 +830,7 @@
     {
       "name": "GreenJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_jelly_babies_recipe",
@@ -844,7 +844,7 @@
     {
       "name": "CyanJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_jelly_babies_recipe",
@@ -858,7 +858,7 @@
     {
       "name": "BlueJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_jelly_babies_recipe",
@@ -872,7 +872,7 @@
     {
       "name": "BlackJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_jelly_babies_recipe",
@@ -886,7 +886,7 @@
     {
       "name": "TheMightyJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies_recipe",
@@ -900,7 +900,7 @@
     {
       "name": "FishFingers",
       "type": "item",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers",
@@ -915,7 +915,7 @@
     {
       "name": "Custard",
       "type": "item",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custard",
@@ -930,7 +930,7 @@
     {
       "name": "FishFingersAndCustard",
       "type": "item",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_and_custard",
@@ -945,7 +945,7 @@
     {
       "name": "FishFingersRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_recipe",
@@ -959,7 +959,7 @@
     {
       "name": "CustardRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custard_recipe",
@@ -973,7 +973,7 @@
     {
       "name": "FishFingersAndCustardRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_and_custard_recipe",
@@ -987,7 +987,7 @@
     {
       "name": "TheMightyJellyBabiesAdvancement",
       "type": "achievement",
-      "sortid": 97,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies_advancement",
@@ -1001,7 +1001,7 @@
     {
       "name": "GallifreyAdvancement",
       "type": "achievement",
-      "sortid": 98,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_advancement",
@@ -1032,7 +1032,7 @@
     {
       "name": "LEDRoundelBlack",
       "type": "block",
-      "sortid": 99,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_black",
@@ -1049,7 +1049,7 @@
     {
       "name": "LEDRoundelBlue",
       "type": "block",
-      "sortid": 100,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_blue",
@@ -1066,7 +1066,7 @@
     {
       "name": "LEDRoundelCyan",
       "type": "block",
-      "sortid": 101,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_cyan",
@@ -1083,7 +1083,7 @@
     {
       "name": "LEDRoundelGray",
       "type": "block",
-      "sortid": 102,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_gray",
@@ -1100,7 +1100,7 @@
     {
       "name": "LEDRoundelGreen",
       "type": "block",
-      "sortid": 103,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_green",
@@ -1117,7 +1117,7 @@
     {
       "name": "LEDRoundelOrange",
       "type": "block",
-      "sortid": 104,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_orange",
@@ -1134,7 +1134,7 @@
     {
       "name": "LEDRoundelPink",
       "type": "block",
-      "sortid": 105,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_pink",
@@ -1151,7 +1151,7 @@
     {
       "name": "LEDRoundelPurple",
       "type": "block",
-      "sortid": 106,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_purple",
@@ -1168,7 +1168,7 @@
     {
       "name": "LEDRoundelRed",
       "type": "block",
-      "sortid": 107,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_red",
@@ -1185,7 +1185,7 @@
     {
       "name": "LEDRoundelYellow",
       "type": "block",
-      "sortid": 108,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_yellow",
@@ -1202,7 +1202,7 @@
     {
       "name": "LEDRoundelRecipe",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_recipe",
@@ -1216,7 +1216,7 @@
     {
       "name": "LEDRoundelRedstoneOn",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_redstone_on",
@@ -1248,7 +1248,7 @@
     {
       "name": "LEDRoundelBlackRedstoneOn",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_black_redstone_on",
@@ -1280,7 +1280,7 @@
     {
       "name": "LEDRoundelGrayRedstoneOn",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_gray_redstone_on",
@@ -1312,7 +1312,7 @@
     {
       "name": "LEDRoundelBlueRedstoneOn",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_blue_redstone_on",
@@ -1344,7 +1344,7 @@
     {
       "name": "LEDRoundelCyanRedstoneOn",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_cyan_redstone_on",
@@ -1376,7 +1376,7 @@
     {
       "name": "LEDRoundelGreenRedstoneOn",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_green_redstone_on",
@@ -1408,7 +1408,7 @@
     {
       "name": "LEDRoundelOrangeRedstoneOn",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_orange_redstone_on",
@@ -1440,7 +1440,7 @@
     {
       "name": "LEDRoundelPinkRedstoneOn",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_pink_redstone_on",
@@ -1472,7 +1472,7 @@
     {
       "name": "LEDRoundelPurpleRedstoneOn",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_purple_redstone_on",
@@ -1504,7 +1504,7 @@
     {
       "name": "LEDRoundelRedRedstoneOn",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_red_redstone_on",
@@ -1536,7 +1536,7 @@
     {
       "name": "LEDRoundelYellowRedstoneOn",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_yellow_redstone_on",
@@ -1653,7 +1653,7 @@
     {
       "name": "PetrifiedJungle",
       "type": "biome",
-      "sortid": 121,
+      "sortid": 127,
       "compiles": true,
       "locked_code": true,
       "registry_name": "petrified_jungle",
@@ -1669,7 +1669,7 @@
     {
       "name": "Skaro",
       "type": "dimension",
-      "sortid": 66,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro",
@@ -1684,7 +1684,7 @@
     {
       "name": "TakeMeToSkaro",
       "type": "item",
-      "sortid": 63,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_skaro",
@@ -1699,7 +1699,7 @@
     {
       "name": "TakeMeToSkaroRightClicked",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_skaro_right_clicked",
@@ -1893,7 +1893,7 @@
     {
       "name": "ThalmaLogOnRightClicked",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalma_log_on_right_clicked",
@@ -1929,7 +1929,7 @@
     {
       "name": "ThalmaWoodOnRightClicked",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalma_wood_on_right_clicked",
@@ -1965,7 +1965,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 126,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -1979,7 +1979,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 127,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -1993,7 +1993,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 128,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -2007,7 +2007,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 129,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -2017,74 +2017,6 @@
         ]
       },
       "path": "~/Tags"
-    },
-    {
-      "name": "ClassicDalek",
-      "type": "livingentity",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "classic_dalek",
-      "metadata": {
-        "files": [
-          "src/main/java/net/addie/aitplus/client/renderer/ClassicDalekRenderer.java",
-          "src/main/java/net/addie/aitplus/entity/ClassicDalekEntity.java",
-          "src/main/resources/assets/aitplus/models/item/classic_dalek_spawn_egg.json"
-        ]
-      },
-      "path": "~/entities"
-    },
-    {
-      "name": "BronzeDalek",
-      "type": "livingentity",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bronze_dalek",
-      "metadata": {
-        "files": [
-          "src/main/java/net/addie/aitplus/entity/BronzeDalekEntity.java",
-          "src/main/resources/assets/aitplus/models/item/bronze_dalek_spawn_egg.json",
-          "src/main/java/net/addie/aitplus/client/renderer/BronzeDalekRenderer.java"
-        ]
-      },
-      "path": "~/entities"
-    },
-    {
-      "name": "DalekShoot",
-      "type": "procedure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dalek_shoot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/addie/aitplus/procedures/DalekShootProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/entities/Scripts"
     },
     {
       "name": "MaldorLog",
@@ -2420,7 +2352,7 @@
     {
       "name": "MetalGrate",
       "type": "block",
-      "sortid": 137,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_grate",
@@ -2437,7 +2369,7 @@
     {
       "name": "MetalGrateStairs",
       "type": "block",
-      "sortid": 138,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_grate_stairs",
@@ -2456,7 +2388,7 @@
     {
       "name": "MetalGrateSlab",
       "type": "block",
-      "sortid": 139,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_grate_slab",
@@ -2475,7 +2407,7 @@
     {
       "name": "MetalGrateWall",
       "type": "block",
-      "sortid": 140,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_grate_wall",
@@ -2491,6 +2423,85 @@
         ]
       },
       "path": "~/Blocks/Grate"
+    },
+    {
+      "name": "ClassicDalek",
+      "type": "livingentity",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dalek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/client/renderer/ClassicDalekRenderer.java",
+          "src/main/java/net/addie/aitplus/entity/ClassicDalekEntity.java",
+          "src/main/resources/assets/aitplus/models/item/classic_dalek_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "Lazer",
+      "type": "projectile",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/client/renderer/LazerRenderer.java",
+          "src/main/java/net/addie/aitplus/entity/LazerEntity.java"
+        ]
+      },
+      "path": "~/entities/Projectiles"
+    },
+    {
+      "name": "TimeWarDalek",
+      "type": "livingentity",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_war_dalek",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/time_war_dalek_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/entity/TimeWarDalekEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/TimeWarDalekRenderer.java"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "ImperialDalek",
+      "type": "livingentity",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imperial_dalek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/entity/ImperialDalekEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/ImperialDalekRenderer.java",
+          "src/main/resources/assets/aitplus/models/item/imperial_dalek_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "RenegadeDalek",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renegade_dalek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/entity/RenegadeDalekEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/RenegadeDalekRenderer.java",
+          "src/main/resources/assets/aitplus/models/item/renegade_dalek_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
     }
   ],
   "variable_elements": [],
@@ -2624,14 +2635,6 @@
       "subtitle": "Lazer Shoots"
     },
     {
-      "name": "dalek_exterminate",
-      "files": [
-        "dalek_exterminate"
-      ],
-      "category": "neutral",
-      "subtitle": "Exterminate!"
-    },
-    {
       "name": "dalek_death",
       "files": [
         "dalek_death"
@@ -2652,25 +2655,28 @@
     "en_us": {
       "block.aitplus.led_roundel": "LED Roundel",
       "block.aitplus.thalma_leaves": "Thalma Leaves",
+      "entity.aitplus.imperial_dalek": "Imperial Dalek",
       "subtitles.skaro_ambiance": "",
       "block.aitplus.led_roundel_black": "LED Roundel",
       "block.aitplus.maldor_door": "Maldor Door",
       "block.aitplus.maldor_wood": "Maldor Wood",
+      "entity.aitplus.renegade_dalek": "Renegade Dalek",
       "subtitles.dalek_exterminate": "Exterminate!",
       "block.aitplus.led_roundel_yellow": "LED Roundel",
       "advancements.the_mighty_jelly_babies_advancement.descr": "Make The The Mighty Jelly Babies!",
       "block.aitplus.stripped_maldor_wood": "Stripped Maldor Wood",
       "advancements.gallifrey_advancement.descr": "Go To Gallifrey!",
       "item.aitplus.take_me_to_gallifrey": "Take Me To Gallifrey",
+      "item.aitplus.renegade_dalek_spawn_egg": "Renegade Dalek Spawn Egg",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
       "block.aitplus.led_roundel_orange": "LED Roundel",
       "block.aitplus.stripped_thalma_log": "Stripped Thalma Log",
+      "entity.aitplus.time_war_dalek": "Time War Dalek",
       "block.aitplus.maldor_fence": "Maldor Fence",
       "block.aitplus.arkytior": "Arkytior",
       "block.aitplus.moonlight_bloom": "Moonlight Bloom",
       "block.aitplus.led_roundel_purple": "LED Roundel",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
-      "item.aitplus.bronze_dalek_spawn_egg": "Bronze Dalek Spawn Egg",
       "block.aitplus.metal_grate_slab": "Metal Grate Slab",
       "block.aitplus.thalma_slab": "Thalma Slab",
       "subtitles.flutterwing_death": "Flutterwing Dies",
@@ -2682,6 +2688,7 @@
       "subtitles.flubble_death": "Flubble Dies",
       "item.aitplus.black_jelly_babies": "Black Jelly Babies",
       "subtitles.trenzalor_ambiance": "",
+      "item.aitplus.imperial_dalek_spawn_egg": "Imperial Dalek Spawn Egg",
       "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
       "item.aitplus.green_jelly_babies": "Green Jelly Babies",
       "block.aitplus.thalma_trapdoor": "Thalma Trapdoor",
@@ -2705,7 +2712,6 @@
       "item.aitplus.fish_fingers": "Fish Fingers",
       "block.aitplus.maldor_button": "Maldor Button",
       "item.aitplus.limejelly_babies": "Lime Jelly Babies",
-      "entity.aitplus.bronze_dalek": "Bronze Dalek",
       "block.aitplus.iridescent_velvet_red_madevinia_aridosa": "Iridescent Velvet Red Madevinia Aridosa",
       "subtitles.fly_hurt": "Fly Hurt",
       "block.aitplus.schlenk_blossoms": "Schlenk Blossoms",
@@ -2723,6 +2729,7 @@
       "block.aitplus.maldor_leaves": "Maldor Leaves",
       "item_group.aitplus.ai_t_plus": "AiT Plus",
       "block.aitplus.stripped_thalma_wood": "Stripped Thalma Wood",
+      "item.aitplus.time_war_dalek_spawn_egg": "Time War Dalek Spawn Egg",
       "subtitles.dalek_laser": "Lazer Shoots",
       "entity.aitplus.fly": "Fly",
       "advancements.the_mighty_jelly_babies_advancement.title": "The Mightiest Of All Jelly Babies",
@@ -2874,7 +2881,7 @@
         "name": "entities",
         "children": [
           {
-            "name": "Scripts",
+            "name": "Projectiles",
             "children": []
           }
         ]

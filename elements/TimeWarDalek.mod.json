@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Classic Dalek",
+    "mobName": "Time War Dalek",
     "mobLabel": "",
-    "mobModelName": "Modelold_dalek",
-    "mobModelTexture": "old_dalek.png",
+    "mobModelName": "Modelnew_dalek",
+    "mobModelTexture": "new_dalek.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -23,8 +23,8 @@
     },
     "modelLayers": [
       {
-        "model": "Modelold_dalek",
-        "texture": "old_dalek_emissive.png",
+        "model": "Modelnew_dalek",
+        "texture": "new_dalek_emissive.png",
         "glow": true
       }
     ],
@@ -34,11 +34,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -3355444,
+      "value": -6982581,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16737844,
+      "value": -2640283,
       "falpha": 0.0
     },
     "creativeTab": {

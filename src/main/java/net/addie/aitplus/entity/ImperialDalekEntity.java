@@ -32,8 +32,8 @@ import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModEntities;
 import net.addie.aitplus.AitplusMod;
 
-public class ClassicDalekEntity extends Monster implements RangedAttackMob {
-	public ClassicDalekEntity(EntityType<ClassicDalekEntity> type, Level world) {
+public class ImperialDalekEntity extends Monster implements RangedAttackMob {
+	public ImperialDalekEntity(EntityType<ImperialDalekEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
 		xpReward = 0;
@@ -44,10 +44,11 @@ public class ClassicDalekEntity extends Monster implements RangedAttackMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.3));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, RenegadeDalekEntity.class, true, true));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.3));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -82,8 +83,8 @@ public class ClassicDalekEntity extends Monster implements RangedAttackMob {
 	}
 
 	public static void init() {
-		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "classicdalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.CLASSIC_DALEK, 20, 4, 4)));
+		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "imperialdalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.IMPERIAL_DALEK, 20, 4, 4)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

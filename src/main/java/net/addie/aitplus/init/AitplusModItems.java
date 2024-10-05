@@ -71,6 +71,10 @@ public class AitplusModItems {
 	public static Item MALDOR_FENCE_GATE;
 	public static Item MALDOR_LEAVES;
 	public static Item LED_ROUNDEL;
+	public static Item METAL_GRATE;
+	public static Item METAL_GRATE_STAIRS;
+	public static Item METAL_GRATE_SLAB;
+	public static Item METAL_GRATE_WALL;
 	public static Item ARKYTIOR;
 	public static Item FLOWER_OF_REMEBERANCE;
 	public static Item IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -97,7 +101,9 @@ public class AitplusModItems {
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
 	public static Item CLASSIC_DALEK_SPAWN_EGG;
-	public static Item BRONZE_DALEK_SPAWN_EGG;
+	public static Item TIME_WAR_DALEK_SPAWN_EGG;
+	public static Item IMPERIAL_DALEK_SPAWN_EGG;
+	public static Item RENEGADE_DALEK_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
@@ -112,10 +118,6 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_PURPLE;
 	public static Item LED_ROUNDEL_RED;
 	public static Item LED_ROUNDEL_YELLOW;
-	public static Item METAL_GRATE;
-	public static Item METAL_GRATE_STAIRS;
-	public static Item METAL_GRATE_SLAB;
-	public static Item METAL_GRATE_WALL;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -184,6 +186,14 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(MALDOR_LEAVES));
 		LED_ROUNDEL = register("led_roundel", new BlockItem(AitplusModBlocks.LED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(LED_ROUNDEL));
+		METAL_GRATE = register("metal_grate", new BlockItem(AitplusModBlocks.METAL_GRATE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE));
+		METAL_GRATE_STAIRS = register("metal_grate_stairs", new BlockItem(AitplusModBlocks.METAL_GRATE_STAIRS, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_STAIRS));
+		METAL_GRATE_SLAB = register("metal_grate_slab", new BlockItem(AitplusModBlocks.METAL_GRATE_SLAB, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_SLAB));
+		METAL_GRATE_WALL = register("metal_grate_wall", new BlockItem(AitplusModBlocks.METAL_GRATE_WALL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_WALL));
 		ARKYTIOR = register("arkytior", new BlockItem(AitplusModBlocks.ARKYTIOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ARKYTIOR));
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new BlockItem(AitplusModBlocks.FLOWER_OF_REMEBERANCE, new Item.Properties()));
@@ -218,10 +228,14 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLY_SPAWN_EGG));
 		FLUBBLE_SPAWN_EGG = register("flubble_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUBBLE, -9268588, -7876402, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUBBLE_SPAWN_EGG));
-		CLASSIC_DALEK_SPAWN_EGG = register("classic_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.CLASSIC_DALEK, -2171945, -10704427, new Item.Properties()));
+		CLASSIC_DALEK_SPAWN_EGG = register("classic_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.CLASSIC_DALEK, -3355444, -16737844, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CLASSIC_DALEK_SPAWN_EGG));
-		BRONZE_DALEK_SPAWN_EGG = register("bronze_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.BRONZE_DALEK, -6325437, -2640283, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRONZE_DALEK_SPAWN_EGG));
+		TIME_WAR_DALEK_SPAWN_EGG = register("time_war_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.TIME_WAR_DALEK, -6982581, -2640283, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(TIME_WAR_DALEK_SPAWN_EGG));
+		IMPERIAL_DALEK_SPAWN_EGG = register("imperial_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.IMPERIAL_DALEK, -855310, -1527235, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(IMPERIAL_DALEK_SPAWN_EGG));
+		RENEGADE_DALEK_SPAWN_EGG = register("renegade_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.RENEGADE_DALEK, -13421773, -16250872, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RENEGADE_DALEK_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());
@@ -236,14 +250,6 @@ public class AitplusModItems {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new BlockItem(AitplusModBlocks.LED_ROUNDEL_PURPLE, new Item.Properties()));
 		LED_ROUNDEL_RED = register("led_roundel_red", new BlockItem(AitplusModBlocks.LED_ROUNDEL_RED, new Item.Properties()));
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
-		METAL_GRATE = register("metal_grate", new BlockItem(AitplusModBlocks.METAL_GRATE, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE));
-		METAL_GRATE_STAIRS = register("metal_grate_stairs", new BlockItem(AitplusModBlocks.METAL_GRATE_STAIRS, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_STAIRS));
-		METAL_GRATE_SLAB = register("metal_grate_slab", new BlockItem(AitplusModBlocks.METAL_GRATE_SLAB, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_SLAB));
-		METAL_GRATE_WALL = register("metal_grate_wall", new BlockItem(AitplusModBlocks.METAL_GRATE_WALL, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_WALL));
 	}
 
 	public static void clientLoad() {

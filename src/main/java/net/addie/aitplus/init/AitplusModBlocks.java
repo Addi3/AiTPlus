@@ -98,6 +98,10 @@ public class AitplusModBlocks {
 	public static Block MALDOR_FENCE_GATE;
 	public static Block MALDOR_LEAVES;
 	public static Block LED_ROUNDEL;
+	public static Block METAL_GRATE;
+	public static Block METAL_GRATE_STAIRS;
+	public static Block METAL_GRATE_SLAB;
+	public static Block METAL_GRATE_WALL;
 	public static Block ARKYTIOR;
 	public static Block FLOWER_OF_REMEBERANCE;
 	public static Block IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -114,10 +118,6 @@ public class AitplusModBlocks {
 	public static Block LED_ROUNDEL_PURPLE;
 	public static Block LED_ROUNDEL_RED;
 	public static Block LED_ROUNDEL_YELLOW;
-	public static Block METAL_GRATE;
-	public static Block METAL_GRATE_STAIRS;
-	public static Block METAL_GRATE_SLAB;
-	public static Block METAL_GRATE_WALL;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -153,6 +153,10 @@ public class AitplusModBlocks {
 		MALDOR_FENCE_GATE = register("maldor_fence_gate", new MaldorFenceGateBlock());
 		MALDOR_LEAVES = register("maldor_leaves", new MaldorLeavesBlock());
 		LED_ROUNDEL = register("led_roundel", new LEDRoundelBlock());
+		METAL_GRATE = register("metal_grate", new MetalGrateBlock());
+		METAL_GRATE_STAIRS = register("metal_grate_stairs", new MetalGrateStairsBlock());
+		METAL_GRATE_SLAB = register("metal_grate_slab", new MetalGrateSlabBlock());
+		METAL_GRATE_WALL = register("metal_grate_wall", new MetalGrateWallBlock());
 		ARKYTIOR = register("arkytior", new ArkytiorBlock());
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new FlowerOfRemeberanceBlock());
 		IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA = register("iridescent_velvet_red_madevinia_aridosa", new IridescentVelvetRedMadeviniaAridosaBlock());
@@ -169,10 +173,6 @@ public class AitplusModBlocks {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new LEDRoundelPurpleBlock());
 		LED_ROUNDEL_RED = register("led_roundel_red", new LEDRoundelRedBlock());
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new LEDRoundelYellowBlock());
-		METAL_GRATE = register("metal_grate", new MetalGrateBlock());
-		METAL_GRATE_STAIRS = register("metal_grate_stairs", new MetalGrateStairsBlock());
-		METAL_GRATE_SLAB = register("metal_grate_slab", new MetalGrateSlabBlock());
-		METAL_GRATE_WALL = register("metal_grate_wall", new MetalGrateWallBlock());
 	}
 
 	public static void clientLoad() {
@@ -209,6 +209,10 @@ public class AitplusModBlocks {
 		MaldorFenceGateBlock.clientInit();
 		MaldorLeavesBlock.clientInit();
 		LEDRoundelBlock.clientInit();
+		MetalGrateBlock.clientInit();
+		MetalGrateStairsBlock.clientInit();
+		MetalGrateSlabBlock.clientInit();
+		MetalGrateWallBlock.clientInit();
 		ArkytiorBlock.clientInit();
 		FlowerOfRemeberanceBlock.clientInit();
 		IridescentVelvetRedMadeviniaAridosaBlock.clientInit();
@@ -225,10 +229,6 @@ public class AitplusModBlocks {
 		LEDRoundelPurpleBlock.clientInit();
 		LEDRoundelRedBlock.clientInit();
 		LEDRoundelYellowBlock.clientInit();
-		MetalGrateBlock.clientInit();
-		MetalGrateStairsBlock.clientInit();
-		MetalGrateSlabBlock.clientInit();
-		MetalGrateWallBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

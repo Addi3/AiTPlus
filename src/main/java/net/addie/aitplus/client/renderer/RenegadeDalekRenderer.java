@@ -11,20 +11,20 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.Minecraft;
 
-import net.addie.aitplus.entity.ClassicDalekEntity;
+import net.addie.aitplus.entity.RenegadeDalekEntity;
 import net.addie.aitplus.client.model.Modelold_dalek;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class ClassicDalekRenderer extends MobRenderer<ClassicDalekEntity, Modelold_dalek<ClassicDalekEntity>> {
-	public ClassicDalekRenderer(EntityRendererProvider.Context context) {
+public class RenegadeDalekRenderer extends MobRenderer<RenegadeDalekEntity, Modelold_dalek<RenegadeDalekEntity>> {
+	public RenegadeDalekRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelold_dalek(context.bakeLayer(Modelold_dalek.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new RenderLayer<ClassicDalekEntity, Modelold_dalek<ClassicDalekEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("aitplus:textures/entities/old_dalek_emissive.png");
+		this.addLayer(new RenderLayer<RenegadeDalekEntity, Modelold_dalek<RenegadeDalekEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("aitplus:textures/entities/renegade_dalek_emissive.png");
 
 			@Override
-			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, ClassicDalekEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, RenegadeDalekEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
 				VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.eyes(LAYER_TEXTURE));
 				EntityModel model = new Modelold_dalek(Minecraft.getInstance().getEntityModels().bakeLayer(Modelold_dalek.LAYER_LOCATION));
 				this.getParentModel().copyPropertiesTo(model);
@@ -36,8 +36,8 @@ public class ClassicDalekRenderer extends MobRenderer<ClassicDalekEntity, Modelo
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(ClassicDalekEntity entity) {
-		return new ResourceLocation("aitplus:textures/entities/old_dalek.png");
+	public ResourceLocation getTextureLocation(RenegadeDalekEntity entity) {
+		return new ResourceLocation("aitplus:textures/entities/renegade_dalek.png");
 	}
 
 }

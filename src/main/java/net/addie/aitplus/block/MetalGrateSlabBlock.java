@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class MetalGrateSlabBlock extends SlabBlock {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.COPPER).strength(1f, 10f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.COPPER).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 
 	public MetalGrateSlabBlock() {
 		super(PROPERTIES);

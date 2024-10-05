@@ -155,16 +155,6 @@
       }
     ]
   },
-  "dalek_exterminate": {
-    "category": "neutral",
-    "subtitle": "subtitles.dalek_exterminate",
-    "sounds": [
-      {
-        "name": "aitplus:dalek_exterminate",
-        "stream": false
-      }
-    ]
-  },
   "dalek_death": {
     "category": "hostile",
     "subtitle": "subtitles.dalek_death",

@@ -2,12 +2,13 @@
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
-public class Modelclassic_dalek<T extends Entity> extends EntityModel<T> {
+public class Modelold_dalek<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation("modid", "classic_dalek"), "main");
+			new ResourceLocation("modid", "old_dalek"), "main");
 	private final ModelPart Skirt;
+	private final ModelPart bulbs;
 	private final ModelPart Torso;
 	private final ModelPart GunArm;
 	private final ModelPart SuctionArm;
@@ -17,8 +18,9 @@ public class Modelclassic_dalek<T extends Entity> extends EntityModel<T> {
 	private final ModelPart LightLeft;
 	private final ModelPart LightRight;
 
-	public Modelclassic_dalek(ModelPart root) {
+	public Modelold_dalek(ModelPart root) {
 		this.Skirt = root.getChild("Skirt");
+		this.bulbs = this.Skirt.getChild("bulbs");
 		this.Torso = root.getChild("Torso");
 		this.GunArm = this.Torso.getChild("GunArm");
 		this.SuctionArm = this.Torso.getChild("SuctionArm");
@@ -39,6 +41,55 @@ public class Modelclassic_dalek<T extends Entity> extends EntityModel<T> {
 						.addBox(-5.5F, 5.0F, -7.0F, 11.0F, 6.0F, 13.0F, new CubeDeformation(0.0F)).texOffs(0, 45)
 						.addBox(-5.5F, 0.0F, -6.0F, 11.0F, 5.0F, 12.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 12.0F, 1.0F));
+
+		PartDefinition bulbs = Skirt.addOrReplaceChild("bulbs", CubeListBuilder.create().texOffs(0, 63)
+				.addBox(-12.0F, -2.0F, 2.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-12.0F, -2.0F, 5.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-12.0F, -2.0F, 8.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-12.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-11.9F, -7.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-11.9F, -7.0F, 2.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-11.9F, -7.0F, 5.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+				.addBox(-11.9F, -7.0F, 8.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63).mirror()
+				.addBox(-1.0F, -2.0F, 8.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 63)
+				.mirror().addBox(-1.1F, -7.0F, 8.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)
+				.texOffs(0, 63).mirror().addBox(-1.1F, -7.0F, 5.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))
+				.mirror(false).texOffs(0, 63).mirror()
+				.addBox(-1.0F, -2.0F, 5.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 63)
+				.mirror().addBox(-1.0F, -2.0F, 2.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)
+				.texOffs(0, 63).mirror().addBox(-1.1F, -7.0F, 2.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))
+				.mirror(false).texOffs(0, 63).mirror()
+				.addBox(-1.1F, -7.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 63)
+				.mirror().addBox(-1.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false),
+				PartPose.offset(6.0F, 9.0F, -4.0F));
+
+		PartDefinition cube_r1 = bulbs.addOrReplaceChild("cube_r1",
+				CubeListBuilder.create().texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -5.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -2.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 0.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 3.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(-6.0F, -6.0F, -1.7F, 0.0F, 1.5708F, 0.0F));
+
+		PartDefinition cube_r2 = bulbs.addOrReplaceChild("cube_r2",
+				CubeListBuilder.create().texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -5.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -2.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 0.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 3.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, 4.0F, -5.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, 4.0F, -2.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, 4.0F, 0.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, 4.0F, 3.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(-6.0F, -6.0F, 9.8F, 0.0F, 1.5708F, 0.0F));
+
+		PartDefinition cube_r3 = bulbs.addOrReplaceChild("cube_r3",
+				CubeListBuilder.create().texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -5.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 0.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, -2.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 63)
+						.addBox(-0.5F, -1.0F, 3.5F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(-6.0F, -1.0F, -2.9F, 0.0F, 1.5708F, 0.0F));
 
 		PartDefinition Torso = partdefinition.addOrReplaceChild("Torso",
 				CubeListBuilder.create().texOffs(0, 29)
@@ -64,10 +115,10 @@ public class Modelclassic_dalek<T extends Entity> extends EntityModel<T> {
 
 		PartDefinition Neck = partdefinition.addOrReplaceChild("Neck",
 				CubeListBuilder.create().texOffs(0, 18)
-						.addBox(-3.5F, -5.0F, -3.0F, 7.0F, 4.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(55, 10)
-						.addBox(-4.5F, -2.9F, -4.0F, 9.0F, 0.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(55, 10)
-						.addBox(-4.5F, -3.9F, -4.0F, 9.0F, 0.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(55, 0)
-						.addBox(-4.5F, -2.0F, -4.0F, 9.0F, 1.0F, 9.0F, new CubeDeformation(0.0F)),
+						.addBox(-3.5F, -5.0F, -3.0F, 7.0F, 4.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(55, 0)
+						.addBox(-4.5F, -2.0F, -4.0F, 9.0F, 1.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(55, 10)
+						.addBox(-4.5F, -4.0F, -4.0F, 9.0F, 0.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(55, 10)
+						.addBox(-4.5F, -3.0F, -4.0F, 9.0F, 0.0F, 9.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 7.0F, 1.0F));
 
 		PartDefinition Head = partdefinition.addOrReplaceChild("Head",
@@ -105,10 +156,10 @@ public class Modelclassic_dalek<T extends Entity> extends EntityModel<T> {
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch) {
-		this.Eye.yRot = headPitch / (180F / (float) Math.PI);
+		this.Eye.xRot = headPitch / (180F / (float) Math.PI);
 		this.Head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.Head.xRot = headPitch / (180F / (float) Math.PI);
-		this.GunArm.zRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
-		this.SuctionArm.zRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.GunArm.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.SuctionArm.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 	}
 }

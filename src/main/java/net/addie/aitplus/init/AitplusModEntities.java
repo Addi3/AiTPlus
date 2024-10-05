@@ -15,11 +15,14 @@ import net.minecraft.core.Registry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
+import net.addie.aitplus.entity.TimeWarDalekEntity;
+import net.addie.aitplus.entity.RenegadeDalekEntity;
+import net.addie.aitplus.entity.LazerEntity;
+import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
 import net.addie.aitplus.entity.FlubbleEntity;
 import net.addie.aitplus.entity.ClassicDalekEntity;
-import net.addie.aitplus.entity.BronzeDalekEntity;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModEntities {
@@ -27,7 +30,10 @@ public class AitplusModEntities {
 	public static EntityType<FlyEntity> FLY;
 	public static EntityType<FlubbleEntity> FLUBBLE;
 	public static EntityType<ClassicDalekEntity> CLASSIC_DALEK;
-	public static EntityType<BronzeDalekEntity> BRONZE_DALEK;
+	public static EntityType<TimeWarDalekEntity> TIME_WAR_DALEK;
+	public static EntityType<ImperialDalekEntity> IMPERIAL_DALEK;
+	public static EntityType<RenegadeDalekEntity> RENEGADE_DALEK;
+	public static EntityType<LazerEntity> LAZER;
 
 	public static void load() {
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
@@ -43,13 +49,22 @@ public class AitplusModEntities {
 		FlubbleEntity.init();
 		FabricDefaultAttributeRegistry.register(FLUBBLE, FlubbleEntity.createAttributes());
 		CLASSIC_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "classic_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ClassicDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, ClassicDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ClassicDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(CLASSIC_DALEK, ClassicDalekEntity.createAttributes());
-		BRONZE_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "bronze_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.CREATURE, BronzeDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
-		BronzeDalekEntity.init();
-		FabricDefaultAttributeRegistry.register(BRONZE_DALEK, BronzeDalekEntity.createAttributes());
+		TIME_WAR_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "time_war_dalek"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, TimeWarDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		TimeWarDalekEntity.init();
+		FabricDefaultAttributeRegistry.register(TIME_WAR_DALEK, TimeWarDalekEntity.createAttributes());
+		IMPERIAL_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "imperial_dalek"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, ImperialDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		ImperialDalekEntity.init();
+		FabricDefaultAttributeRegistry.register(IMPERIAL_DALEK, ImperialDalekEntity.createAttributes());
+		RENEGADE_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "renegade_dalek"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, RenegadeDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		RenegadeDalekEntity.init();
+		FabricDefaultAttributeRegistry.register(RENEGADE_DALEK, RenegadeDalekEntity.createAttributes());
+		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

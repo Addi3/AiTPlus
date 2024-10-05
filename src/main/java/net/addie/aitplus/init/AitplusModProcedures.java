@@ -22,7 +22,6 @@ import net.addie.aitplus.procedures.LEDRoundelGrayRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelCyanRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlueRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlackRedstoneOnProcedure;
-import net.addie.aitplus.procedures.DalekShootProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class AitplusModProcedures {
@@ -43,7 +42,6 @@ public class AitplusModProcedures {
 		new TakeMeToSkaroRightClickedProcedure();
 		new ThalmaLogOnRightClickedProcedure();
 		new ThalmaWoodOnRightClickedProcedure();
-		new DalekShootProcedure();
 		new MaldorLogOnRightClickedProcedure();
 		new MaldorWoodOnRightClickedProcedure();
 	}

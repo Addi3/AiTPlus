@@ -19,7 +19,7 @@
     "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "TRANSLUCENT",
     "disableOffset": false,

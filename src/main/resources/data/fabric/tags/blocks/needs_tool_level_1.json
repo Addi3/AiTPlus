@@ -34,6 +34,10 @@
     "aitplus:maldor_fence_gate",
     "aitplus:maldor_leaves",
     "aitplus:led_roundel",
+    "aitplus:metal_grate",
+    "aitplus:metal_grate_stairs",
+    "aitplus:metal_grate_slab",
+    "aitplus:metal_grate_wall",
     "aitplus:led_roundel_black",
     "aitplus:led_roundel_blue",
     "aitplus:led_roundel_cyan",
@@ -43,10 +47,6 @@
     "aitplus:led_roundel_pink",
     "aitplus:led_roundel_purple",
     "aitplus:led_roundel_red",
-    "aitplus:led_roundel_yellow",
-    "aitplus:metal_grate",
-    "aitplus:metal_grate_stairs",
-    "aitplus:metal_grate_slab",
-    "aitplus:metal_grate_wall"
+    "aitplus:led_roundel_yellow"
   ]
 }

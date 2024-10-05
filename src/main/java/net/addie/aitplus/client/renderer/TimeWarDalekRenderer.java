@@ -11,22 +11,22 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.Minecraft;
 
-import net.addie.aitplus.entity.ClassicDalekEntity;
-import net.addie.aitplus.client.model.Modelold_dalek;
+import net.addie.aitplus.entity.TimeWarDalekEntity;
+import net.addie.aitplus.client.model.Modelnew_dalek;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class ClassicDalekRenderer extends MobRenderer<ClassicDalekEntity, Modelold_dalek<ClassicDalekEntity>> {
-	public ClassicDalekRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelold_dalek(context.bakeLayer(Modelold_dalek.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new RenderLayer<ClassicDalekEntity, Modelold_dalek<ClassicDalekEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("aitplus:textures/entities/old_dalek_emissive.png");
+public class TimeWarDalekRenderer extends MobRenderer<TimeWarDalekEntity, Modelnew_dalek<TimeWarDalekEntity>> {
+	public TimeWarDalekRenderer(EntityRendererProvider.Context context) {
+		super(context, new Modelnew_dalek(context.bakeLayer(Modelnew_dalek.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<TimeWarDalekEntity, Modelnew_dalek<TimeWarDalekEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("aitplus:textures/entities/new_dalek_emissive.png");
 
 			@Override
-			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, ClassicDalekEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, TimeWarDalekEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
 				VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.eyes(LAYER_TEXTURE));
-				EntityModel model = new Modelold_dalek(Minecraft.getInstance().getEntityModels().bakeLayer(Modelold_dalek.LAYER_LOCATION));
+				EntityModel model = new Modelnew_dalek(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnew_dalek.LAYER_LOCATION));
 				this.getParentModel().copyPropertiesTo(model);
 				model.prepareMobModel(entity, limbSwing, limbSwingAmount, partialTicks);
 				model.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
@@ -36,8 +36,8 @@ public class ClassicDalekRenderer extends MobRenderer<ClassicDalekEntity, Modelo
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(ClassicDalekEntity entity) {
-		return new ResourceLocation("aitplus:textures/entities/old_dalek.png");
+	public ResourceLocation getTextureLocation(TimeWarDalekEntity entity) {
+		return new ResourceLocation("aitplus:textures/entities/new_dalek.png");
 	}
 
 }
