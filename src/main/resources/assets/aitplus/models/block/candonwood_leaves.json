@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "aitplus:block/candonwood_leaves",
-    "particle": "aitplus:block/candonwood_leaves"
-  }
-}

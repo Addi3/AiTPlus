@@ -6,10 +6,10 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:CandonwoodLeaves"
+        "value": "CUSTOM:ThalmaLeaves"
       },
       {
-        "value": "CUSTOM:ThalmaLeaves"
+        "value": "CUSTOM:MaldorLeaves"
       }
     ],
     "functions": [],

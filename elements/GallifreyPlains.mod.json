@@ -80,10 +80,10 @@
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:Cadonwood"
+      "value": "CUSTOM:MaldorLog"
     },
     "treeBranch": {
-      "value": "CUSTOM:CandonwoodLeaves"
+      "value": "CUSTOM:MaldorLeaves"
     },
     "treeVines": {
       "value": ""

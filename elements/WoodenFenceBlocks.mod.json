@@ -6,10 +6,10 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:CadonwoodFence"
+        "value": "CUSTOM:ThalmaFence"
       },
       {
-        "value": "CUSTOM:ThalmaFence"
+        "value": "CUSTOM:MaldorFence"
       }
     ],
     "functions": [],

@@ -1,7 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "aitplus:block/cadonwood_planks"
-  },
-  "render_type": "solid"
-}

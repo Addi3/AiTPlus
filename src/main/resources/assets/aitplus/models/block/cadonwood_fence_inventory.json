@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "aitplus:block/cadonwood_planks",
-    "particle": "aitplus:block/cadonwood_planks"
-  },
-  "render_type": "solid"
-}

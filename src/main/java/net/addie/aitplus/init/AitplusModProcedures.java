@@ -9,6 +9,8 @@ import net.addie.aitplus.procedures.ThalmaLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
+import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
+import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.LEDRoundelYellowRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelRedRedstoneOnProcedure;
@@ -21,16 +23,12 @@ import net.addie.aitplus.procedures.LEDRoundelCyanRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlueRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlackRedstoneOnProcedure;
 import net.addie.aitplus.procedures.DalekShootProcedure;
-import net.addie.aitplus.procedures.CadonwoodOnBlockRightClickedProcedure;
-import net.addie.aitplus.procedures.CadonLogOnBlockRightClickedProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class AitplusModProcedures {
 	public static void load() {
 		new TakeMeToGallifreyRightclickedProcedure();
 		new TakeMeToTrenzalorRightClickedProcedure();
-		new CadonwoodOnBlockRightClickedProcedure();
-		new CadonLogOnBlockRightClickedProcedure();
 		new LEDRoundelRedstoneOnProcedure();
 		new LEDRoundelBlackRedstoneOnProcedure();
 		new LEDRoundelGrayRedstoneOnProcedure();
@@ -46,5 +44,7 @@ public class AitplusModProcedures {
 		new ThalmaLogOnRightClickedProcedure();
 		new ThalmaWoodOnRightClickedProcedure();
 		new DalekShootProcedure();
+		new MaldorLogOnRightClickedProcedure();
+		new MaldorWoodOnRightClickedProcedure();
 	}
 }

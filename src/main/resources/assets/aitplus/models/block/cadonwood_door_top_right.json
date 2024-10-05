@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_top_right",
-  "textures": {
-    "bottom": "aitplus:block/cadonwood_door_bottom",
-    "top": "aitplus:block/cadonwood_door_top"
-  },
-  "render_type": "translucent"
-}

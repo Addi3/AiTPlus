@@ -7,6 +7,9 @@
     "blocks": [
       {
         "value": "CUSTOM:TrenzalorianStoneWall"
+      },
+      {
+        "value": "CUSTOM:MetalGrateWall"
       }
     ],
     "functions": [],
