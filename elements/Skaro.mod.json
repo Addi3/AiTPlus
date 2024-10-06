@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:PetrifiedJungle"
+      },
+      {
+        "value": "CUSTOM:IrradiatedSwamp"
       }
     ],
     "worldGenType": "Normal world gen",

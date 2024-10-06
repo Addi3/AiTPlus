@@ -49,7 +49,7 @@ public class FlutterwingEntity extends Animal {
 	public FlutterwingEntity(EntityType<FlutterwingEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 2;
 		setNoAi(false);
 		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);

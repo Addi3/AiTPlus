@@ -4,5 +4,5 @@
     "bottom": "aitplus:block/maldor_door_bottom",
     "top": "aitplus:block/maldor_door_top"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

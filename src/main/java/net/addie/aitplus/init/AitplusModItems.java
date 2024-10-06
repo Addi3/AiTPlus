@@ -21,6 +21,7 @@ import net.addie.aitplus.item.TakeMeToTrenzalorItem;
 import net.addie.aitplus.item.TakeMeToSkaroItem;
 import net.addie.aitplus.item.TakeMeToGallifreyItem;
 import net.addie.aitplus.item.RedJellyBabiesItem;
+import net.addie.aitplus.item.RawDalekaniumItem;
 import net.addie.aitplus.item.PurpleJellyBabiesItem;
 import net.addie.aitplus.item.PinkJellyBabiesItem;
 import net.addie.aitplus.item.OrangeJellyBabiesItem;
@@ -30,6 +31,14 @@ import net.addie.aitplus.item.LightBlueJellyBabiesItem;
 import net.addie.aitplus.item.GreenJellyBabiesItem;
 import net.addie.aitplus.item.FishFingersItem;
 import net.addie.aitplus.item.FishFingersAndCustardItem;
+import net.addie.aitplus.item.DalekaniumSwordItem;
+import net.addie.aitplus.item.DalekaniumShovelItem;
+import net.addie.aitplus.item.DalekaniumPickaxeItem;
+import net.addie.aitplus.item.DalekaniumNuggetItem;
+import net.addie.aitplus.item.DalekaniumIngotItem;
+import net.addie.aitplus.item.DalekaniumHoeItem;
+import net.addie.aitplus.item.DalekaniumAxeItem;
+import net.addie.aitplus.item.DalekaniumArmorItem;
 import net.addie.aitplus.item.CyanJellyBabiesItem;
 import net.addie.aitplus.item.CustardItem;
 import net.addie.aitplus.item.CreativeTabItemItem;
@@ -75,6 +84,21 @@ public class AitplusModItems {
 	public static Item METAL_GRATE_STAIRS;
 	public static Item METAL_GRATE_SLAB;
 	public static Item METAL_GRATE_WALL;
+	public static Item DALEKANIUM_ORE;
+	public static Item BLOCK_OF_DALEKANIUM;
+	public static Item BLOCK_OF_RAW_DALEKANIUM;
+	public static Item DALEKANIUM_INGOT;
+	public static Item DALEKANIUM_NUGGET;
+	public static Item RAW_DALEKANIUM;
+	public static Item DALEKANIUM_SWORD;
+	public static Item DALEKANIUM_PICKAXE;
+	public static Item DALEKANIUM_AXE;
+	public static Item DALEKANIUM_SHOVEL;
+	public static Item DALEKANIUM_HOE;
+	public static Item DALEKANIUM_ARMOR_HELMET;
+	public static Item DALEKANIUM_ARMOR_CHESTPLATE;
+	public static Item DALEKANIUM_ARMOR_LEGGINGS;
+	public static Item DALEKANIUM_ARMOR_BOOTS;
 	public static Item ARKYTIOR;
 	public static Item FLOWER_OF_REMEBERANCE;
 	public static Item IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -118,6 +142,7 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_PURPLE;
 	public static Item LED_ROUNDEL_RED;
 	public static Item LED_ROUNDEL_YELLOW;
+	public static Item DAVAROS_SPAWN_EGG;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -194,6 +219,24 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_SLAB));
 		METAL_GRATE_WALL = register("metal_grate_wall", new BlockItem(AitplusModBlocks.METAL_GRATE_WALL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_WALL));
+		DALEKANIUM_ORE = register("dalekanium_ore", new BlockItem(AitplusModBlocks.DALEKANIUM_ORE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(DALEKANIUM_ORE));
+		BLOCK_OF_DALEKANIUM = register("block_of_dalekanium", new BlockItem(AitplusModBlocks.BLOCK_OF_DALEKANIUM, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_DALEKANIUM));
+		BLOCK_OF_RAW_DALEKANIUM = register("block_of_raw_dalekanium", new BlockItem(AitplusModBlocks.BLOCK_OF_RAW_DALEKANIUM, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_RAW_DALEKANIUM));
+		DALEKANIUM_INGOT = register("dalekanium_ingot", new DalekaniumIngotItem());
+		DALEKANIUM_NUGGET = register("dalekanium_nugget", new DalekaniumNuggetItem());
+		RAW_DALEKANIUM = register("raw_dalekanium", new RawDalekaniumItem());
+		DALEKANIUM_SWORD = register("dalekanium_sword", new DalekaniumSwordItem());
+		DALEKANIUM_PICKAXE = register("dalekanium_pickaxe", new DalekaniumPickaxeItem());
+		DALEKANIUM_AXE = register("dalekanium_axe", new DalekaniumAxeItem());
+		DALEKANIUM_SHOVEL = register("dalekanium_shovel", new DalekaniumShovelItem());
+		DALEKANIUM_HOE = register("dalekanium_hoe", new DalekaniumHoeItem());
+		DALEKANIUM_ARMOR_HELMET = register("dalekanium_armor_helmet", new DalekaniumArmorItem.Helmet());
+		DALEKANIUM_ARMOR_CHESTPLATE = register("dalekanium_armor_chestplate", new DalekaniumArmorItem.Chestplate());
+		DALEKANIUM_ARMOR_LEGGINGS = register("dalekanium_armor_leggings", new DalekaniumArmorItem.Leggings());
+		DALEKANIUM_ARMOR_BOOTS = register("dalekanium_armor_boots", new DalekaniumArmorItem.Boots());
 		ARKYTIOR = register("arkytior", new BlockItem(AitplusModBlocks.ARKYTIOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ARKYTIOR));
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new BlockItem(AitplusModBlocks.FLOWER_OF_REMEBERANCE, new Item.Properties()));
@@ -250,6 +293,8 @@ public class AitplusModItems {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new BlockItem(AitplusModBlocks.LED_ROUNDEL_PURPLE, new Item.Properties()));
 		LED_ROUNDEL_RED = register("led_roundel_red", new BlockItem(AitplusModBlocks.LED_ROUNDEL_RED, new Item.Properties()));
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
+		DAVAROS_SPAWN_EGG = register("davaros_spawn_egg", new SpawnEggItem(AitplusModEntities.DAVAROS, -16053493, -14671840, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(DAVAROS_SPAWN_EGG));
 	}
 
 	public static void clientLoad() {

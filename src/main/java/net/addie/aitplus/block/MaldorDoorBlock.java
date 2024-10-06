@@ -48,6 +48,6 @@ public class MaldorDoorBlock extends DoorBlock {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.MALDOR_DOOR, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.MALDOR_DOOR, RenderType.translucent());
 	}
 }

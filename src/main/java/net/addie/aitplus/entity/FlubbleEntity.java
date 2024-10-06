@@ -50,7 +50,7 @@ public class FlubbleEntity extends TamableAnimal {
 	public FlubbleEntity(EntityType<FlubbleEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 5;
 		setNoAi(false);
 		setPersistenceRequired();
 	}

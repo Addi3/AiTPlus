@@ -42,7 +42,7 @@ public class FlyEntity extends PathfinderMob {
 	public FlyEntity(EntityType<FlyEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 1;
 		setNoAi(false);
 		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);

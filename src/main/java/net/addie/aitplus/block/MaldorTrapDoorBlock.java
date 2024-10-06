@@ -44,6 +44,6 @@ public class MaldorTrapDoorBlock extends TrapDoorBlock {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.MALDOR_TRAP_DOOR, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.MALDOR_TRAP_DOOR, RenderType.translucent());
 	}
 }

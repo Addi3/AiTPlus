@@ -36,15 +36,16 @@ public class ClassicDalekEntity extends Monster implements RangedAttackMob {
 	public ClassicDalekEntity(EntityType<ClassicDalekEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 10;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.3));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.4));
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
@@ -59,6 +60,11 @@ public class ClassicDalekEntity extends Monster implements RangedAttackMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
@@ -83,7 +89,7 @@ public class ClassicDalekEntity extends Monster implements RangedAttackMob {
 
 	public static void init() {
 		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "classicdalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.CLASSIC_DALEK, 20, 4, 4)));
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.CLASSIC_DALEK, 20, 2, 4)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

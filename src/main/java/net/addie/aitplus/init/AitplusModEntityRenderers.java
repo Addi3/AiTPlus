@@ -15,6 +15,7 @@ import net.addie.aitplus.client.renderer.ImperialDalekRenderer;
 import net.addie.aitplus.client.renderer.FlyRenderer;
 import net.addie.aitplus.client.renderer.FlutterwingRenderer;
 import net.addie.aitplus.client.renderer.FlubbleRenderer;
+import net.addie.aitplus.client.renderer.DavarosRenderer;
 import net.addie.aitplus.client.renderer.ClassicDalekRenderer;
 
 @Environment(EnvType.CLIENT)
@@ -28,5 +29,6 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.IMPERIAL_DALEK, ImperialDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.RENEGADE_DALEK, RenegadeDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.DAVAROS, DavarosRenderer::new);
 	}
 }

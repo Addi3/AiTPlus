@@ -5,7 +5,9 @@
 package net.addie.aitplus.init;
 
 import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.feature.RandomPatchFeature;
+import net.minecraft.world.level.levelgen.feature.OreFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
@@ -22,6 +24,7 @@ import net.addie.aitplus.block.RedPetaledOrchidBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
+import net.addie.aitplus.block.DalekaniumOreBlock;
 import net.addie.aitplus.block.ArkytiorBlock;
 import net.addie.aitplus.AitplusMod;
 
@@ -29,6 +32,7 @@ import java.util.function.Predicate;
 
 public class AitplusModFeatures {
 	public static void load() {
+		register("dalekanium_ore", new OreFeature(OreConfiguration.CODEC), DalekaniumOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("arkytior", new RandomPatchFeature(RandomPatchConfiguration.CODEC), ArkytiorBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 		register("flower_of_remeberance", new RandomPatchFeature(RandomPatchConfiguration.CODEC), FlowerOfRemeberanceBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 		register("iridescent_velvet_red_madevinia_aridosa", new RandomPatchFeature(RandomPatchConfiguration.CODEC), IridescentVelvetRedMadeviniaAridosaBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);

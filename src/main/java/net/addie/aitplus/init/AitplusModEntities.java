@@ -22,6 +22,7 @@ import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
 import net.addie.aitplus.entity.FlubbleEntity;
+import net.addie.aitplus.entity.DavarosEntity;
 import net.addie.aitplus.entity.ClassicDalekEntity;
 import net.addie.aitplus.AitplusMod;
 
@@ -34,6 +35,7 @@ public class AitplusModEntities {
 	public static EntityType<ImperialDalekEntity> IMPERIAL_DALEK;
 	public static EntityType<RenegadeDalekEntity> RENEGADE_DALEK;
 	public static EntityType<LazerEntity> LAZER;
+	public static EntityType<DavarosEntity> DAVAROS;
 
 	public static void load() {
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
@@ -49,22 +51,26 @@ public class AitplusModEntities {
 		FlubbleEntity.init();
 		FabricDefaultAttributeRegistry.register(FLUBBLE, FlubbleEntity.createAttributes());
 		CLASSIC_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "classic_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.MONSTER, ClassicDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ClassicDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ClassicDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(CLASSIC_DALEK, ClassicDalekEntity.createAttributes());
 		TIME_WAR_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "time_war_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.MONSTER, TimeWarDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, TimeWarDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		TimeWarDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(TIME_WAR_DALEK, TimeWarDalekEntity.createAttributes());
 		IMPERIAL_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "imperial_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.MONSTER, ImperialDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ImperialDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ImperialDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(IMPERIAL_DALEK, ImperialDalekEntity.createAttributes());
 		RENEGADE_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "renegade_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.MONSTER, RenegadeDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, RenegadeDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		RenegadeDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(RENEGADE_DALEK, RenegadeDalekEntity.createAttributes());
 		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
+		DAVAROS = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "davaros"),
+				FabricEntityTypeBuilder.create(MobCategory.MISC, DavarosEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		DavarosEntity.init();
+		FabricDefaultAttributeRegistry.register(DAVAROS, DavarosEntity.createAttributes());
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

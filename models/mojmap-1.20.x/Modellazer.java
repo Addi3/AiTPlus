@@ -21,15 +21,14 @@ public class Modellazer<T extends Entity> extends EntityModel<T> {
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
 		PartDefinition cube_r1 = bb_main.addOrReplaceChild("cube_r1",
-				CubeListBuilder.create().texOffs(0, 4).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 0.0F, 4.0F,
+				CubeListBuilder.create().texOffs(-6, 0).addBox(-1.0F, 0.0F, -4.0F, 2.0F, 0.0F, 8.0F,
 						new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, -2.0F, 0.0F, 1.5708F, 0.0F, -1.5708F));
+				PartPose.offsetAndRotation(0.0F, -2.0F, 0.0F, -1.5708F, 0.0F, 0.0F));
 
-		PartDefinition cube_r2 = bb_main
-				.addOrReplaceChild("cube_r2",
-						CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -2.0F, -2.0F, 2.0F, 0.0F, 4.0F,
-								new CubeDeformation(0.0F)),
-						PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, 0.0F, -1.5708F, 0.0F));
+		PartDefinition cube_r2 = bb_main.addOrReplaceChild("cube_r2",
+				CubeListBuilder.create().texOffs(-6, 0).addBox(-1.0F, 0.0F, -4.0F, 2.0F, 0.0F, 8.0F,
+						new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(0.0F, -2.0F, 0.0F, 0.0F, 1.5708F, 1.5708F));
 
 		return LayerDefinition.create(meshdefinition, 16, 16);
 	}

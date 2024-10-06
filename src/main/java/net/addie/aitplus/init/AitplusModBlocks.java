@@ -61,6 +61,9 @@ import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
+import net.addie.aitplus.block.DalekaniumOreBlock;
+import net.addie.aitplus.block.BlockOfRawDalekaniumBlock;
+import net.addie.aitplus.block.BlockOfDalekaniumBlock;
 import net.addie.aitplus.block.ArkytiorBlock;
 import net.addie.aitplus.AitplusMod;
 
@@ -102,6 +105,9 @@ public class AitplusModBlocks {
 	public static Block METAL_GRATE_STAIRS;
 	public static Block METAL_GRATE_SLAB;
 	public static Block METAL_GRATE_WALL;
+	public static Block DALEKANIUM_ORE;
+	public static Block BLOCK_OF_DALEKANIUM;
+	public static Block BLOCK_OF_RAW_DALEKANIUM;
 	public static Block ARKYTIOR;
 	public static Block FLOWER_OF_REMEBERANCE;
 	public static Block IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -157,6 +163,9 @@ public class AitplusModBlocks {
 		METAL_GRATE_STAIRS = register("metal_grate_stairs", new MetalGrateStairsBlock());
 		METAL_GRATE_SLAB = register("metal_grate_slab", new MetalGrateSlabBlock());
 		METAL_GRATE_WALL = register("metal_grate_wall", new MetalGrateWallBlock());
+		DALEKANIUM_ORE = register("dalekanium_ore", new DalekaniumOreBlock());
+		BLOCK_OF_DALEKANIUM = register("block_of_dalekanium", new BlockOfDalekaniumBlock());
+		BLOCK_OF_RAW_DALEKANIUM = register("block_of_raw_dalekanium", new BlockOfRawDalekaniumBlock());
 		ARKYTIOR = register("arkytior", new ArkytiorBlock());
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new FlowerOfRemeberanceBlock());
 		IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA = register("iridescent_velvet_red_madevinia_aridosa", new IridescentVelvetRedMadeviniaAridosaBlock());
@@ -213,6 +222,9 @@ public class AitplusModBlocks {
 		MetalGrateStairsBlock.clientInit();
 		MetalGrateSlabBlock.clientInit();
 		MetalGrateWallBlock.clientInit();
+		DalekaniumOreBlock.clientInit();
+		BlockOfDalekaniumBlock.clientInit();
+		BlockOfRawDalekaniumBlock.clientInit();
 		ArkytiorBlock.clientInit();
 		FlowerOfRemeberanceBlock.clientInit();
 		IridescentVelvetRedMadeviniaAridosaBlock.clientInit();

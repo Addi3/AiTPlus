@@ -36,8 +36,9 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 	public ImperialDalekEntity(EntityType<ImperialDalekEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 10;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -45,7 +46,7 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, RenegadeDalekEntity.class, true, true));
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.3));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.4));
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
@@ -60,6 +61,11 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
@@ -84,7 +90,7 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 
 	public static void init() {
 		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "imperialdalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.IMPERIAL_DALEK, 20, 4, 4)));
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.IMPERIAL_DALEK, 5, 4, 4)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
