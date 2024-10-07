@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "brachacki",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockOfBrachacki"
+      },
+      {
+        "value": "CUSTOM:BlockOfBrachacki"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockOfBrachacki"
+      },
+      {
+        "value": "CUSTOM:BlockOfBrachacki"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrachackiA"
+    },
+    "name": "brachacki_a_recipe",
+    "namespace": "mod"
+  }
+}

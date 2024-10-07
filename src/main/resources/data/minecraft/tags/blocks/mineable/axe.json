@@ -4,6 +4,17 @@
     "aitplus:thalma_log",
     "aitplus:thalma_wood",
     "aitplus:stripped_thalma_log",
-    "aitplus:stripped_thalma_wood"
+    "aitplus:stripped_thalma_wood",
+    "aitplus:stripped_dark_oak_log_stained_roundel",
+    "aitplus:stripped_jungle_log_stained_roundel",
+    "aitplus:stripped_spruce_log_stained_roundel",
+    "aitplus:stripped_oak_log_stained_roundel",
+    "aitplus:stripped_mangrove_log_stained_roundel",
+    "aitplus:stripped_warped_stem_stained_roundel",
+    "aitplus:stripped_acacia_log_stained_roundel",
+    "aitplus:stripped_bamboo_block_stained_roundel",
+    "aitplus:stripped_cherry_log_stained_roundel",
+    "aitplus:stripped_birch_log_stained_roundel",
+    "aitplus:stripped_crimson_stem_stained_roundel"
   ]
 }

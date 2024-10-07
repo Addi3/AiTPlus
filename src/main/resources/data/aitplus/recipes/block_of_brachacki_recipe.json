@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brachacki",
+  "category": "building",
+  "pattern": [
+    "abb",
+    "a b",
+    "aab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cyan_concrete"
+    },
+    "b": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "aitplus:block_of_brachacki",
+    "count": 8
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_roundel",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "b": {
+      "item": "minecraft:orange_stained_glass"
+    },
+    "c": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "d": {
+      "item": "minecraft:sea_lantern"
+    },
+    "e": {
+      "item": "minecraft:blue_stained_glass"
+    }
+  },
+  "result": {
+    "item": "aitplus:polished_blackstone_stained_roundel",
+    "count": 4
+  }
+}

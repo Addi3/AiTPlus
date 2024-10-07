@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brachacki",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aitplus:brachacki_a"
+    }
+  ],
+  "result": {
+    "item": "aitplus:brachacki_b",
+    "count": 1
+  }
+}

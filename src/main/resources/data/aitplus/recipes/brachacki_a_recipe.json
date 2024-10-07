@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brachacki",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:block_of_brachacki"
+    }
+  },
+  "result": {
+    "item": "aitplus:brachacki_a",
+    "count": 4
+  }
+}

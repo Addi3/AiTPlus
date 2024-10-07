@@ -4,6 +4,13 @@
     "aitplus:metal_grate",
     "aitplus:metal_grate_stairs",
     "aitplus:metal_grate_slab",
-    "aitplus:metal_grate_wall"
+    "aitplus:metal_grate_wall",
+    "aitplus:block_of_brachacki",
+    "aitplus:brachacki_a",
+    "aitplus:brachacki_b",
+    "aitplus:brachacki_door",
+    "aitplus:stone_bricks_stained_roundel",
+    "aitplus:polished_blackstone_stained_roundel",
+    "aitplus:quartz_block_stained_roundel"
   ]
 }

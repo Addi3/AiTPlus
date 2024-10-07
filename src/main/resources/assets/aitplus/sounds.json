@@ -174,5 +174,25 @@
         "stream": false
       }
     ]
+  },
+  "classic_door_open": {
+    "category": "block",
+    "subtitle": "subtitles.classic_door_open",
+    "sounds": [
+      {
+        "name": "aitplus:classic_door_open",
+        "stream": false
+      }
+    ]
+  },
+  "classic_door_close": {
+    "category": "block",
+    "subtitle": "subtitles.classic_door_close",
+    "sounds": [
+      {
+        "name": "aitplus:classic_door_close",
+        "stream": false
+      }
+    ]
   }
 }

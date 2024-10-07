@@ -28,7 +28,7 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.TIME_WAR_DALEK, TimeWarDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.IMPERIAL_DALEK, ImperialDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.RENEGADE_DALEK, RenegadeDalekRenderer::new);
-		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.DAVAROS, DavarosRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 	}
 }

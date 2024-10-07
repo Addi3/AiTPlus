@@ -79,7 +79,6 @@ public class AitplusModItems {
 	public static Item MALDOR_FENCE;
 	public static Item MALDOR_FENCE_GATE;
 	public static Item MALDOR_LEAVES;
-	public static Item LED_ROUNDEL;
 	public static Item METAL_GRATE;
 	public static Item METAL_GRATE_STAIRS;
 	public static Item METAL_GRATE_SLAB;
@@ -99,6 +98,25 @@ public class AitplusModItems {
 	public static Item DALEKANIUM_ARMOR_CHESTPLATE;
 	public static Item DALEKANIUM_ARMOR_LEGGINGS;
 	public static Item DALEKANIUM_ARMOR_BOOTS;
+	public static Item LED_ROUNDEL;
+	public static Item BLOCK_OF_BRACHACKI;
+	public static Item BRACHACKI_A;
+	public static Item BRACHACKI_B;
+	public static Item BRACHACKI_DOOR;
+	public static Item STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_OAK_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_MANGROVE_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_WARPED_STEM_STAINED_ROUNDEL;
+	public static Item STRIPPED_ACACIA_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_BAMBOO_BLOCK_STAINED_ROUNDEL;
+	public static Item STRIPPED_CHERRY_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_BIRCH_LOG_STAINED_ROUNDEL;
+	public static Item STRIPPED_CRIMSON_STEM_STAINED_ROUNDEL;
+	public static Item STONE_BRICKS_STAINED_ROUNDEL;
+	public static Item POLISHED_BLACKSTONE_STAINED_ROUNDEL;
+	public static Item QUARTZ_BLOCK_STAINED_ROUNDEL;
 	public static Item ARKYTIOR;
 	public static Item FLOWER_OF_REMEBERANCE;
 	public static Item IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -128,6 +146,7 @@ public class AitplusModItems {
 	public static Item TIME_WAR_DALEK_SPAWN_EGG;
 	public static Item IMPERIAL_DALEK_SPAWN_EGG;
 	public static Item RENEGADE_DALEK_SPAWN_EGG;
+	public static Item DAVAROS_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
@@ -142,7 +161,6 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_PURPLE;
 	public static Item LED_ROUNDEL_RED;
 	public static Item LED_ROUNDEL_YELLOW;
-	public static Item DAVAROS_SPAWN_EGG;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -209,8 +227,6 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(MALDOR_FENCE_GATE));
 		MALDOR_LEAVES = register("maldor_leaves", new BlockItem(AitplusModBlocks.MALDOR_LEAVES, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(MALDOR_LEAVES));
-		LED_ROUNDEL = register("led_roundel", new BlockItem(AitplusModBlocks.LED_ROUNDEL, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(LED_ROUNDEL));
 		METAL_GRATE = register("metal_grate", new BlockItem(AitplusModBlocks.METAL_GRATE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE));
 		METAL_GRATE_STAIRS = register("metal_grate_stairs", new BlockItem(AitplusModBlocks.METAL_GRATE_STAIRS, new Item.Properties()));
@@ -237,6 +253,44 @@ public class AitplusModItems {
 		DALEKANIUM_ARMOR_CHESTPLATE = register("dalekanium_armor_chestplate", new DalekaniumArmorItem.Chestplate());
 		DALEKANIUM_ARMOR_LEGGINGS = register("dalekanium_armor_leggings", new DalekaniumArmorItem.Leggings());
 		DALEKANIUM_ARMOR_BOOTS = register("dalekanium_armor_boots", new DalekaniumArmorItem.Boots());
+		LED_ROUNDEL = register("led_roundel", new BlockItem(AitplusModBlocks.LED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(LED_ROUNDEL));
+		BLOCK_OF_BRACHACKI = register("block_of_brachacki", new BlockItem(AitplusModBlocks.BLOCK_OF_BRACHACKI, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_BRACHACKI));
+		BRACHACKI_A = register("brachacki_a", new BlockItem(AitplusModBlocks.BRACHACKI_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRACHACKI_A));
+		BRACHACKI_B = register("brachacki_b", new BlockItem(AitplusModBlocks.BRACHACKI_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRACHACKI_B));
+		BRACHACKI_DOOR = register("brachacki_door", new BlockItem(AitplusModBlocks.BRACHACKI_DOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRACHACKI_DOOR));
+		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL));
+		STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL = register("stripped_jungle_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL));
+		STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL = register("stripped_spruce_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL));
+		STRIPPED_OAK_LOG_STAINED_ROUNDEL = register("stripped_oak_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_OAK_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_OAK_LOG_STAINED_ROUNDEL));
+		STRIPPED_MANGROVE_LOG_STAINED_ROUNDEL = register("stripped_mangrove_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_MANGROVE_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_MANGROVE_LOG_STAINED_ROUNDEL));
+		STRIPPED_WARPED_STEM_STAINED_ROUNDEL = register("stripped_warped_stem_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_WARPED_STEM_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_WARPED_STEM_STAINED_ROUNDEL));
+		STRIPPED_ACACIA_LOG_STAINED_ROUNDEL = register("stripped_acacia_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_ACACIA_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_ACACIA_LOG_STAINED_ROUNDEL));
+		STRIPPED_BAMBOO_BLOCK_STAINED_ROUNDEL = register("stripped_bamboo_block_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_BAMBOO_BLOCK_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_BAMBOO_BLOCK_STAINED_ROUNDEL));
+		STRIPPED_CHERRY_LOG_STAINED_ROUNDEL = register("stripped_cherry_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_CHERRY_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_CHERRY_LOG_STAINED_ROUNDEL));
+		STRIPPED_BIRCH_LOG_STAINED_ROUNDEL = register("stripped_birch_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_BIRCH_LOG_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_BIRCH_LOG_STAINED_ROUNDEL));
+		STRIPPED_CRIMSON_STEM_STAINED_ROUNDEL = register("stripped_crimson_stem_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_CRIMSON_STEM_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_CRIMSON_STEM_STAINED_ROUNDEL));
+		STONE_BRICKS_STAINED_ROUNDEL = register("stone_bricks_stained_roundel", new BlockItem(AitplusModBlocks.STONE_BRICKS_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STONE_BRICKS_STAINED_ROUNDEL));
+		POLISHED_BLACKSTONE_STAINED_ROUNDEL = register("polished_blackstone_stained_roundel", new BlockItem(AitplusModBlocks.POLISHED_BLACKSTONE_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(POLISHED_BLACKSTONE_STAINED_ROUNDEL));
+		QUARTZ_BLOCK_STAINED_ROUNDEL = register("quartz_block_stained_roundel", new BlockItem(AitplusModBlocks.QUARTZ_BLOCK_STAINED_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_BLOCK_STAINED_ROUNDEL));
 		ARKYTIOR = register("arkytior", new BlockItem(AitplusModBlocks.ARKYTIOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ARKYTIOR));
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new BlockItem(AitplusModBlocks.FLOWER_OF_REMEBERANCE, new Item.Properties()));
@@ -279,6 +333,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(IMPERIAL_DALEK_SPAWN_EGG));
 		RENEGADE_DALEK_SPAWN_EGG = register("renegade_dalek_spawn_egg", new SpawnEggItem(AitplusModEntities.RENEGADE_DALEK, -13421773, -16250872, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RENEGADE_DALEK_SPAWN_EGG));
+		DAVAROS_SPAWN_EGG = register("davaros_spawn_egg", new SpawnEggItem(AitplusModEntities.DAVAROS, -16053493, -14671840, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(DAVAROS_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());
@@ -293,8 +349,6 @@ public class AitplusModItems {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new BlockItem(AitplusModBlocks.LED_ROUNDEL_PURPLE, new Item.Properties()));
 		LED_ROUNDEL_RED = register("led_roundel_red", new BlockItem(AitplusModBlocks.LED_ROUNDEL_RED, new Item.Properties()));
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
-		DAVAROS_SPAWN_EGG = register("davaros_spawn_egg", new SpawnEggItem(AitplusModEntities.DAVAROS, -16053493, -14671840, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(DAVAROS_SPAWN_EGG));
 	}
 
 	public static void clientLoad() {
