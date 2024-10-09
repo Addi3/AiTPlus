@@ -32,11 +32,11 @@ import net.addie.aitplus.init.AitplusModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class BrachackiDoorBlock extends DoorBlock {
+public class RetroDoorBlock extends DoorBlock {
 	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().sound(SoundType.CALCITE).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
 			.isRedstoneConductor((bs, br, bp) -> false);
 
-	public BrachackiDoorBlock() {
+	public RetroDoorBlock() {
 		super(PROPERTIES, BlockSetType.STONE);
 	}
 
@@ -79,6 +79,6 @@ public class BrachackiDoorBlock extends DoorBlock {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.BRACHACKI_DOOR, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.RETRO_DOOR, RenderType.solid());
 	}
 }

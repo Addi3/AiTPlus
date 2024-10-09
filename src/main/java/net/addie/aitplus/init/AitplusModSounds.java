@@ -28,8 +28,7 @@ public class AitplusModSounds {
 	public static SoundEvent DALEK_LASER = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_laser"));
 	public static SoundEvent DALEK_DEATH = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_death"));
 	public static SoundEvent DALEK_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_hurt"));
-	public static SoundEvent CLASSIC_DOOR_OPEN = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "classic_door_open"));
-	public static SoundEvent CLASSIC_DOOR_CLOSE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "classic_door_close"));
+	public static SoundEvent CLASSIC_DOOR = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "classic_door"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
@@ -50,7 +49,6 @@ public class AitplusModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_laser"), DALEK_LASER);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_death"), DALEK_DEATH);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_hurt"), DALEK_HURT);
-		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "classic_door_open"), CLASSIC_DOOR_OPEN);
-		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "classic_door_close"), CLASSIC_DOOR_CLOSE);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "classic_door"), CLASSIC_DOOR);
 	}
 }

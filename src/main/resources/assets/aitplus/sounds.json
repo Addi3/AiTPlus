@@ -175,22 +175,12 @@
       }
     ]
   },
-  "classic_door_open": {
+  "classic_door": {
     "category": "block",
-    "subtitle": "subtitles.classic_door_open",
+    "subtitle": "subtitles.classic_door",
     "sounds": [
       {
-        "name": "aitplus:classic_door_open",
-        "stream": false
-      }
-    ]
-  },
-  "classic_door_close": {
-    "category": "block",
-    "subtitle": "subtitles.classic_door_close",
-    "sounds": [
-      {
-        "name": "aitplus:classic_door_close",
+        "name": "aitplus:classic_door",
         "stream": false
       }
     ]

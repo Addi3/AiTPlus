@@ -2,24 +2,23 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "brachacki_a",
+    "texture": "retro_b",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "brachacki_door",
+    "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Door",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -34,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Brachacki Door",
+    "name": "Retro B",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,11 +50,11 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
@@ -120,12 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "DoorsOnRightClicked"
-    },
-    "onRedstoneOn": {
-      "name": "DoorsOnRightClicked"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

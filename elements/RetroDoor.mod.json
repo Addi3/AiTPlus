@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "brachacki_a",
+    "texture": "retro_a",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "brachacki_door",
+    "itemTexture": "retro_door",
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",
@@ -34,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Brachacki Door",
+    "name": "Retro Door",
     "specialInformation": {
       "fixedValue": []
     },

@@ -22,6 +22,7 @@ import net.addie.aitplus.procedures.LEDRoundelGrayRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelCyanRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlueRedstoneOnProcedure;
 import net.addie.aitplus.procedures.LEDRoundelBlackRedstoneOnProcedure;
+import net.addie.aitplus.procedures.DoorsOnRightClickedProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class AitplusModProcedures {
@@ -44,5 +45,6 @@ public class AitplusModProcedures {
 		new ThalmaWoodOnRightClickedProcedure();
 		new MaldorLogOnRightClickedProcedure();
 		new MaldorWoodOnRightClickedProcedure();
+		new DoorsOnRightClickedProcedure();
 	}
 }

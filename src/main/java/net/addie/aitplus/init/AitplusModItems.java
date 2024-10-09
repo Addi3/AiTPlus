@@ -103,6 +103,9 @@ public class AitplusModItems {
 	public static Item BRACHACKI_A;
 	public static Item BRACHACKI_B;
 	public static Item BRACHACKI_DOOR;
+	public static Item RETRO_A;
+	public static Item RETRO_B;
+	public static Item RETRO_DOOR;
 	public static Item STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
 	public static Item STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
 	public static Item STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL;
@@ -263,6 +266,12 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRACHACKI_B));
 		BRACHACKI_DOOR = register("brachacki_door", new BlockItem(AitplusModBlocks.BRACHACKI_DOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BRACHACKI_DOOR));
+		RETRO_A = register("retro_a", new BlockItem(AitplusModBlocks.RETRO_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_A));
+		RETRO_B = register("retro_b", new BlockItem(AitplusModBlocks.RETRO_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_B));
+		RETRO_DOOR = register("retro_door", new BlockItem(AitplusModBlocks.RETRO_DOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_DOOR));
 		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL));
 		STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL = register("stripped_jungle_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL, new Item.Properties()));

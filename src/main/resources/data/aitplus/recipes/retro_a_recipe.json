@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "retro",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz_block"
+    },
+    "b": {
+      "item": "minecraft:ochre_froglight"
+    }
+  },
+  "result": {
+    "item": "aitplus:retro_a",
+    "count": 4
+  }
+}
