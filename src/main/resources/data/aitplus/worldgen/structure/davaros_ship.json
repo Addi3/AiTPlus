@@ -9,7 +9,7 @@
   "start_height": {
     "absolute": 30
   },
-  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "project_start_to_heightmap": "MOTION_BLOCKING",
   "biomes": "aitplus:petrified_jungle",
   "use_expansion_hack": false
 }

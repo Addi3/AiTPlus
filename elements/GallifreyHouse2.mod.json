@@ -16,7 +16,7 @@
         "value": "CUSTOM:GallifreyPlains"
       }
     ],
-    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "surfaceDetectionType": "MOTION_BLOCKING",
     "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES"
   }

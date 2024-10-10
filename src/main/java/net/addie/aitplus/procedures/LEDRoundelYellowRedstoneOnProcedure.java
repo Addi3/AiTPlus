@@ -11,12 +11,14 @@ import net.addie.aitplus.init.AitplusModBlocks;
 
 public class LEDRoundelYellowRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		world.setBlock(BlockPos.containing(x, y, z), AitplusModBlocks.LED_ROUNDEL.defaultBlockState(), 3);
-		if (world instanceof Level _level) {
-			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1);
-			} else {
-				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1, false);
+		for (int index0 = 0; index0 < 1; index0++) {
+			world.setBlock(BlockPos.containing(x, y, z), AitplusModBlocks.LED_ROUNDEL.defaultBlockState(), 3);
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1, false);
+				}
 			}
 		}
 	}

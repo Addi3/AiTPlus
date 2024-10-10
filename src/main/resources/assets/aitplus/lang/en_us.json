@@ -1,4 +1,5 @@
 {
+  "block.aitplus.quartz_door": "Quartz Door",
   "block.aitplus.stripped_jungle_log_stained_roundel": "Stripped Jungle Log Stained Roundel",
   "block.aitplus.led_roundel": "LED Roundel",
   "block.aitplus.thalma_leaves": "Thalma Leaves",
@@ -91,6 +92,7 @@
   "block.aitplus.stripped_oak_log_stained_roundel": "Stripped Oak Log Stained Roundel",
   "item.aitplus.dalekanium_shovel": "Dalekanium Shovel",
   "block.aitplus.thalma_planks": "Thalma Planks",
+  "block.aitplus.quartz_roundel": "Quartz Roundel",
   "subtitles.dalek_move": "Dalek Moves",
   "block.aitplus.brachacki_b": "Brachacki B",
   "advancements.gallifrey_advancement.title": "The Shining World of the Seven Systems",

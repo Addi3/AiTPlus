@@ -106,6 +106,8 @@ public class AitplusModItems {
 	public static Item RETRO_A;
 	public static Item RETRO_B;
 	public static Item RETRO_DOOR;
+	public static Item QUARTZ_ROUNDEL;
+	public static Item QUARTZ_DOOR;
 	public static Item STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
 	public static Item STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
 	public static Item STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL;
@@ -272,6 +274,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_B));
 		RETRO_DOOR = register("retro_door", new BlockItem(AitplusModBlocks.RETRO_DOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_DOOR));
+		QUARTZ_ROUNDEL = register("quartz_roundel", new BlockItem(AitplusModBlocks.QUARTZ_ROUNDEL, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_ROUNDEL));
+		QUARTZ_DOOR = register("quartz_door", new BlockItem(AitplusModBlocks.QUARTZ_DOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_DOOR));
 		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL));
 		STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL = register("stripped_jungle_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL, new Item.Properties()));

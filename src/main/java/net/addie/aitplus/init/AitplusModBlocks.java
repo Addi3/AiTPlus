@@ -46,6 +46,8 @@ import net.addie.aitplus.block.RetroDoorBlock;
 import net.addie.aitplus.block.RetroBBlock;
 import net.addie.aitplus.block.RetroABlock;
 import net.addie.aitplus.block.RedPetaledOrchidBlock;
+import net.addie.aitplus.block.QuartzRoundelBlock;
+import net.addie.aitplus.block.QuartzDoorBlock;
 import net.addie.aitplus.block.QuartzBlockStainedRoundelBlock;
 import net.addie.aitplus.block.PolishedBlackstoneStainedRoundelBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
@@ -136,6 +138,8 @@ public class AitplusModBlocks {
 	public static Block RETRO_A;
 	public static Block RETRO_B;
 	public static Block RETRO_DOOR;
+	public static Block QUARTZ_ROUNDEL;
+	public static Block QUARTZ_DOOR;
 	public static Block STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
 	public static Block STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
 	public static Block STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL;
@@ -215,6 +219,8 @@ public class AitplusModBlocks {
 		RETRO_A = register("retro_a", new RetroABlock());
 		RETRO_B = register("retro_b", new RetroBBlock());
 		RETRO_DOOR = register("retro_door", new RetroDoorBlock());
+		QUARTZ_ROUNDEL = register("quartz_roundel", new QuartzRoundelBlock());
+		QUARTZ_DOOR = register("quartz_door", new QuartzDoorBlock());
 		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new StrippedDarkOakLogStainedRoundelBlock());
 		STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL = register("stripped_jungle_log_stained_roundel", new StrippedJungleLogStainedRoundelBlock());
 		STRIPPED_SPRUCE_LOG_STAINED_ROUNDEL = register("stripped_spruce_log_stained_roundel", new StrippedSpruceLogStainedRoundelBlock());
@@ -295,6 +301,8 @@ public class AitplusModBlocks {
 		RetroABlock.clientInit();
 		RetroBBlock.clientInit();
 		RetroDoorBlock.clientInit();
+		QuartzRoundelBlock.clientInit();
+		QuartzDoorBlock.clientInit();
 		StrippedDarkOakLogStainedRoundelBlock.clientInit();
 		StrippedJungleLogStainedRoundelBlock.clientInit();
 		StrippedSpruceLogStainedRoundelBlock.clientInit();
