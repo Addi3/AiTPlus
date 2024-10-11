@@ -20,14 +20,18 @@ import net.addie.aitplus.item.TheMightyJellyBabiesItem;
 import net.addie.aitplus.item.TakeMeToTrenzalorItem;
 import net.addie.aitplus.item.TakeMeToSkaroItem;
 import net.addie.aitplus.item.TakeMeToGallifreyItem;
+import net.addie.aitplus.item.StainedRoundelBlueprintItem;
+import net.addie.aitplus.item.RetroRoundelBlueprintItem;
 import net.addie.aitplus.item.RedJellyBabiesItem;
 import net.addie.aitplus.item.RawDalekaniumItem;
+import net.addie.aitplus.item.QuartzRoundelBlueprintItem;
 import net.addie.aitplus.item.PurpleJellyBabiesItem;
 import net.addie.aitplus.item.PinkJellyBabiesItem;
 import net.addie.aitplus.item.OrangeJellyBabiesItem;
 import net.addie.aitplus.item.MagentaJellyBabiesItem;
 import net.addie.aitplus.item.LimejellyBabiesItem;
 import net.addie.aitplus.item.LightBlueJellyBabiesItem;
+import net.addie.aitplus.item.LedBlueprintItem;
 import net.addie.aitplus.item.GreenJellyBabiesItem;
 import net.addie.aitplus.item.FishFingersItem;
 import net.addie.aitplus.item.FishFingersAndCustardItem;
@@ -42,6 +46,9 @@ import net.addie.aitplus.item.DalekaniumArmorItem;
 import net.addie.aitplus.item.CyanJellyBabiesItem;
 import net.addie.aitplus.item.CustardItem;
 import net.addie.aitplus.item.CreativeTabItemItem;
+import net.addie.aitplus.item.BrachackiBlueprintItem;
+import net.addie.aitplus.item.BowlRoundelBlueprintItem;
+import net.addie.aitplus.item.BlueprintItem;
 import net.addie.aitplus.item.BlueJellyBabiesItem;
 import net.addie.aitplus.item.BlackJellyBabiesItem;
 import net.addie.aitplus.AitplusMod;
@@ -106,7 +113,8 @@ public class AitplusModItems {
 	public static Item RETRO_A;
 	public static Item RETRO_B;
 	public static Item RETRO_DOOR;
-	public static Item QUARTZ_ROUNDEL;
+	public static Item QUARTZ_A;
+	public static Item QUARTZ_B;
 	public static Item QUARTZ_DOOR;
 	public static Item STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
 	public static Item STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
@@ -122,6 +130,8 @@ public class AitplusModItems {
 	public static Item STONE_BRICKS_STAINED_ROUNDEL;
 	public static Item POLISHED_BLACKSTONE_STAINED_ROUNDEL;
 	public static Item QUARTZ_BLOCK_STAINED_ROUNDEL;
+	public static Item BOWL_A;
+	public static Item BOWL_B;
 	public static Item ARKYTIOR;
 	public static Item FLOWER_OF_REMEBERANCE;
 	public static Item IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -144,6 +154,14 @@ public class AitplusModItems {
 	public static Item FISH_FINGERS;
 	public static Item CUSTARD;
 	public static Item FISH_FINGERS_AND_CUSTARD;
+	public static Item BLUEPRINT;
+	public static Item LED_BLUEPRINT;
+	public static Item STAINED_ROUNDEL_BLUEPRINT;
+	public static Item QUARTZ_ROUNDEL_BLUEPRINT;
+	public static Item BRACHACKI_BLUEPRINT;
+	public static Item RETRO_ROUNDEL_BLUEPRINT;
+	public static Item BOWL_ROUNDEL_BLUEPRINT;
+	public static Item HAT_STAND;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
@@ -166,6 +184,7 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_PURPLE;
 	public static Item LED_ROUNDEL_RED;
 	public static Item LED_ROUNDEL_YELLOW;
+	public static Item ROUNDEL_TABLE;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -274,8 +293,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_B));
 		RETRO_DOOR = register("retro_door", new BlockItem(AitplusModBlocks.RETRO_DOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(RETRO_DOOR));
-		QUARTZ_ROUNDEL = register("quartz_roundel", new BlockItem(AitplusModBlocks.QUARTZ_ROUNDEL, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_ROUNDEL));
+		QUARTZ_A = register("quartz_a", new BlockItem(AitplusModBlocks.QUARTZ_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_A));
+		QUARTZ_B = register("quartz_b", new BlockItem(AitplusModBlocks.QUARTZ_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_B));
 		QUARTZ_DOOR = register("quartz_door", new BlockItem(AitplusModBlocks.QUARTZ_DOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_DOOR));
 		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new BlockItem(AitplusModBlocks.STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL, new Item.Properties()));
@@ -306,6 +327,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(POLISHED_BLACKSTONE_STAINED_ROUNDEL));
 		QUARTZ_BLOCK_STAINED_ROUNDEL = register("quartz_block_stained_roundel", new BlockItem(AitplusModBlocks.QUARTZ_BLOCK_STAINED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(QUARTZ_BLOCK_STAINED_ROUNDEL));
+		BOWL_A = register("bowl_a", new BlockItem(AitplusModBlocks.BOWL_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BOWL_A));
+		BOWL_B = register("bowl_b", new BlockItem(AitplusModBlocks.BOWL_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BOWL_B));
 		ARKYTIOR = register("arkytior", new BlockItem(AitplusModBlocks.ARKYTIOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ARKYTIOR));
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new BlockItem(AitplusModBlocks.FLOWER_OF_REMEBERANCE, new Item.Properties()));
@@ -334,6 +359,15 @@ public class AitplusModItems {
 		FISH_FINGERS = register("fish_fingers", new FishFingersItem());
 		CUSTARD = register("custard", new CustardItem());
 		FISH_FINGERS_AND_CUSTARD = register("fish_fingers_and_custard", new FishFingersAndCustardItem());
+		BLUEPRINT = register("blueprint", new BlueprintItem());
+		LED_BLUEPRINT = register("led_blueprint", new LedBlueprintItem());
+		STAINED_ROUNDEL_BLUEPRINT = register("stained_roundel_blueprint", new StainedRoundelBlueprintItem());
+		QUARTZ_ROUNDEL_BLUEPRINT = register("quartz_roundel_blueprint", new QuartzRoundelBlueprintItem());
+		BRACHACKI_BLUEPRINT = register("brachacki_blueprint", new BrachackiBlueprintItem());
+		RETRO_ROUNDEL_BLUEPRINT = register("retro_roundel_blueprint", new RetroRoundelBlueprintItem());
+		BOWL_ROUNDEL_BLUEPRINT = register("bowl_roundel_blueprint", new BowlRoundelBlueprintItem());
+		HAT_STAND = register("hat_stand", new BlockItem(AitplusModBlocks.HAT_STAND, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(HAT_STAND));
 		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));
@@ -364,6 +398,7 @@ public class AitplusModItems {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new BlockItem(AitplusModBlocks.LED_ROUNDEL_PURPLE, new Item.Properties()));
 		LED_ROUNDEL_RED = register("led_roundel_red", new BlockItem(AitplusModBlocks.LED_ROUNDEL_RED, new Item.Properties()));
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
+		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

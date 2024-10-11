@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "brachacki",
-  "category": "building",
-  "pattern": [
-    "aa",
-    "aa"
-  ],
-  "key": {
-    "a": {
-      "item": "aitplus:block_of_brachacki"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:brachacki_blueprint"
   },
-  "result": {
-    "item": "aitplus:brachacki_a",
-    "count": 4
-  }
+  "result": "aitplus:brachacki_a"
 }

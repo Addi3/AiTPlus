@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "quartz_roundel",
-  "category": "building",
-  "pattern": [
-    "aa",
-    "aa"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:quartz_block"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:quartz_roundel_blueprint"
   },
-  "result": {
-    "item": "aitplus:quartz_roundel",
-    "count": 4
-  }
+  "result": "aitplus:quartz_a"
 }

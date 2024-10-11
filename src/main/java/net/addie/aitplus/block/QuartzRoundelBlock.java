@@ -43,6 +43,6 @@ public class QuartzRoundelBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.QUARTZ_ROUNDEL, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.QUARTZ_A, RenderType.solid());
 	}
 }

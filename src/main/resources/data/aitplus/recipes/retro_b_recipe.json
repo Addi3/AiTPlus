@@ -1,16 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "a"
-  ],
-  "key": {
-    "a": {
-      "item": "aitplus:retro_a"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:retro_roundel_blueprint"
   },
-  "result": {
-    "item": "aitplus:retro_b",
-    "count": 1
-  }
+  "result": "aitplus:retro_b"
 }

@@ -6,6 +6,7 @@ package net.addie.aitplus.init;
 
 import net.addie.aitplus.procedures.ThalmaWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.ThalmaLogOnRightClickedProcedure;
+import net.addie.aitplus.procedures.TestrecipeProcedure;
 import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
@@ -46,5 +47,6 @@ public class AitplusModProcedures {
 		new MaldorLogOnRightClickedProcedure();
 		new MaldorWoodOnRightClickedProcedure();
 		new DoorsOnRightClickedProcedure();
+		new TestrecipeProcedure();
 	}
 }

@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "brachacki",
-  "category": "building",
-  "pattern": [
-    "aa",
-    "aa",
-    "aa"
-  ],
-  "key": {
-    "a": {
-      "item": "aitplus:brachacki_a"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "aitplus:brachacki_blueprint"
   },
-  "result": {
-    "item": "aitplus:brachacki_door",
-    "count": 2
-  }
+  "result": "aitplus:brachacki_door"
 }

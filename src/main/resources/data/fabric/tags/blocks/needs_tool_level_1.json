@@ -48,7 +48,8 @@
     "aitplus:retro_a",
     "aitplus:retro_b",
     "aitplus:retro_door",
-    "aitplus:quartz_roundel",
+    "aitplus:quartz_a",
+    "aitplus:quartz_b",
     "aitplus:quartz_door",
     "aitplus:stripped_dark_oak_log_stained_roundel",
     "aitplus:stripped_jungle_log_stained_roundel",
@@ -64,6 +65,9 @@
     "aitplus:stone_bricks_stained_roundel",
     "aitplus:polished_blackstone_stained_roundel",
     "aitplus:quartz_block_stained_roundel",
+    "aitplus:bowl_a",
+    "aitplus:bowl_b",
+    "aitplus:hat_stand",
     "aitplus:led_roundel_black",
     "aitplus:led_roundel_blue",
     "aitplus:led_roundel_cyan",
@@ -73,6 +77,7 @@
     "aitplus:led_roundel_pink",
     "aitplus:led_roundel_purple",
     "aitplus:led_roundel_red",
-    "aitplus:led_roundel_yellow"
+    "aitplus:led_roundel_yellow",
+    "aitplus:roundel_table"
   ]
 }

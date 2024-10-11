@@ -42,6 +42,7 @@ import net.addie.aitplus.block.StrippedBambooBlockStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedAcaciaLogStainedRoundelBlock;
 import net.addie.aitplus.block.StoneBricksStainedRoundelBlock;
 import net.addie.aitplus.block.SchlenkBlossomsBlock;
+import net.addie.aitplus.block.RoundelTableBlock;
 import net.addie.aitplus.block.RetroDoorBlock;
 import net.addie.aitplus.block.RetroBBlock;
 import net.addie.aitplus.block.RetroABlock;
@@ -49,6 +50,7 @@ import net.addie.aitplus.block.RedPetaledOrchidBlock;
 import net.addie.aitplus.block.QuartzRoundelBlock;
 import net.addie.aitplus.block.QuartzDoorBlock;
 import net.addie.aitplus.block.QuartzBlockStainedRoundelBlock;
+import net.addie.aitplus.block.QuartzBBlock;
 import net.addie.aitplus.block.PolishedBlackstoneStainedRoundelBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
 import net.addie.aitplus.block.MetalGrateWallBlock;
@@ -79,11 +81,14 @@ import net.addie.aitplus.block.LEDRoundelBlueBlock;
 import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
+import net.addie.aitplus.block.HatStandBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
 import net.addie.aitplus.block.DalekaniumOreBlock;
 import net.addie.aitplus.block.BrachackiDoorBlock;
 import net.addie.aitplus.block.BrachackiBBlock;
 import net.addie.aitplus.block.BrachackiABlock;
+import net.addie.aitplus.block.BowlBBlock;
+import net.addie.aitplus.block.BowlABlock;
 import net.addie.aitplus.block.BlockOfRawDalekaniumBlock;
 import net.addie.aitplus.block.BlockOfDalekaniumBlock;
 import net.addie.aitplus.block.BlockOfBrachackiBlock;
@@ -138,7 +143,8 @@ public class AitplusModBlocks {
 	public static Block RETRO_A;
 	public static Block RETRO_B;
 	public static Block RETRO_DOOR;
-	public static Block QUARTZ_ROUNDEL;
+	public static Block QUARTZ_A;
+	public static Block QUARTZ_B;
 	public static Block QUARTZ_DOOR;
 	public static Block STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL;
 	public static Block STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL;
@@ -154,12 +160,15 @@ public class AitplusModBlocks {
 	public static Block STONE_BRICKS_STAINED_ROUNDEL;
 	public static Block POLISHED_BLACKSTONE_STAINED_ROUNDEL;
 	public static Block QUARTZ_BLOCK_STAINED_ROUNDEL;
+	public static Block BOWL_A;
+	public static Block BOWL_B;
 	public static Block ARKYTIOR;
 	public static Block FLOWER_OF_REMEBERANCE;
 	public static Block IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
 	public static Block MOONLIGHT_BLOOM;
 	public static Block RED_PETALED_ORCHID;
 	public static Block SCHLENK_BLOSSOMS;
+	public static Block HAT_STAND;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_BLUE;
 	public static Block LED_ROUNDEL_CYAN;
@@ -170,6 +179,7 @@ public class AitplusModBlocks {
 	public static Block LED_ROUNDEL_PURPLE;
 	public static Block LED_ROUNDEL_RED;
 	public static Block LED_ROUNDEL_YELLOW;
+	public static Block ROUNDEL_TABLE;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -219,7 +229,8 @@ public class AitplusModBlocks {
 		RETRO_A = register("retro_a", new RetroABlock());
 		RETRO_B = register("retro_b", new RetroBBlock());
 		RETRO_DOOR = register("retro_door", new RetroDoorBlock());
-		QUARTZ_ROUNDEL = register("quartz_roundel", new QuartzRoundelBlock());
+		QUARTZ_A = register("quartz_a", new QuartzRoundelBlock());
+		QUARTZ_B = register("quartz_b", new QuartzBBlock());
 		QUARTZ_DOOR = register("quartz_door", new QuartzDoorBlock());
 		STRIPPED_DARK_OAK_LOG_STAINED_ROUNDEL = register("stripped_dark_oak_log_stained_roundel", new StrippedDarkOakLogStainedRoundelBlock());
 		STRIPPED_JUNGLE_LOG_STAINED_ROUNDEL = register("stripped_jungle_log_stained_roundel", new StrippedJungleLogStainedRoundelBlock());
@@ -235,12 +246,15 @@ public class AitplusModBlocks {
 		STONE_BRICKS_STAINED_ROUNDEL = register("stone_bricks_stained_roundel", new StoneBricksStainedRoundelBlock());
 		POLISHED_BLACKSTONE_STAINED_ROUNDEL = register("polished_blackstone_stained_roundel", new PolishedBlackstoneStainedRoundelBlock());
 		QUARTZ_BLOCK_STAINED_ROUNDEL = register("quartz_block_stained_roundel", new QuartzBlockStainedRoundelBlock());
+		BOWL_A = register("bowl_a", new BowlABlock());
+		BOWL_B = register("bowl_b", new BowlBBlock());
 		ARKYTIOR = register("arkytior", new ArkytiorBlock());
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new FlowerOfRemeberanceBlock());
 		IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA = register("iridescent_velvet_red_madevinia_aridosa", new IridescentVelvetRedMadeviniaAridosaBlock());
 		MOONLIGHT_BLOOM = register("moonlight_bloom", new MoonlightBloomBlock());
 		RED_PETALED_ORCHID = register("red_petaled_orchid", new RedPetaledOrchidBlock());
 		SCHLENK_BLOSSOMS = register("schlenk_blossoms", new SchlenkBlossomsBlock());
+		HAT_STAND = register("hat_stand", new HatStandBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_BLUE = register("led_roundel_blue", new LEDRoundelBlueBlock());
 		LED_ROUNDEL_CYAN = register("led_roundel_cyan", new LEDRoundelCyanBlock());
@@ -251,6 +265,7 @@ public class AitplusModBlocks {
 		LED_ROUNDEL_PURPLE = register("led_roundel_purple", new LEDRoundelPurpleBlock());
 		LED_ROUNDEL_RED = register("led_roundel_red", new LEDRoundelRedBlock());
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new LEDRoundelYellowBlock());
+		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
 	}
 
 	public static void clientLoad() {
@@ -302,6 +317,7 @@ public class AitplusModBlocks {
 		RetroBBlock.clientInit();
 		RetroDoorBlock.clientInit();
 		QuartzRoundelBlock.clientInit();
+		QuartzBBlock.clientInit();
 		QuartzDoorBlock.clientInit();
 		StrippedDarkOakLogStainedRoundelBlock.clientInit();
 		StrippedJungleLogStainedRoundelBlock.clientInit();
@@ -317,12 +333,15 @@ public class AitplusModBlocks {
 		StoneBricksStainedRoundelBlock.clientInit();
 		PolishedBlackstoneStainedRoundelBlock.clientInit();
 		QuartzBlockStainedRoundelBlock.clientInit();
+		BowlABlock.clientInit();
+		BowlBBlock.clientInit();
 		ArkytiorBlock.clientInit();
 		FlowerOfRemeberanceBlock.clientInit();
 		IridescentVelvetRedMadeviniaAridosaBlock.clientInit();
 		MoonlightBloomBlock.clientInit();
 		RedPetaledOrchidBlock.clientInit();
 		SchlenkBlossomsBlock.clientInit();
+		HatStandBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelBlueBlock.clientInit();
 		LEDRoundelCyanBlock.clientInit();
@@ -333,6 +352,7 @@ public class AitplusModBlocks {
 		LEDRoundelPurpleBlock.clientInit();
 		LEDRoundelRedBlock.clientInit();
 		LEDRoundelYellowBlock.clientInit();
+		RoundelTableBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

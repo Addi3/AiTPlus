@@ -2,44 +2,18 @@
   "_fv": 57,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 8,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:RetroA"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RetroRoundelBlueprint"
+    },
+    "stoneCuttingReturnStack": {
       "value": "CUSTOM:RetroB"
     },
     "name": "retro_b_recipe",

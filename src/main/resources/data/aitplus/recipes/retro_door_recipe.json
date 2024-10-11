@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "retro",
-  "category": "building",
-  "pattern": [
-    "aa",
-    "aa",
-    "aa"
-  ],
-  "key": {
-    "a": {
-      "item": "aitplus:retro_a"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "aitplus:retro_roundel_blueprint"
   },
-  "result": {
-    "item": "aitplus:retro_door",
-    "count": 2
-  }
+  "result": "aitplus:retro_door"
 }
