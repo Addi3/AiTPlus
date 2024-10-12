@@ -166,6 +166,7 @@ public class AitplusModItems {
 	public static Item STATUE_1;
 	public static Item GRAMOPHONE;
 	public static Item CANDLE_STAND;
+	public static Item JUKEBOX_TOP;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
@@ -381,6 +382,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(GRAMOPHONE));
 		CANDLE_STAND = register("candle_stand", new BlockItem(AitplusModBlocks.CANDLE_STAND, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDLE_STAND));
+		JUKEBOX_TOP = register("jukebox_top", new BlockItem(AitplusModBlocks.JUKEBOX_TOP, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(JUKEBOX_TOP));
 		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));

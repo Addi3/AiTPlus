@@ -81,6 +81,7 @@ import net.addie.aitplus.block.LEDRoundelCyanBlock;
 import net.addie.aitplus.block.LEDRoundelBlueBlock;
 import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
+import net.addie.aitplus.block.JukeboxTopBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.HatStandWhiteBlock;
 import net.addie.aitplus.block.HatStandBlock;
@@ -178,6 +179,7 @@ public class AitplusModBlocks {
 	public static Block STATUE_1;
 	public static Block GRAMOPHONE;
 	public static Block CANDLE_STAND;
+	public static Block JUKEBOX_TOP;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_BLUE;
 	public static Block LED_ROUNDEL_CYAN;
@@ -269,6 +271,7 @@ public class AitplusModBlocks {
 		STATUE_1 = register("statue_1", new Statue1Block());
 		GRAMOPHONE = register("gramophone", new GramophoneBlock());
 		CANDLE_STAND = register("candle_stand", new CandleStandBlock());
+		JUKEBOX_TOP = register("jukebox_top", new JukeboxTopBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_BLUE = register("led_roundel_blue", new LEDRoundelBlueBlock());
 		LED_ROUNDEL_CYAN = register("led_roundel_cyan", new LEDRoundelCyanBlock());
@@ -361,6 +364,7 @@ public class AitplusModBlocks {
 		Statue1Block.clientInit();
 		GramophoneBlock.clientInit();
 		CandleStandBlock.clientInit();
+		JukeboxTopBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelBlueBlock.clientInit();
 		LEDRoundelCyanBlock.clientInit();
