@@ -42,8 +42,13 @@ public class JukeboxTopBlock extends Block {
 	}
 
 	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 3;
+		return 0;
 	}
 
 	@Override

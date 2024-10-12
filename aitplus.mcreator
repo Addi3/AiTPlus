@@ -1011,7 +1011,7 @@
           "src/main/resources/assets/aitplus/models/block/led_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelBlack",
@@ -1028,7 +1028,7 @@
           "src/main/java/net/addie/aitplus/block/LEDRoundelBlackBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelBlue",
@@ -1045,7 +1045,7 @@
           "src/main/resources/assets/aitplus/models/item/led_roundel_blue.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelCyan",
@@ -1062,7 +1062,7 @@
           "src/main/java/net/addie/aitplus/block/LEDRoundelCyanBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelGray",
@@ -1079,7 +1079,7 @@
           "src/main/resources/assets/aitplus/blockstates/led_roundel_gray.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelGreen",
@@ -1096,7 +1096,7 @@
           "src/main/resources/assets/aitplus/models/item/led_roundel_green.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelOrange",
@@ -1113,7 +1113,7 @@
           "src/main/resources/assets/aitplus/blockstates/led_roundel_orange.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelPink",
@@ -1130,7 +1130,7 @@
           "src/main/java/net/addie/aitplus/block/LEDRoundelPinkBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelPurple",
@@ -1147,7 +1147,7 @@
           "src/main/resources/assets/aitplus/blockstates/led_roundel_purple.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelRed",
@@ -1164,7 +1164,7 @@
           "src/main/resources/assets/aitplus/models/item/led_roundel_red.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelYellow",
@@ -1181,7 +1181,7 @@
           "src/main/resources/assets/aitplus/models/block/led_roundel_yellow.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led"
+      "path": "~/Blocks/Other/Roundels/Led"
     },
     {
       "name": "LEDRoundelRedstoneOn",
@@ -1213,7 +1213,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelBlackRedstoneOn",
@@ -1245,7 +1245,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelGrayRedstoneOn",
@@ -1277,7 +1277,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelBlueRedstoneOn",
@@ -1309,7 +1309,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelCyanRedstoneOn",
@@ -1341,7 +1341,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelGreenRedstoneOn",
@@ -1373,7 +1373,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelOrangeRedstoneOn",
@@ -1405,7 +1405,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelPinkRedstoneOn",
@@ -1437,7 +1437,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelPurpleRedstoneOn",
@@ -1469,7 +1469,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelRedRedstoneOn",
@@ -1501,7 +1501,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "LEDRoundelYellowRedstoneOn",
@@ -1533,7 +1533,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Scripts"
+      "path": "~/Blocks/Other/Roundels/Led/Scripts"
     },
     {
       "name": "Thalma",
@@ -2334,7 +2334,7 @@
           "src/main/resources/assets/aitplus/models/block/metal_grate.json"
         ]
       },
-      "path": "~/Blocks/Grate"
+      "path": "~/Blocks/Other/Grate"
     },
     {
       "name": "MetalGrateStairs",
@@ -2353,7 +2353,7 @@
           "src/main/resources/assets/aitplus/models/block/metal_grate_stairs.json"
         ]
       },
-      "path": "~/Blocks/Grate"
+      "path": "~/Blocks/Other/Grate"
     },
     {
       "name": "MetalGrateSlab",
@@ -2372,7 +2372,7 @@
           "src/main/resources/assets/aitplus/models/block/metal_grate_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Grate"
+      "path": "~/Blocks/Other/Grate"
     },
     {
       "name": "MetalGrateWall",
@@ -2392,7 +2392,7 @@
           "src/main/resources/assets/aitplus/models/block/metal_grate_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Grate"
+      "path": "~/Blocks/Other/Grate"
     },
     {
       "name": "ClassicDalek",
@@ -2773,7 +2773,7 @@
           "src/main/java/net/addie/aitplus/block/BrachackiABlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki"
+      "path": "~/Blocks/Other/Roundels/Brachacki"
     },
     {
       "name": "BrachackiB",
@@ -2790,7 +2790,7 @@
           "src/main/resources/assets/aitplus/models/item/brachacki_b.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki"
+      "path": "~/Blocks/Other/Roundels/Brachacki"
     },
     {
       "name": "BlockOfBrachacki",
@@ -2807,7 +2807,7 @@
           "src/main/resources/assets/aitplus/models/block/block_of_brachacki.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki"
+      "path": "~/Blocks/Other/Roundels/Brachacki"
     },
     {
       "name": "StrippedDarkOakLogStainedRoundel",
@@ -2824,7 +2824,7 @@
           "src/main/resources/assets/aitplus/models/block/stripped_dark_oak_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedJungleLogStainedRoundel",
@@ -2841,7 +2841,7 @@
           "src/main/resources/assets/aitplus/models/item/stripped_jungle_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedOakLogStainedRoundel",
@@ -2858,7 +2858,7 @@
           "src/main/resources/assets/aitplus/models/block/stripped_oak_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedSpruceLogStainedRoundel",
@@ -2875,7 +2875,7 @@
           "src/main/resources/assets/aitplus/blockstates/stripped_spruce_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedMangroveLogStainedRoundel",
@@ -2892,7 +2892,7 @@
           "src/main/resources/assets/aitplus/blockstates/stripped_mangrove_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedWarpedStemStainedRoundel",
@@ -2909,7 +2909,7 @@
           "src/main/resources/assets/aitplus/models/item/stripped_warped_stem_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedAcaciaLogStainedRoundel",
@@ -2926,7 +2926,7 @@
           "src/main/resources/assets/aitplus/models/block/stripped_acacia_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedBambooBlockStainedRoundel",
@@ -2943,7 +2943,7 @@
           "src/main/resources/assets/aitplus/models/block/stripped_bamboo_block_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StoneBricksStainedRoundel",
@@ -2960,7 +2960,7 @@
           "src/main/java/net/addie/aitplus/block/StoneBricksStainedRoundelBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "PolishedBlackstoneStainedRoundel",
@@ -2977,7 +2977,7 @@
           "src/main/resources/assets/aitplus/blockstates/polished_blackstone_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedCherryLogStainedRoundel",
@@ -2994,7 +2994,7 @@
           "src/main/resources/assets/aitplus/models/item/stripped_cherry_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "QuartzBlockStainedRoundel",
@@ -3011,7 +3011,7 @@
           "src/main/resources/assets/aitplus/models/item/quartz_block_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedBirchLogStainedRoundel",
@@ -3028,7 +3028,7 @@
           "src/main/resources/assets/aitplus/models/item/stripped_birch_log_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "StrippedCrimsonStemStainedRoundel",
@@ -3045,7 +3045,7 @@
           "src/main/resources/assets/aitplus/blockstates/stripped_crimson_stem_stained_roundel.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained"
+      "path": "~/Blocks/Other/Roundels/Stained"
     },
     {
       "name": "BrachackiDoor",
@@ -3069,7 +3069,7 @@
           "src/main/resources/assets/aitplus/models/block/brachacki_door_top_left.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Doors/Brachacki"
+      "path": "~/Blocks/Other/Roundels/Doors/Brachacki"
     },
     {
       "name": "DoorsOnRightClicked",
@@ -3101,7 +3101,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Roundels/Doors"
+      "path": "~/Blocks/Other/Roundels/Doors"
     },
     {
       "name": "RetroA",
@@ -3118,7 +3118,7 @@
           "src/main/resources/assets/aitplus/models/block/retro_a.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Retro"
+      "path": "~/Blocks/Other/Roundels/Retro"
     },
     {
       "name": "RetroB",
@@ -3135,7 +3135,7 @@
           "src/main/resources/assets/aitplus/blockstates/retro_b.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Retro"
+      "path": "~/Blocks/Other/Roundels/Retro"
     },
     {
       "name": "RetroDoor",
@@ -3159,7 +3159,7 @@
           "src/main/resources/assets/aitplus/models/block/retro_door_bottom_right_open.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Doors/Retro"
+      "path": "~/Blocks/Other/Roundels/Doors/Retro"
     },
     {
       "name": "QuartzRoundel",
@@ -3176,7 +3176,7 @@
           "src/main/java/net/addie/aitplus/block/QuartzRoundelBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Quartz"
+      "path": "~/Blocks/Other/Roundels/Quartz"
     },
     {
       "name": "QuartzDoor",
@@ -3200,7 +3200,7 @@
           "src/main/resources/assets/aitplus/models/item/quartz_door.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Doors/Quartz"
+      "path": "~/Blocks/Other/Roundels/Doors/Quartz"
     },
     {
       "name": "HatStand",
@@ -3217,7 +3217,7 @@
           "src/main/java/net/addie/aitplus/block/HatStandBlock.java"
         ]
       },
-      "path": "~/Blocks/HatStand"
+      "path": "~/Blocks/Decor/HatStand"
     },
     {
       "name": "HatStandRecipe",
@@ -3231,7 +3231,7 @@
           "src/main/resources/data/aitplus/recipes/hat_stand_recipe.json"
         ]
       },
-      "path": "~/Blocks/HatStand"
+      "path": "~/Blocks/Decor/HatStand"
     },
     {
       "name": "BowlA",
@@ -3248,7 +3248,7 @@
           "src/main/resources/assets/aitplus/blockstates/bowl_a.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Bowl"
+      "path": "~/Blocks/Other/Roundels/Bowl"
     },
     {
       "name": "BowlB",
@@ -3265,7 +3265,7 @@
           "src/main/java/net/addie/aitplus/block/BowlBBlock.java"
         ]
       },
-      "path": "~/Blocks/Roundels/Bowl"
+      "path": "~/Blocks/Other/Roundels/Bowl"
     },
     {
       "name": "RoundelTable",
@@ -3283,7 +3283,7 @@
           "src/main/resources/assets/aitplus/models/item/roundel_table.json"
         ]
       },
-      "path": "~/Blocks/RoundelCraftingTable"
+      "path": "~/Blocks/Other/RoundelCraftingTable"
     },
     {
       "name": "RoundelTableGui",
@@ -3298,7 +3298,7 @@
           "src/main/java/net/addie/aitplus/world/inventory/RoundelTableGuiMenu.java"
         ]
       },
-      "path": "~/Blocks/RoundelCraftingTable"
+      "path": "~/Blocks/Other/RoundelCraftingTable"
     },
     {
       "name": "StainedGlass",
@@ -3332,7 +3332,7 @@
           }
         ]
       },
-      "path": "~/Blocks/RoundelCraftingTable"
+      "path": "~/Blocks/Other/RoundelCraftingTable"
     },
     {
       "name": "LedBlueprint",
@@ -3451,7 +3451,7 @@
           "src/main/resources/data/aitplus/recipes/blueprint.json"
         ]
       },
-      "path": "~/Blocks/RoundelCraftingTable"
+      "path": "~/Blocks/Other/RoundelCraftingTable"
     },
     {
       "name": "LedBlueprintRecipe",
@@ -3549,7 +3549,7 @@
           "src/main/resources/data/aitplus/recipes/led_roundel_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Led/Recipes"
+      "path": "~/Blocks/Other/Roundels/Led/Recipes"
     },
     {
       "name": "DarkOakStainedRecipe",
@@ -3563,7 +3563,7 @@
           "src/main/resources/data/aitplus/recipes/dark_oak_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "JungleStainedRecipe",
@@ -3577,7 +3577,7 @@
           "src/main/resources/data/aitplus/recipes/jungle_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "OakStainedRecipe",
@@ -3591,7 +3591,7 @@
           "src/main/resources/data/aitplus/recipes/oak_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "SpruceStainedRecipe",
@@ -3605,7 +3605,7 @@
           "src/main/resources/data/aitplus/recipes/spruce_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "MangroveStainedRecipe",
@@ -3619,7 +3619,7 @@
           "src/main/resources/data/aitplus/recipes/mangrove_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "AcaciaStainedRecipe",
@@ -3633,7 +3633,7 @@
           "src/main/resources/data/aitplus/recipes/acacia_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "BambooStainedRecipe",
@@ -3647,7 +3647,7 @@
           "src/main/resources/data/aitplus/recipes/bamboo_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "StoneStainedRecipe",
@@ -3661,7 +3661,7 @@
           "src/main/resources/data/aitplus/recipes/stone_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "WarpedStainedRecipe",
@@ -3675,7 +3675,7 @@
           "src/main/resources/data/aitplus/recipes/warped_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "BlackstoneStainedRecipe",
@@ -3689,7 +3689,7 @@
           "src/main/resources/data/aitplus/recipes/blackstone_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "CherryStainedRecipe",
@@ -3703,7 +3703,7 @@
           "src/main/resources/data/aitplus/recipes/cherry_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "QuartzStainedRecipe",
@@ -3717,7 +3717,7 @@
           "src/main/resources/data/aitplus/recipes/quartz_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "BirchStainedRecipe",
@@ -3731,7 +3731,7 @@
           "src/main/resources/data/aitplus/recipes/birch_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "CrimsonStainedRecipe",
@@ -3745,7 +3745,7 @@
           "src/main/resources/data/aitplus/recipes/crimson_stained_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Stained/Recipes"
+      "path": "~/Blocks/Other/Roundels/Stained/Recipes"
     },
     {
       "name": "BrachackiARecipe",
@@ -3759,7 +3759,7 @@
           "src/main/resources/data/aitplus/recipes/brachacki_a_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki/Recipes"
+      "path": "~/Blocks/Other/Roundels/Brachacki/Recipes"
     },
     {
       "name": "BrachackiBRecipe",
@@ -3773,7 +3773,7 @@
           "src/main/resources/data/aitplus/recipes/brachacki_b_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki/Recipes"
+      "path": "~/Blocks/Other/Roundels/Brachacki/Recipes"
     },
     {
       "name": "BrachackiBlockRecipe",
@@ -3787,7 +3787,7 @@
           "src/main/resources/data/aitplus/recipes/brachacki_block_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki/Recipes"
+      "path": "~/Blocks/Other/Roundels/Brachacki/Recipes"
     },
     {
       "name": "RetroARecipe",
@@ -3801,7 +3801,7 @@
           "src/main/resources/data/aitplus/recipes/retro_a_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Retro/Recipes"
+      "path": "~/Blocks/Other/Roundels/Retro/Recipes"
     },
     {
       "name": "RetroBRecipe",
@@ -3815,7 +3815,7 @@
           "src/main/resources/data/aitplus/recipes/retro_b_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Retro/Recipes"
+      "path": "~/Blocks/Other/Roundels/Retro/Recipes"
     },
     {
       "name": "RetroDoorRecipe",
@@ -3829,7 +3829,7 @@
           "src/main/resources/data/aitplus/recipes/retro_door_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Retro/Recipes"
+      "path": "~/Blocks/Other/Roundels/Retro/Recipes"
     },
     {
       "name": "BrachackiDoorRecipe",
@@ -3843,7 +3843,7 @@
           "src/main/resources/data/aitplus/recipes/brachacki_door_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Brachacki/Recipes"
+      "path": "~/Blocks/Other/Roundels/Brachacki/Recipes"
     },
     {
       "name": "QuartzRoundelRecipe",
@@ -3857,7 +3857,7 @@
           "src/main/resources/data/aitplus/recipes/quartz_roundel_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Quartz/Recipes"
+      "path": "~/Blocks/Other/Roundels/Quartz/Recipes"
     },
     {
       "name": "BowlARecipe",
@@ -3871,7 +3871,7 @@
           "src/main/resources/data/aitplus/recipes/bowl_a_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Bowl/Recipes"
+      "path": "~/Blocks/Other/Roundels/Bowl/Recipes"
     },
     {
       "name": "BowlBRecipe",
@@ -3885,7 +3885,7 @@
           "src/main/resources/data/aitplus/recipes/bowl_b_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Bowl/Recipes"
+      "path": "~/Blocks/Other/Roundels/Bowl/Recipes"
     },
     {
       "name": "QuartzB",
@@ -3902,7 +3902,7 @@
           "src/main/resources/assets/aitplus/models/block/quartz_b.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Quartz"
+      "path": "~/Blocks/Other/Roundels/Quartz"
     },
     {
       "name": "QuartzBRecipe",
@@ -3916,7 +3916,7 @@
           "src/main/resources/data/aitplus/recipes/quartz_b_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Quartz/Recipes"
+      "path": "~/Blocks/Other/Roundels/Quartz/Recipes"
     },
     {
       "name": "QuartzDoorRecipe",
@@ -3930,7 +3930,7 @@
           "src/main/resources/data/aitplus/recipes/quartz_door_recipe.json"
         ]
       },
-      "path": "~/Blocks/Roundels/Quartz/Recipes"
+      "path": "~/Blocks/Other/Roundels/Quartz/Recipes"
     },
     {
       "name": "Statue1",
@@ -3947,7 +3947,7 @@
           "src/main/resources/assets/aitplus/models/block/statue_1.json"
         ]
       },
-      "path": "~/Blocks/Statue"
+      "path": "~/Blocks/Decor/Statue"
     },
     {
       "name": "StatueRecipe",
@@ -3961,7 +3961,7 @@
           "src/main/resources/data/aitplus/recipes/statue_recipe.json"
         ]
       },
-      "path": "~/Blocks/Statue/Statue1Recipes"
+      "path": "~/Blocks/Decor/Statue/Statue1Recipes"
     },
     {
       "name": "StatueStonecutterRecipe",
@@ -3975,7 +3975,7 @@
           "src/main/resources/data/aitplus/recipes/statue_stonecutter_recipe.json"
         ]
       },
-      "path": "~/Blocks/Statue/Statue1Recipes"
+      "path": "~/Blocks/Decor/Statue/Statue1Recipes"
     },
     {
       "name": "Gramophone",
@@ -3992,7 +3992,7 @@
           "src/main/resources/assets/aitplus/models/item/gramophone.json"
         ]
       },
-      "path": "~/Blocks/Gramophone"
+      "path": "~/Blocks/Decor/Gramophone"
     },
     {
       "name": "GramophoneRecipe",
@@ -4006,7 +4006,7 @@
           "src/main/resources/data/aitplus/recipes/gramophone_recipe.json"
         ]
       },
-      "path": "~/Blocks/Gramophone"
+      "path": "~/Blocks/Decor/Gramophone"
     },
     {
       "name": "CandleStand",
@@ -4023,7 +4023,7 @@
           "src/main/resources/assets/aitplus/blockstates/candle_stand.json"
         ]
       },
-      "path": "~/Blocks/CandleStand"
+      "path": "~/Blocks/Decor/CandleStand"
     },
     {
       "name": "CandelStandLit",
@@ -4040,7 +4040,7 @@
           "src/main/java/net/addie/aitplus/block/CandelStandLitBlock.java"
         ]
       },
-      "path": "~/Blocks/CandleStand"
+      "path": "~/Blocks/Decor/CandleStand"
     },
     {
       "name": "CandleStandRecipe",
@@ -4054,7 +4054,7 @@
           "src/main/resources/data/aitplus/recipes/candle_stand_recipe.json"
         ]
       },
-      "path": "~/Blocks/CandleStand/Recipe"
+      "path": "~/Blocks/Decor/CandleStand/Recipe"
     },
     {
       "name": "CandleStandOnBlockRightClicked",
@@ -4090,7 +4090,7 @@
           }
         ]
       },
-      "path": "~/Blocks/CandleStand/scripts"
+      "path": "~/Blocks/Decor/CandleStand/scripts"
     },
     {
       "name": "CandelStandLitOnBlockRightClicked",
@@ -4122,7 +4122,7 @@
           }
         ]
       },
-      "path": "~/Blocks/CandleStand/scripts"
+      "path": "~/Blocks/Decor/CandleStand/scripts"
     },
     {
       "name": "CandelStandLitUpdateTick",
@@ -4154,7 +4154,7 @@
           }
         ]
       },
-      "path": "~/Blocks/CandleStand/scripts"
+      "path": "~/Blocks/Decor/CandleStand/scripts"
     },
     {
       "name": "AitPlusBlocks",
@@ -4199,7 +4199,7 @@
           "src/main/java/net/addie/aitplus/block/HatStandWhiteBlock.java"
         ]
       },
-      "path": "~/Blocks/HatStand"
+      "path": "~/Blocks/Decor/HatStand"
     },
     {
       "name": "HatStandWhiteRecipe",
@@ -4213,7 +4213,7 @@
           "src/main/resources/data/aitplus/recipes/hat_stand_white_recipe.json"
         ]
       },
-      "path": "~/Blocks/HatStand"
+      "path": "~/Blocks/Decor/HatStand"
     },
     {
       "name": "JukeboxTop",
@@ -4230,7 +4230,7 @@
           "src/main/resources/assets/aitplus/models/block/jukebox_top.json"
         ]
       },
-      "path": "~/Blocks/Jukebox"
+      "path": "~/Blocks/Decor/Jukebox"
     },
     {
       "name": "JukeboxTopRecipe",
@@ -4244,7 +4244,7 @@
           "src/main/resources/data/aitplus/recipes/jukebox_top_recipe.json"
         ]
       },
-      "path": "~/Blocks/Jukebox/Recipe"
+      "path": "~/Blocks/Decor/Jukebox/Recipe"
     }
   ],
   "variable_elements": [],
@@ -4679,139 +4679,149 @@
             ]
           },
           {
-            "name": "Roundels",
+            "name": "Decor",
             "children": [
               {
-                "name": "Led",
+                "name": "Jukebox",
                 "children": [
                   {
-                    "name": "Scripts",
-                    "children": []
-                  },
-                  {
-                    "name": "Recipes",
+                    "name": "Recipe",
                     "children": []
                   }
                 ]
               },
               {
-                "name": "Doors",
+                "name": "CandleStand",
                 "children": [
                   {
-                    "name": "Brachacki",
+                    "name": "Recipe",
                     "children": []
+                  },
+                  {
+                    "name": "scripts",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Gramophone",
+                "children": []
+              },
+              {
+                "name": "Statue",
+                "children": [
+                  {
+                    "name": "Statue1Recipes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "HatStand",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Other",
+            "children": [
+              {
+                "name": "RoundelCraftingTable",
+                "children": [
+                  {
+                    "name": "recipes",
+                    "children": [
+                      {
+                        "name": "Blueprints",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Grate",
+                "children": []
+              },
+              {
+                "name": "Roundels",
+                "children": [
+                  {
+                    "name": "Led",
+                    "children": [
+                      {
+                        "name": "Scripts",
+                        "children": []
+                      },
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Doors",
+                    "children": [
+                      {
+                        "name": "Brachacki",
+                        "children": []
+                      },
+                      {
+                        "name": "Retro",
+                        "children": []
+                      },
+                      {
+                        "name": "Quartz",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Stained",
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Brachacki",
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "Retro",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "Quartz",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Stained",
-                "children": [
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
+                  },
                   {
-                    "name": "Recipes",
-                    "children": []
+                    "name": "Bowl",
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
-              },
-              {
-                "name": "Brachacki",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Retro",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Quartz",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Bowl",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Grate",
-            "children": []
-          },
-          {
-            "name": "HatStand",
-            "children": []
-          },
-          {
-            "name": "RoundelCraftingTable",
-            "children": [
-              {
-                "name": "recipes",
-                "children": [
-                  {
-                    "name": "Blueprints",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Statue",
-            "children": [
-              {
-                "name": "Statue1Recipes",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Gramophone",
-            "children": []
-          },
-          {
-            "name": "CandleStand",
-            "children": [
-              {
-                "name": "Recipe",
-                "children": []
-              },
-              {
-                "name": "scripts",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Jukebox",
-            "children": [
-              {
-                "name": "Recipe",
-                "children": []
               }
             ]
           }

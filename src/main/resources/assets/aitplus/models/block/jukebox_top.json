@@ -1,9 +1,10 @@
 {
-  "parent": "aitplus:custom/juke_box",
+  "parent": "aitplus:custom/juke_box_top",
   "textures": {
     "all": "aitplus:block/juke_box",
     "particle": "aitplus:block/juke_box",
-    "0": "aitplus:block/juke_box"
+    "0": "aitplus:block/juke_box",
+    "missing": "aitplus:block/"
   },
   "render_type": "translucent"
 }
