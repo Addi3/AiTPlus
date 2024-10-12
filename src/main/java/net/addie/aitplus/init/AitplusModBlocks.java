@@ -82,10 +82,13 @@ import net.addie.aitplus.block.LEDRoundelBlueBlock;
 import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
+import net.addie.aitplus.block.HatStandWhiteBlock;
 import net.addie.aitplus.block.HatStandBlock;
 import net.addie.aitplus.block.GramophoneBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
 import net.addie.aitplus.block.DalekaniumOreBlock;
+import net.addie.aitplus.block.CandleStandBlock;
+import net.addie.aitplus.block.CandelStandLitBlock;
 import net.addie.aitplus.block.BrachackiDoorBlock;
 import net.addie.aitplus.block.BrachackiBBlock;
 import net.addie.aitplus.block.BrachackiABlock;
@@ -171,8 +174,10 @@ public class AitplusModBlocks {
 	public static Block RED_PETALED_ORCHID;
 	public static Block SCHLENK_BLOSSOMS;
 	public static Block HAT_STAND;
+	public static Block HAT_STAND_WHITE;
 	public static Block STATUE_1;
 	public static Block GRAMOPHONE;
+	public static Block CANDLE_STAND;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_BLUE;
 	public static Block LED_ROUNDEL_CYAN;
@@ -184,6 +189,7 @@ public class AitplusModBlocks {
 	public static Block LED_ROUNDEL_RED;
 	public static Block LED_ROUNDEL_YELLOW;
 	public static Block ROUNDEL_TABLE;
+	public static Block CANDEL_STAND_LIT;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -259,8 +265,10 @@ public class AitplusModBlocks {
 		RED_PETALED_ORCHID = register("red_petaled_orchid", new RedPetaledOrchidBlock());
 		SCHLENK_BLOSSOMS = register("schlenk_blossoms", new SchlenkBlossomsBlock());
 		HAT_STAND = register("hat_stand", new HatStandBlock());
+		HAT_STAND_WHITE = register("hat_stand_white", new HatStandWhiteBlock());
 		STATUE_1 = register("statue_1", new Statue1Block());
 		GRAMOPHONE = register("gramophone", new GramophoneBlock());
+		CANDLE_STAND = register("candle_stand", new CandleStandBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_BLUE = register("led_roundel_blue", new LEDRoundelBlueBlock());
 		LED_ROUNDEL_CYAN = register("led_roundel_cyan", new LEDRoundelCyanBlock());
@@ -272,6 +280,7 @@ public class AitplusModBlocks {
 		LED_ROUNDEL_RED = register("led_roundel_red", new LEDRoundelRedBlock());
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new LEDRoundelYellowBlock());
 		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
+		CANDEL_STAND_LIT = register("candel_stand_lit", new CandelStandLitBlock());
 	}
 
 	public static void clientLoad() {
@@ -348,8 +357,10 @@ public class AitplusModBlocks {
 		RedPetaledOrchidBlock.clientInit();
 		SchlenkBlossomsBlock.clientInit();
 		HatStandBlock.clientInit();
+		HatStandWhiteBlock.clientInit();
 		Statue1Block.clientInit();
 		GramophoneBlock.clientInit();
+		CandleStandBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelBlueBlock.clientInit();
 		LEDRoundelCyanBlock.clientInit();
@@ -361,6 +372,7 @@ public class AitplusModBlocks {
 		LEDRoundelRedBlock.clientInit();
 		LEDRoundelYellowBlock.clientInit();
 		RoundelTableBlock.clientInit();
+		CandelStandLitBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

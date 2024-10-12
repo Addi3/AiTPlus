@@ -162,8 +162,10 @@ public class AitplusModItems {
 	public static Item RETRO_ROUNDEL_BLUEPRINT;
 	public static Item BOWL_ROUNDEL_BLUEPRINT;
 	public static Item HAT_STAND;
+	public static Item HAT_STAND_WHITE;
 	public static Item STATUE_1;
 	public static Item GRAMOPHONE;
+	public static Item CANDLE_STAND;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
@@ -187,6 +189,7 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_RED;
 	public static Item LED_ROUNDEL_YELLOW;
 	public static Item ROUNDEL_TABLE;
+	public static Item CANDEL_STAND_LIT;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -370,10 +373,14 @@ public class AitplusModItems {
 		BOWL_ROUNDEL_BLUEPRINT = register("bowl_roundel_blueprint", new BowlRoundelBlueprintItem());
 		HAT_STAND = register("hat_stand", new BlockItem(AitplusModBlocks.HAT_STAND, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(HAT_STAND));
+		HAT_STAND_WHITE = register("hat_stand_white", new BlockItem(AitplusModBlocks.HAT_STAND_WHITE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(HAT_STAND_WHITE));
 		STATUE_1 = register("statue_1", new BlockItem(AitplusModBlocks.STATUE_1, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STATUE_1));
 		GRAMOPHONE = register("gramophone", new BlockItem(AitplusModBlocks.GRAMOPHONE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(GRAMOPHONE));
+		CANDLE_STAND = register("candle_stand", new BlockItem(AitplusModBlocks.CANDLE_STAND, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CANDLE_STAND));
 		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));
@@ -405,6 +412,7 @@ public class AitplusModItems {
 		LED_ROUNDEL_RED = register("led_roundel_red", new BlockItem(AitplusModBlocks.LED_ROUNDEL_RED, new Item.Properties()));
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
+		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

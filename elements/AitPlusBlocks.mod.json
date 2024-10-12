@@ -1,0 +1,286 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TrenzalorianStone"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneStairs"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneSlab"
+      },
+      {
+        "value": "CUSTOM:TrenzalorianStoneWall"
+      },
+      {
+        "value": "CUSTOM:Arkytior"
+      },
+      {
+        "value": "CUSTOM:FlowerOfRemeberance"
+      },
+      {
+        "value": "CUSTOM:IridescentVelvetRedMadeviniaAridosa"
+      },
+      {
+        "value": "CUSTOM:MoonlightBloom"
+      },
+      {
+        "value": "CUSTOM:RedPetaledOrchid"
+      },
+      {
+        "value": "CUSTOM:SchlenkBlossoms"
+      },
+      {
+        "value": "CUSTOM:LEDRoundel"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelBlack"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelBlue"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelCyan"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelGray"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelGreen"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelOrange"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelPink"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelPurple"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelRed"
+      },
+      {
+        "value": "CUSTOM:LEDRoundelYellow"
+      },
+      {
+        "value": "CUSTOM:Thalma"
+      },
+      {
+        "value": "CUSTOM:ThalmaLog"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaWood"
+      },
+      {
+        "value": "CUSTOM:StrippedThalmaLog"
+      },
+      {
+        "value": "CUSTOM:ThalmaLeaves"
+      },
+      {
+        "value": "CUSTOM:Skaro.portal"
+      },
+      {
+        "value": "CUSTOM:ThalmaPlanks"
+      },
+      {
+        "value": "CUSTOM:ThalmaStairs"
+      },
+      {
+        "value": "CUSTOM:ThalmaSlab"
+      },
+      {
+        "value": "CUSTOM:ThalmaButton"
+      },
+      {
+        "value": "CUSTOM:ThalmaPressurePlate"
+      },
+      {
+        "value": "CUSTOM:ThalmaTrapdoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaDoor"
+      },
+      {
+        "value": "CUSTOM:ThalmaFence"
+      },
+      {
+        "value": "CUSTOM:ThalmaFenceGate"
+      },
+      {
+        "value": "CUSTOM:MaldorLog"
+      },
+      {
+        "value": "CUSTOM:MaldorWood"
+      },
+      {
+        "value": "CUSTOM:StrippedMaldorLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMaldorWood"
+      },
+      {
+        "value": "CUSTOM:MaldorPlanks"
+      },
+      {
+        "value": "CUSTOM:MaldorStairs"
+      },
+      {
+        "value": "CUSTOM:MaldorSlab"
+      },
+      {
+        "value": "CUSTOM:MaldorTrapDoor"
+      },
+      {
+        "value": "CUSTOM:MaldorDoor"
+      },
+      {
+        "value": "CUSTOM:MaldorPressurePlate"
+      },
+      {
+        "value": "CUSTOM:MaldorButton"
+      },
+      {
+        "value": "CUSTOM:MaldorFence"
+      },
+      {
+        "value": "CUSTOM:MaldorFenceGate"
+      },
+      {
+        "value": "CUSTOM:MaldorLeaves"
+      },
+      {
+        "value": "CUSTOM:MetalGrate"
+      },
+      {
+        "value": "CUSTOM:MetalGrateStairs"
+      },
+      {
+        "value": "CUSTOM:MetalGrateSlab"
+      },
+      {
+        "value": "CUSTOM:MetalGrateWall"
+      },
+      {
+        "value": "CUSTOM:BlockOfDalekanium"
+      },
+      {
+        "value": "CUSTOM:BlockOfRawDalekanium"
+      },
+      {
+        "value": "CUSTOM:DalekaniumOre"
+      },
+      {
+        "value": "CUSTOM:BrachackiA"
+      },
+      {
+        "value": "CUSTOM:BrachackiB"
+      },
+      {
+        "value": "CUSTOM:BlockOfBrachacki"
+      },
+      {
+        "value": "CUSTOM:StrippedDarkOakLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedJungleLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedOakLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedSpruceLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedMangroveLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedWarpedStemStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedAcaciaLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedBambooBlockStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StoneBricksStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:PolishedBlackstoneStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedCherryLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:QuartzBlockStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedBirchLogStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:StrippedCrimsonStemStainedRoundel"
+      },
+      {
+        "value": "CUSTOM:BrachackiDoor"
+      },
+      {
+        "value": "CUSTOM:RetroA"
+      },
+      {
+        "value": "CUSTOM:RetroB"
+      },
+      {
+        "value": "CUSTOM:RetroDoor"
+      },
+      {
+        "value": "CUSTOM:QuartzRoundel"
+      },
+      {
+        "value": "CUSTOM:QuartzDoor"
+      },
+      {
+        "value": "CUSTOM:HatStand"
+      },
+      {
+        "value": "CUSTOM:BowlA"
+      },
+      {
+        "value": "CUSTOM:BowlB"
+      },
+      {
+        "value": "CUSTOM:RoundelTable"
+      },
+      {
+        "value": "CUSTOM:QuartzB"
+      },
+      {
+        "value": "CUSTOM:Statue1"
+      },
+      {
+        "value": "CUSTOM:Gramophone"
+      },
+      {
+        "value": "CUSTOM:CandleStand"
+      },
+      {
+        "value": "CUSTOM:CandelStandLit"
+      },
+      {
+        "value": "CUSTOM:HatStandWhite"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "ait_plus_blocks",
+    "namespace": "minecraft"
+  }
+}

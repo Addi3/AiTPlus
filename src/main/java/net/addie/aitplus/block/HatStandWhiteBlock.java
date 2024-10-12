@@ -31,29 +31,33 @@ import net.addie.aitplus.init.AitplusModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class Statue1Block extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
-			.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false);
+public class HatStandWhiteBlock extends Block {
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public Statue1Block() {
+	public HatStandWhiteBlock() {
 		super(PROPERTIES);
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
 	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 10;
+		return 0;
 	}
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return (switch (state.getValue(FACING)) {
-			default -> box(2, 0, 2, 14, 32, 14);
-			case NORTH -> box(2, 0, 2, 14, 32, 14);
-			case EAST -> box(2, 0, 2, 14, 32, 14);
-			case WEST -> box(2, 0, 2, 14, 32, 14);
+			default -> box(7, 4, 7, 9, 32, 9);
+			case NORTH -> box(7, 4, 7, 9, 32, 9);
+			case EAST -> box(7, 4, 7, 9, 32, 9);
+			case WEST -> box(7, 4, 7, 9, 32, 9);
 		}).move(offset.x, offset.y, offset.z);
 	}
 
@@ -80,11 +84,11 @@ public class Statue1Block extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(AitplusModBlocks.HAT_STAND));
 	}
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STATUE_1, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.HAT_STAND_WHITE, RenderType.translucent());
 	}
 }
