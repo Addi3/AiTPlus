@@ -4276,6 +4276,35 @@
         ]
       },
       "path": "~/Blocks/Decor/Bookshelf"
+    },
+    {
+      "name": "JammieDodgers",
+      "type": "item",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jammie_dodgers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/JammieDodgersItem.java",
+          "src/main/resources/assets/aitplus/models/item/jammie_dodgers.json"
+        ]
+      },
+      "path": "~/Items/JammieDodgers"
+    },
+    {
+      "name": "JammieDodgersRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jammie_dodgers_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/jammie_dodgers_recipe.json"
+        ]
+      },
+      "path": "~/Items/JammieDodgers"
     }
   ],
   "variable_elements": [],
@@ -4474,6 +4503,7 @@
       "item.aitplus.dalekanium_pickaxe": "Dalekanium Pickaxe",
       "block.aitplus.moonlight_bloom": "Moonlight Bloom",
       "block.aitplus.quartz_block_stained_roundel": "Quartz Block Stained Roundel",
+      "item.aitplus.jammie_dodgers": "Jammie Dodgers",
       "block.aitplus.led_roundel_purple": "LED Roundel",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
       "block.aitplus.metal_grate_slab": "Metal Grate Slab",
@@ -4905,6 +4935,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "JammieDodgers",
+            "children": []
           }
         ]
       },

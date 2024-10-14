@@ -32,6 +32,7 @@ import net.addie.aitplus.item.MagentaJellyBabiesItem;
 import net.addie.aitplus.item.LimejellyBabiesItem;
 import net.addie.aitplus.item.LightBlueJellyBabiesItem;
 import net.addie.aitplus.item.LedBlueprintItem;
+import net.addie.aitplus.item.JammieDodgersItem;
 import net.addie.aitplus.item.GreenJellyBabiesItem;
 import net.addie.aitplus.item.FishFingersItem;
 import net.addie.aitplus.item.FishFingersAndCustardItem;
@@ -192,6 +193,7 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_YELLOW;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
+	public static Item JAMMIE_DODGERS;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -419,6 +421,7 @@ public class AitplusModItems {
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
+		JAMMIE_DODGERS = register("jammie_dodgers", new JammieDodgersItem());
 	}
 
 	public static void clientLoad() {
