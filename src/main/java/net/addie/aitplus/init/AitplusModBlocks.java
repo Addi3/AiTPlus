@@ -41,8 +41,10 @@ import net.addie.aitplus.block.StrippedCherryLogStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedBirchLogStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedBambooBlockStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedAcaciaLogStainedRoundelBlock;
+import net.addie.aitplus.block.StreetLightBlock;
 import net.addie.aitplus.block.StoneBricksStainedRoundelBlock;
 import net.addie.aitplus.block.Statue1Block;
+import net.addie.aitplus.block.SealOfRassilonBlock;
 import net.addie.aitplus.block.SchlenkBlossomsBlock;
 import net.addie.aitplus.block.RoundelTableBlock;
 import net.addie.aitplus.block.RetroDoorBlock;
@@ -182,6 +184,8 @@ public class AitplusModBlocks {
 	public static Block CANDLE_STAND;
 	public static Block JUKEBOX_TOP;
 	public static Block TOYOTA_BOOKSHELF;
+	public static Block SEAL_OF_RASSILON;
+	public static Block STREET_LAMP;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_BLUE;
 	public static Block LED_ROUNDEL_CYAN;
@@ -275,6 +279,8 @@ public class AitplusModBlocks {
 		CANDLE_STAND = register("candle_stand", new CandleStandBlock());
 		JUKEBOX_TOP = register("jukebox_top", new JukeboxTopBlock());
 		TOYOTA_BOOKSHELF = register("toyota_bookshelf", new ToyotaBookshelfBlock());
+		SEAL_OF_RASSILON = register("seal_of_rassilon", new SealOfRassilonBlock());
+		STREET_LAMP = register("street_lamp", new StreetLightBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_BLUE = register("led_roundel_blue", new LEDRoundelBlueBlock());
 		LED_ROUNDEL_CYAN = register("led_roundel_cyan", new LEDRoundelCyanBlock());
@@ -369,6 +375,8 @@ public class AitplusModBlocks {
 		CandleStandBlock.clientInit();
 		JukeboxTopBlock.clientInit();
 		ToyotaBookshelfBlock.clientInit();
+		SealOfRassilonBlock.clientInit();
+		StreetLightBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelBlueBlock.clientInit();
 		LEDRoundelCyanBlock.clientInit();

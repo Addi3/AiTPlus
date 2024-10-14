@@ -155,6 +155,7 @@ public class AitplusModItems {
 	public static Item FISH_FINGERS;
 	public static Item CUSTARD;
 	public static Item FISH_FINGERS_AND_CUSTARD;
+	public static Item JAMMIE_DODGERS;
 	public static Item BLUEPRINT;
 	public static Item LED_BLUEPRINT;
 	public static Item STAINED_ROUNDEL_BLUEPRINT;
@@ -169,6 +170,8 @@ public class AitplusModItems {
 	public static Item CANDLE_STAND;
 	public static Item JUKEBOX_TOP;
 	public static Item TOYOTA_BOOKSHELF;
+	public static Item SEAL_OF_RASSILON;
+	public static Item STREET_LAMP;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
@@ -193,7 +196,6 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_YELLOW;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
-	public static Item JAMMIE_DODGERS;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -368,6 +370,7 @@ public class AitplusModItems {
 		FISH_FINGERS = register("fish_fingers", new FishFingersItem());
 		CUSTARD = register("custard", new CustardItem());
 		FISH_FINGERS_AND_CUSTARD = register("fish_fingers_and_custard", new FishFingersAndCustardItem());
+		JAMMIE_DODGERS = register("jammie_dodgers", new JammieDodgersItem());
 		BLUEPRINT = register("blueprint", new BlueprintItem());
 		LED_BLUEPRINT = register("led_blueprint", new LedBlueprintItem());
 		STAINED_ROUNDEL_BLUEPRINT = register("stained_roundel_blueprint", new StainedRoundelBlueprintItem());
@@ -389,6 +392,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(JUKEBOX_TOP));
 		TOYOTA_BOOKSHELF = register("toyota_bookshelf", new BlockItem(AitplusModBlocks.TOYOTA_BOOKSHELF, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(TOYOTA_BOOKSHELF));
+		SEAL_OF_RASSILON = register("seal_of_rassilon", new BlockItem(AitplusModBlocks.SEAL_OF_RASSILON, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(SEAL_OF_RASSILON));
+		STREET_LAMP = register("street_lamp", new BlockItem(AitplusModBlocks.STREET_LAMP, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STREET_LAMP));
 		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));
@@ -421,7 +428,6 @@ public class AitplusModItems {
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
-		JAMMIE_DODGERS = register("jammie_dodgers", new JammieDodgersItem());
 	}
 
 	public static void clientLoad() {

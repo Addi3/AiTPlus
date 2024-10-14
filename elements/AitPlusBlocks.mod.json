@@ -274,6 +274,15 @@
       },
       {
         "value": "CUSTOM:HatStandWhite"
+      },
+      {
+        "value": "CUSTOM:JukeboxTop"
+      },
+      {
+        "value": "CUSTOM:ToyotaBookshelf"
+      },
+      {
+        "value": "CUSTOM:SealOfRassilon"
       }
     ],
     "functions": [],
