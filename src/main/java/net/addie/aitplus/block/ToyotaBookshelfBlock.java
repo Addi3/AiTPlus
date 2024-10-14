@@ -2,6 +2,7 @@
 package net.addie.aitplus.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootParams;
@@ -31,11 +32,11 @@ import net.addie.aitplus.init.AitplusModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class HatStandBlock extends Block {
+public class ToyotaBookshelfBlock extends Block {
 	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public HatStandBlock() {
+	public ToyotaBookshelfBlock() {
 		super(PROPERTIES);
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -54,10 +55,10 @@ public class HatStandBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return (switch (state.getValue(FACING)) {
-			default -> box(7, 4, 7, 9, 32, 9);
-			case NORTH -> box(7, 4, 7, 9, 32, 9);
-			case EAST -> box(7, 4, 7, 9, 32, 9);
-			case WEST -> box(7, 4, 7, 9, 32, 9);
+			default -> Shapes.or(box(-7, 0, 0, 23, 14, 16), box(1, 14, 0, 15, 27, 16));
+			case NORTH -> Shapes.or(box(-7, 0, 0, 23, 14, 16), box(1, 14, 0, 15, 27, 16));
+			case EAST -> Shapes.or(box(0, 0, -7, 16, 14, 23), box(0, 14, 1, 16, 27, 15));
+			case WEST -> Shapes.or(box(0, 0, -7, 16, 14, 23), box(0, 14, 1, 16, 27, 15));
 		}).move(offset.x, offset.y, offset.z);
 	}
 
@@ -89,6 +90,6 @@ public class HatStandBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.HAT_STAND, RenderType.cutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.TOYOTA_BOOKSHELF, RenderType.cutout());
 	}
 }

@@ -13,6 +13,7 @@ import net.addie.aitplus.block.TrenzalorianStoneWallBlock;
 import net.addie.aitplus.block.TrenzalorianStoneStairsBlock;
 import net.addie.aitplus.block.TrenzalorianStoneSlabBlock;
 import net.addie.aitplus.block.TrenzalorianStoneBlock;
+import net.addie.aitplus.block.ToyotaBookshelfBlock;
 import net.addie.aitplus.block.ThalmaTrapdoorBlock;
 import net.addie.aitplus.block.ThalmaStairsBlock;
 import net.addie.aitplus.block.ThalmaSlabBlock;
@@ -180,6 +181,7 @@ public class AitplusModBlocks {
 	public static Block GRAMOPHONE;
 	public static Block CANDLE_STAND;
 	public static Block JUKEBOX_TOP;
+	public static Block TOYOTA_BOOKSHELF;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_BLUE;
 	public static Block LED_ROUNDEL_CYAN;
@@ -272,6 +274,7 @@ public class AitplusModBlocks {
 		GRAMOPHONE = register("gramophone", new GramophoneBlock());
 		CANDLE_STAND = register("candle_stand", new CandleStandBlock());
 		JUKEBOX_TOP = register("jukebox_top", new JukeboxTopBlock());
+		TOYOTA_BOOKSHELF = register("toyota_bookshelf", new ToyotaBookshelfBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_BLUE = register("led_roundel_blue", new LEDRoundelBlueBlock());
 		LED_ROUNDEL_CYAN = register("led_roundel_cyan", new LEDRoundelCyanBlock());
@@ -365,6 +368,7 @@ public class AitplusModBlocks {
 		GramophoneBlock.clientInit();
 		CandleStandBlock.clientInit();
 		JukeboxTopBlock.clientInit();
+		ToyotaBookshelfBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelBlueBlock.clientInit();
 		LEDRoundelCyanBlock.clientInit();

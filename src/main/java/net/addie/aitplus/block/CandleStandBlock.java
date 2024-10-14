@@ -109,6 +109,6 @@ public class CandleStandBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CANDLE_STAND, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CANDLE_STAND, RenderType.cutout());
 	}
 }

@@ -90,6 +90,6 @@ public class JukeboxTopBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.JUKEBOX_TOP, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.JUKEBOX_TOP, RenderType.cutout());
 	}
 }

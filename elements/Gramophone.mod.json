@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -35,7 +35,9 @@
     ],
     "name": "Gramophone",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "jukebox modification"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

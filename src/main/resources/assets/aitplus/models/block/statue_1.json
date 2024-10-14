@@ -6,5 +6,5 @@
     "1": "aitplus:block/statue",
     "2": "aitplus:block/statue_other"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

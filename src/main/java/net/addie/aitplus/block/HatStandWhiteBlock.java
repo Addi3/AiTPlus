@@ -89,6 +89,6 @@ public class HatStandWhiteBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.HAT_STAND_WHITE, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.HAT_STAND_WHITE, RenderType.cutout());
 	}
 }

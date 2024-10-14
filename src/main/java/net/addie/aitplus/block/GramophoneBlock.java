@@ -98,6 +98,6 @@ public class GramophoneBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.GRAMOPHONE, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.GRAMOPHONE, RenderType.cutout());
 	}
 }

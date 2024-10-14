@@ -129,6 +129,6 @@ public class CandelStandLitBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CANDEL_STAND_LIT, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.CANDEL_STAND_LIT, RenderType.cutout());
 	}
 }

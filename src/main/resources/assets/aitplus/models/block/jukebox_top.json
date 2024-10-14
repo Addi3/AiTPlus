@@ -4,6 +4,7 @@
     "all": "aitplus:block/juke_box",
     "particle": "aitplus:block/juke_box",
     "0": "aitplus:block/juke_box",
+    "1": "aitplus:block/juke_box_e",
     "missing": "aitplus:block/"
   },
   "render_type": "translucent"

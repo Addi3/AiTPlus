@@ -35,7 +35,9 @@
     ],
     "name": "Jukebox Top",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "jukebox modification"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,
