@@ -53,10 +53,10 @@ public class SealOfRassilonBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return (switch (state.getValue(FACING)) {
-			default -> box(0, 0, 8, 16, 16, 16);
-			case NORTH -> box(0, 0, 0, 16, 16, 8);
-			case EAST -> box(8, 0, 0, 16, 16, 16);
-			case WEST -> box(0, 0, 0, 8, 16, 16);
+			default -> box(0, 0, -2, 16, 16, 8);
+			case NORTH -> box(0, 0, 8, 16, 16, 18);
+			case EAST -> box(-2, 0, 0, 8, 16, 16);
+			case WEST -> box(8, 0, 0, 18, 16, 16);
 		}).move(offset.x, offset.y, offset.z);
 	}
 
@@ -67,9 +67,7 @@ public class SealOfRassilonBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
-			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
-		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {

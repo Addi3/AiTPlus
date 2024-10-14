@@ -89,6 +89,6 @@ public class StreetLampBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STREET_LAMP, RenderType.cutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STREET_LAMP, RenderType.cutoutMipped());
 	}
 }
