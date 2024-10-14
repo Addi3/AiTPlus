@@ -4338,23 +4338,6 @@
       "path": "~/Blocks/Decor/SealOfRassilon"
     },
     {
-      "name": "StreetLight",
-      "type": "block",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "street_lamp",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aitplus/models/block/street_lamp.json",
-          "src/main/resources/assets/aitplus/blockstates/street_lamp.json",
-          "src/main/resources/assets/aitplus/models/item/street_lamp.json",
-          "src/main/java/net/addie/aitplus/block/StreetLightBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Decor/StreetLamp"
-    },
-    {
       "name": "StreetLampRecipe",
       "type": "recipe",
       "sortid": 252,
@@ -4364,6 +4347,23 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aitplus/recipes/street_lamp_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Decor/StreetLamp"
+    },
+    {
+      "name": "StreetLamp",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "street_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/street_lamp.json",
+          "src/main/resources/assets/aitplus/blockstates/street_lamp.json",
+          "src/main/java/net/addie/aitplus/block/StreetLampBlock.java",
+          "src/main/resources/assets/aitplus/models/item/street_lamp.json"
         ]
       },
       "path": "~/Blocks/Decor/StreetLamp"

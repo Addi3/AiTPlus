@@ -31,12 +31,11 @@ import net.addie.aitplus.init.AitplusModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class StreetLightBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.NETHER_BRICKS).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
-			.isRedstoneConductor((bs, br, bp) -> false);
+public class StreetLampBlock extends Block {
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public StreetLightBlock() {
+	public StreetLampBlock() {
 		super(PROPERTIES);
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -55,10 +54,10 @@ public class StreetLightBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return (switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(6, 0, 6, 10, 9, 10), box(7, 9, 7, 9, 26, 9), box(7, 31, 7, 9, 32, 9), box(6, 26, 6, 10, 31, 10));
-			case NORTH -> Shapes.or(box(6, 0, 6, 10, 9, 10), box(7, 9, 7, 9, 26, 9), box(7, 31, 7, 9, 32, 9), box(6, 26, 6, 10, 31, 10));
-			case EAST -> Shapes.or(box(6, 0, 6, 10, 9, 10), box(7, 9, 7, 9, 26, 9), box(7, 31, 7, 9, 32, 9), box(6, 26, 6, 10, 31, 10));
-			case WEST -> Shapes.or(box(6, 0, 6, 10, 9, 10), box(7, 9, 7, 9, 26, 9), box(7, 31, 7, 9, 32, 9), box(6, 26, 6, 10, 31, 10));
+			default -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
+			case NORTH -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
+			case EAST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
+			case WEST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
 		}).move(offset.x, offset.y, offset.z);
 	}
 

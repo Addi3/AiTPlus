@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StreetLight"
+      "value": "CUSTOM:StreetLamp"
     },
     "name": "street_lamp_recipe",
     "namespace": "mod"

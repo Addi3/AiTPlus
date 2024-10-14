@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "street_lamp"
+        "0": "street_lamp"
       },
       "name": "default"
     }
