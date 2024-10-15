@@ -42,6 +42,7 @@ import net.addie.aitplus.block.StrippedBirchLogStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedBambooBlockStainedRoundelBlock;
 import net.addie.aitplus.block.StrippedAcaciaLogStainedRoundelBlock;
 import net.addie.aitplus.block.StreetLampBlock;
+import net.addie.aitplus.block.StoneDoorBlock;
 import net.addie.aitplus.block.StoneBricksStainedRoundelBlock;
 import net.addie.aitplus.block.Statue1Block;
 import net.addie.aitplus.block.SealOfRassilonBlock;
@@ -171,6 +172,7 @@ public class AitplusModBlocks {
 	public static Block QUARTZ_BLOCK_STAINED_ROUNDEL;
 	public static Block BOWL_A;
 	public static Block BOWL_B;
+	public static Block STONE_DOOR;
 	public static Block ARKYTIOR;
 	public static Block FLOWER_OF_REMEBERANCE;
 	public static Block IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -266,6 +268,7 @@ public class AitplusModBlocks {
 		QUARTZ_BLOCK_STAINED_ROUNDEL = register("quartz_block_stained_roundel", new QuartzBlockStainedRoundelBlock());
 		BOWL_A = register("bowl_a", new BowlABlock());
 		BOWL_B = register("bowl_b", new BowlBBlock());
+		STONE_DOOR = register("stone_door", new StoneDoorBlock());
 		ARKYTIOR = register("arkytior", new ArkytiorBlock());
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new FlowerOfRemeberanceBlock());
 		IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA = register("iridescent_velvet_red_madevinia_aridosa", new IridescentVelvetRedMadeviniaAridosaBlock());
@@ -362,6 +365,7 @@ public class AitplusModBlocks {
 		QuartzBlockStainedRoundelBlock.clientInit();
 		BowlABlock.clientInit();
 		BowlBBlock.clientInit();
+		StoneDoorBlock.clientInit();
 		ArkytiorBlock.clientInit();
 		FlowerOfRemeberanceBlock.clientInit();
 		IridescentVelvetRedMadeviniaAridosaBlock.clientInit();

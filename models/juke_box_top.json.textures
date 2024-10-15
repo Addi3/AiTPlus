@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "juke_box",
-        "missing": ""
+        "0": "juke_box"
       },
       "name": "default"
     }

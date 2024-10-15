@@ -133,6 +133,7 @@ public class AitplusModItems {
 	public static Item QUARTZ_BLOCK_STAINED_ROUNDEL;
 	public static Item BOWL_A;
 	public static Item BOWL_B;
+	public static Item STONE_DOOR;
 	public static Item ARKYTIOR;
 	public static Item FLOWER_OF_REMEBERANCE;
 	public static Item IRIDESCENT_VELVET_RED_MADEVINIA_ARIDOSA;
@@ -342,6 +343,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BOWL_A));
 		BOWL_B = register("bowl_b", new BlockItem(AitplusModBlocks.BOWL_B, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BOWL_B));
+		STONE_DOOR = register("stone_door", new BlockItem(AitplusModBlocks.STONE_DOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STONE_DOOR));
 		ARKYTIOR = register("arkytior", new BlockItem(AitplusModBlocks.ARKYTIOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ARKYTIOR));
 		FLOWER_OF_REMEBERANCE = register("flower_of_remeberance", new BlockItem(AitplusModBlocks.FLOWER_OF_REMEBERANCE, new Item.Properties()));
