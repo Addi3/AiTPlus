@@ -33,6 +33,7 @@ import net.addie.aitplus.item.LimejellyBabiesItem;
 import net.addie.aitplus.item.LightBlueJellyBabiesItem;
 import net.addie.aitplus.item.LedBlueprintItem;
 import net.addie.aitplus.item.JammieDodgersItem;
+import net.addie.aitplus.item.IceBlueRoundelBlueprintItem;
 import net.addie.aitplus.item.GreenJellyBabiesItem;
 import net.addie.aitplus.item.FishFingersItem;
 import net.addie.aitplus.item.FishFingersAndCustardItem;
@@ -107,6 +108,8 @@ public class AitplusModItems {
 	public static Item DALEKANIUM_ARMOR_LEGGINGS;
 	public static Item DALEKANIUM_ARMOR_BOOTS;
 	public static Item LED_ROUNDEL;
+	public static Item ICE_BLUE_A;
+	public static Item ICE_BLUE_B;
 	public static Item BLOCK_OF_BRACHACKI;
 	public static Item BRACHACKI_A;
 	public static Item BRACHACKI_B;
@@ -164,6 +167,7 @@ public class AitplusModItems {
 	public static Item BRACHACKI_BLUEPRINT;
 	public static Item RETRO_ROUNDEL_BLUEPRINT;
 	public static Item BOWL_ROUNDEL_BLUEPRINT;
+	public static Item ICE_BLUE_ROUNDEL_BLUEPRINT;
 	public static Item HAT_STAND;
 	public static Item HAT_STAND_WHITE;
 	public static Item STATUE_1;
@@ -291,6 +295,10 @@ public class AitplusModItems {
 		DALEKANIUM_ARMOR_BOOTS = register("dalekanium_armor_boots", new DalekaniumArmorItem.Boots());
 		LED_ROUNDEL = register("led_roundel", new BlockItem(AitplusModBlocks.LED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(LED_ROUNDEL));
+		ICE_BLUE_A = register("ice_blue_a", new BlockItem(AitplusModBlocks.ICE_BLUE_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ICE_BLUE_A));
+		ICE_BLUE_B = register("ice_blue_b", new BlockItem(AitplusModBlocks.ICE_BLUE_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ICE_BLUE_B));
 		BLOCK_OF_BRACHACKI = register("block_of_brachacki", new BlockItem(AitplusModBlocks.BLOCK_OF_BRACHACKI, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_BRACHACKI));
 		BRACHACKI_A = register("brachacki_a", new BlockItem(AitplusModBlocks.BRACHACKI_A, new Item.Properties()));
@@ -381,6 +389,7 @@ public class AitplusModItems {
 		BRACHACKI_BLUEPRINT = register("brachacki_blueprint", new BrachackiBlueprintItem());
 		RETRO_ROUNDEL_BLUEPRINT = register("retro_roundel_blueprint", new RetroRoundelBlueprintItem());
 		BOWL_ROUNDEL_BLUEPRINT = register("bowl_roundel_blueprint", new BowlRoundelBlueprintItem());
+		ICE_BLUE_ROUNDEL_BLUEPRINT = register("ice_blue_roundel_blueprint", new IceBlueRoundelBlueprintItem());
 		HAT_STAND = register("hat_stand", new BlockItem(AitplusModBlocks.HAT_STAND, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(HAT_STAND));
 		HAT_STAND_WHITE = register("hat_stand_white", new BlockItem(AitplusModBlocks.HAT_STAND_WHITE, new Item.Properties()));

@@ -87,6 +87,8 @@ import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
 import net.addie.aitplus.block.JukeboxTopBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
+import net.addie.aitplus.block.IceBlueBBlock;
+import net.addie.aitplus.block.IceBlueABlock;
 import net.addie.aitplus.block.HatStandWhiteBlock;
 import net.addie.aitplus.block.HatStandBlock;
 import net.addie.aitplus.block.GramophoneBlock;
@@ -146,6 +148,8 @@ public class AitplusModBlocks {
 	public static Block BLOCK_OF_DALEKANIUM;
 	public static Block BLOCK_OF_RAW_DALEKANIUM;
 	public static Block LED_ROUNDEL;
+	public static Block ICE_BLUE_A;
+	public static Block ICE_BLUE_B;
 	public static Block BLOCK_OF_BRACHACKI;
 	public static Block BRACHACKI_A;
 	public static Block BRACHACKI_B;
@@ -242,6 +246,8 @@ public class AitplusModBlocks {
 		BLOCK_OF_DALEKANIUM = register("block_of_dalekanium", new BlockOfDalekaniumBlock());
 		BLOCK_OF_RAW_DALEKANIUM = register("block_of_raw_dalekanium", new BlockOfRawDalekaniumBlock());
 		LED_ROUNDEL = register("led_roundel", new LEDRoundelBlock());
+		ICE_BLUE_A = register("ice_blue_a", new IceBlueABlock());
+		ICE_BLUE_B = register("ice_blue_b", new IceBlueBBlock());
 		BLOCK_OF_BRACHACKI = register("block_of_brachacki", new BlockOfBrachackiBlock());
 		BRACHACKI_A = register("brachacki_a", new BrachackiABlock());
 		BRACHACKI_B = register("brachacki_b", new BrachackiBBlock());
@@ -339,6 +345,8 @@ public class AitplusModBlocks {
 		BlockOfDalekaniumBlock.clientInit();
 		BlockOfRawDalekaniumBlock.clientInit();
 		LEDRoundelBlock.clientInit();
+		IceBlueABlock.clientInit();
+		IceBlueBBlock.clientInit();
 		BlockOfBrachackiBlock.clientInit();
 		BrachackiABlock.clientInit();
 		BrachackiBBlock.clientInit();
