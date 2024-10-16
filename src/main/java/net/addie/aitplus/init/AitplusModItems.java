@@ -110,6 +110,9 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL;
 	public static Item ICE_BLUE_A;
 	public static Item ICE_BLUE_B;
+	public static Item BLOW_UP_A;
+	public static Item BLOW_UP_B;
+	public static Item BLOW_UP_C;
 	public static Item BLOCK_OF_BRACHACKI;
 	public static Item BRACHACKI_A;
 	public static Item BRACHACKI_B;
@@ -299,6 +302,12 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ICE_BLUE_A));
 		ICE_BLUE_B = register("ice_blue_b", new BlockItem(AitplusModBlocks.ICE_BLUE_B, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(ICE_BLUE_B));
+		BLOW_UP_A = register("blow_up_a", new BlockItem(AitplusModBlocks.BLOW_UP_A, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOW_UP_A));
+		BLOW_UP_B = register("blow_up_b", new BlockItem(AitplusModBlocks.BLOW_UP_B, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOW_UP_B));
+		BLOW_UP_C = register("blow_up_c", new BlockItem(AitplusModBlocks.BLOW_UP_C, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOW_UP_C));
 		BLOCK_OF_BRACHACKI = register("block_of_brachacki", new BlockItem(AitplusModBlocks.BLOCK_OF_BRACHACKI, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_BRACHACKI));
 		BRACHACKI_A = register("brachacki_a", new BlockItem(AitplusModBlocks.BRACHACKI_A, new Item.Properties()));

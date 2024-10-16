@@ -54,10 +54,10 @@ public class StreetLampBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return (switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
-			case NORTH -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
-			case EAST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
-			case WEST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 22, 4, 12, 30, 12), box(6, 30, 6, 10, 32, 10));
+			default -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 15, 4, 12, 23, 12), box(6, 23, 6, 10, 25, 10));
+			case NORTH -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 15, 4, 12, 23, 12), box(6, 23, 6, 10, 25, 10));
+			case EAST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 15, 4, 12, 23, 12), box(6, 23, 6, 10, 25, 10));
+			case WEST -> Shapes.or(box(5, 0, 5, 11, 22, 11), box(4, 15, 4, 12, 23, 12), box(6, 23, 6, 10, 25, 10));
 		}).move(offset.x, offset.y, offset.z);
 	}
 

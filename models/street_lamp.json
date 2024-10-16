@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "street_lamp",
-		"particle": "street_lamp"
+		"0": "aitplus:block/street_lamp"
 	},
 	"elements": [
 		{
@@ -22,9 +21,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [-4, 17, 8],
-			"to": [5, 22, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-9, 9, 0]},
+			"from": [-4, 6, 8],
+			"to": [5, 11, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-9, -2, 0]},
 			"faces": {
 				"north": {"uv": [8, 6, 10.25, 7.25], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
@@ -36,9 +35,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [11, 17, 8],
-			"to": [20, 22, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [25, 9, 0]},
+			"from": [11, 6, 8],
+			"to": [20, 11, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [25, -2, 0]},
 			"faces": {
 				"north": {"uv": [10.25, 6, 8, 7.25], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
@@ -50,9 +49,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [4, 22, 4],
-			"to": [12, 30, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 0]},
+			"from": [4, 15, 4],
+			"to": [12, 23, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0]},
 			"faces": {
 				"north": {"uv": [0, 5.5, 2, 7.5], "texture": "#0"},
 				"east": {"uv": [2, 5.5, 4, 7.5], "texture": "#0"},
@@ -64,9 +63,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [4, 22, 12.3],
-			"to": [12, 30, 12.3],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 0.3]},
+			"from": [4, 15, 12.3],
+			"to": [12, 23, 12.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0.3]},
 			"faces": {
 				"north": {"uv": [6, 6, 8, 8], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
@@ -78,9 +77,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [4, 22, 3.7],
-			"to": [12, 30, 3.7],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 15.7]},
+			"from": [4, 15, 3.7],
+			"to": [12, 23, 3.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 15.7]},
 			"faces": {
 				"north": {"uv": [2, 7.5, 4, 9.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
@@ -92,9 +91,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [3.7, 22, 4],
-			"to": [3.7, 30, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 26, 8]},
+			"from": [3.7, 15, 4],
+			"to": [3.7, 23, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 19, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 2], "texture": "#0"},
 				"east": {"uv": [8, 4, 10, 6], "texture": "#0"},
@@ -106,9 +105,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [12.3, 22, 4],
-			"to": [12.3, 30, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 26, 8]},
+			"from": [12.3, 15, 4],
+			"to": [12.3, 23, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 19, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 2], "texture": "#0"},
 				"east": {"uv": [8, 0, 10, 2], "texture": "#0"},
@@ -120,9 +119,9 @@
 		},
 		{
 			"name": "Center post",
-			"from": [6, 30, 6],
-			"to": [10, 32, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 15, 0]},
+			"from": [6, 23, 6],
+			"to": [10, 25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
 			"faces": {
 				"north": {"uv": [3.5, 9.5, 4.5, 10], "texture": "#0"},
 				"east": {"uv": [4.5, 9.5, 5.5, 10], "texture": "#0"},

@@ -41,8 +41,8 @@ import java.util.List;
 import java.util.Collections;
 
 public class CandelStandLitBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.CHAIN).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true)
-			.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.CHAIN).strength(1f, 10f).lightLevel(s -> 6).requiresCorrectToolForDrops().noOcclusion()
+			.isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public CandelStandLitBlock() {
