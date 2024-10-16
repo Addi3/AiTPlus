@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
+import net.addie.aitplus.client.renderer.VictorianChairRenderer;
 import net.addie.aitplus.client.renderer.TimeWarDalekRenderer;
 import net.addie.aitplus.client.renderer.RenegadeDalekRenderer;
 import net.addie.aitplus.client.renderer.LazerRenderer;
@@ -21,6 +22,7 @@ import net.addie.aitplus.client.renderer.ClassicDalekRenderer;
 @Environment(EnvType.CLIENT)
 public class AitplusModEntityRenderers {
 	public static void load() {
+		EntityRendererRegistry.register(AitplusModEntities.VICTORIAN_CHAIR, VictorianChairRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLUTTERWING, FlutterwingRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLY, FlyRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLUBBLE, FlubbleRenderer::new);
