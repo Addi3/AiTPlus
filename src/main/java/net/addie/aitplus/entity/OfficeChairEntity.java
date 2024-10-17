@@ -18,8 +18,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.addie.aitplus.init.AitplusModItems;
 
-public class VictorianChairEntity extends Monster {
-	public VictorianChairEntity(EntityType<VictorianChairEntity> type, Level world) {
+public class OfficeChairEntity extends Monster {
+	public OfficeChairEntity(EntityType<OfficeChairEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.1f);
 		xpReward = 0;
@@ -44,7 +44,7 @@ public class VictorianChairEntity extends Monster {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(AitplusModItems.VICTORIAN_CHAIR_SPAWN_EGG));
+		this.spawnAtLocation(new ItemStack(AitplusModItems.OFFICE_CHAIR_SPAWN_EGG));
 	}
 
 	@Override

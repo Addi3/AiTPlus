@@ -181,6 +181,7 @@ public class AitplusModItems {
 	public static Item SEAL_OF_RASSILON;
 	public static Item STREET_LAMP;
 	public static Item VICTORIAN_CHAIR_SPAWN_EGG;
+	public static Item OFFICE_CHAIR_SPAWN_EGG;
 	public static Item FLUTTERWING_SPAWN_EGG;
 	public static Item FLY_SPAWN_EGG;
 	public static Item FLUBBLE_SPAWN_EGG;
@@ -420,6 +421,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(STREET_LAMP));
 		VICTORIAN_CHAIR_SPAWN_EGG = register("victorian_chair_spawn_egg", new SpawnEggItem(AitplusModEntities.VICTORIAN_CHAIR, -1, -1, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(VICTORIAN_CHAIR_SPAWN_EGG));
+		OFFICE_CHAIR_SPAWN_EGG = register("office_chair_spawn_egg", new SpawnEggItem(AitplusModEntities.OFFICE_CHAIR, -1, -1, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(OFFICE_CHAIR_SPAWN_EGG));
 		FLUTTERWING_SPAWN_EGG = register("flutterwing_spawn_egg", new SpawnEggItem(AitplusModEntities.FLUTTERWING, -16764007, -15987700, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(FLUTTERWING_SPAWN_EGG));
 		FLY_SPAWN_EGG = register("fly_spawn_egg", new SpawnEggItem(AitplusModEntities.FLY, -16448251, -9435899, new Item.Properties()));

@@ -18,6 +18,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.addie.aitplus.entity.VictorianChairEntity;
 import net.addie.aitplus.entity.TimeWarDalekEntity;
 import net.addie.aitplus.entity.RenegadeDalekEntity;
+import net.addie.aitplus.entity.OfficeChairEntity;
 import net.addie.aitplus.entity.LazerEntity;
 import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
@@ -29,6 +30,7 @@ import net.addie.aitplus.AitplusMod;
 
 public class AitplusModEntities {
 	public static EntityType<VictorianChairEntity> VICTORIAN_CHAIR;
+	public static EntityType<OfficeChairEntity> OFFICE_CHAIR;
 	public static EntityType<FlutterwingEntity> FLUTTERWING;
 	public static EntityType<FlyEntity> FLY;
 	public static EntityType<FlubbleEntity> FLUBBLE;
@@ -44,6 +46,10 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.MONSTER, VictorianChairEntity::new).dimensions(new EntityDimensions(0.8f, 1.8f, true)).trackRangeBlocks(1).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		VictorianChairEntity.init();
 		FabricDefaultAttributeRegistry.register(VICTORIAN_CHAIR, VictorianChairEntity.createAttributes());
+		OFFICE_CHAIR = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "office_chair"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, OfficeChairEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(1).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		OfficeChairEntity.init();
+		FabricDefaultAttributeRegistry.register(OFFICE_CHAIR, OfficeChairEntity.createAttributes());
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlutterwingEntity::new).dimensions(new EntityDimensions(0.7f, 0.6f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		FlutterwingEntity.init();
