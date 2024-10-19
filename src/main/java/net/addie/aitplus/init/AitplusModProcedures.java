@@ -4,6 +4,7 @@
  */
 package net.addie.aitplus.init;
 
+import net.addie.aitplus.procedures.VargaPlantMobplayerCollidesWithPlantProcedure;
 import net.addie.aitplus.procedures.ThalmaWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.ThalmaLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.TestrecipeProcedure;
@@ -54,5 +55,6 @@ public class AitplusModProcedures {
 		new CandleStandOnBlockRightClickedProcedure();
 		new CandelStandLitOnBlockRightClickedProcedure();
 		new CandelStandLitUpdateTickProcedure();
+		new VargaPlantMobplayerCollidesWithPlantProcedure();
 	}
 }
