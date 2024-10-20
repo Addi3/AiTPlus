@@ -22,6 +22,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.addie.aitplus.block.VargaPlantBlock;
 import net.addie.aitplus.block.SchlenkBlossomsBlock;
 import net.addie.aitplus.block.RedPetaledOrchidBlock;
+import net.addie.aitplus.block.PreservedFlowerBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
@@ -41,6 +42,7 @@ public class AitplusModFeatures {
 		register("red_petaled_orchid", new RandomPatchFeature(RandomPatchConfiguration.CODEC), RedPetaledOrchidBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 		register("schlenk_blossoms", new RandomPatchFeature(RandomPatchConfiguration.CODEC), SchlenkBlossomsBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 		register("varga_plant", new RandomPatchFeature(RandomPatchConfiguration.CODEC), VargaPlantBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
+		register("preserved_flower", new RandomPatchFeature(RandomPatchConfiguration.CODEC), PreservedFlowerBlock.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 	}
 
 	public static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

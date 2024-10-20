@@ -57,6 +57,7 @@ import net.addie.aitplus.block.QuartzRoundelBlock;
 import net.addie.aitplus.block.QuartzDoorBlock;
 import net.addie.aitplus.block.QuartzBlockStainedRoundelBlock;
 import net.addie.aitplus.block.QuartzBBlock;
+import net.addie.aitplus.block.PreservedFlowerBlock;
 import net.addie.aitplus.block.PolishedBlackstoneStainedRoundelBlock;
 import net.addie.aitplus.block.PetrifiedBushBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
@@ -192,6 +193,8 @@ public class AitplusModBlocks {
 	public static Block RED_PETALED_ORCHID;
 	public static Block SCHLENK_BLOSSOMS;
 	public static Block VARGA_PLANT;
+	public static Block PETRIFIED_BUSH;
+	public static Block PRESERVED_FLOWER;
 	public static Block HAT_STAND;
 	public static Block HAT_STAND_WHITE;
 	public static Block STATUE_1;
@@ -213,7 +216,6 @@ public class AitplusModBlocks {
 	public static Block LED_ROUNDEL_YELLOW;
 	public static Block ROUNDEL_TABLE;
 	public static Block CANDEL_STAND_LIT;
-	public static Block PETRIFIED_BUSH;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -295,6 +297,8 @@ public class AitplusModBlocks {
 		RED_PETALED_ORCHID = register("red_petaled_orchid", new RedPetaledOrchidBlock());
 		SCHLENK_BLOSSOMS = register("schlenk_blossoms", new SchlenkBlossomsBlock());
 		VARGA_PLANT = register("varga_plant", new VargaPlantBlock());
+		PETRIFIED_BUSH = register("petrified_bush", new PetrifiedBushBlock());
+		PRESERVED_FLOWER = register("preserved_flower", new PreservedFlowerBlock());
 		HAT_STAND = register("hat_stand", new HatStandBlock());
 		HAT_STAND_WHITE = register("hat_stand_white", new HatStandWhiteBlock());
 		STATUE_1 = register("statue_1", new Statue1Block());
@@ -316,7 +320,6 @@ public class AitplusModBlocks {
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new LEDRoundelYellowBlock());
 		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
 		CANDEL_STAND_LIT = register("candel_stand_lit", new CandelStandLitBlock());
-		PETRIFIED_BUSH = register("petrified_bush", new PetrifiedBushBlock());
 	}
 
 	public static void clientLoad() {
@@ -399,6 +402,8 @@ public class AitplusModBlocks {
 		RedPetaledOrchidBlock.clientInit();
 		SchlenkBlossomsBlock.clientInit();
 		VargaPlantBlock.clientInit();
+		PetrifiedBushBlock.clientInit();
+		PreservedFlowerBlock.clientInit();
 		HatStandBlock.clientInit();
 		HatStandWhiteBlock.clientInit();
 		Statue1Block.clientInit();
@@ -420,7 +425,6 @@ public class AitplusModBlocks {
 		LEDRoundelYellowBlock.clientInit();
 		RoundelTableBlock.clientInit();
 		CandelStandLitBlock.clientInit();
-		PetrifiedBushBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

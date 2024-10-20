@@ -3,15 +3,15 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "varga_top",
-    "textureBottom": "varga_bottom",
+    "texture": "preserved_flower",
+    "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "",
+    "itemTexture": "preserved_flower",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "plantType": "double",
-    "suspiciousStewEffect": "SPEED",
+    "plantType": "normal",
+    "suspiciousStewEffect": "RESISTANCE",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Varga Plant",
+    "name": "Preserved Flower",
     "specialInformation": {
       "fixedValue": []
     },
@@ -65,7 +65,7 @@
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -80,21 +80,15 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 25,
+    "frequencyOnChunks": 5,
     "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:PetrifiedJungle"
-      },
-      {
-        "value": "CUSTOM:IrradiatedSwamp"
       }
     ],
     "generationType": "Flower",
-    "patchSize": 15,
-    "generateAtAnyHeight": false,
-    "onEntityCollides": {
-      "name": "VargaPlantMobplayerCollidesWithPlant"
-    }
+    "patchSize": 5,
+    "generateAtAnyHeight": false
   }
 }

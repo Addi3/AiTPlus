@@ -147,6 +147,8 @@ public class AitplusModItems {
 	public static Item RED_PETALED_ORCHID;
 	public static Item SCHLENK_BLOSSOMS;
 	public static Item VARGA_PLANT;
+	public static Item PETRIFIED_BUSH;
+	public static Item PRESERVED_FLOWER;
 	public static Item YELLOW_JELLY_BABIES;
 	public static Item RED_JELLY_BABIES;
 	public static Item PURPLE_JELLY_BABIES;
@@ -207,7 +209,6 @@ public class AitplusModItems {
 	public static Item LED_ROUNDEL_YELLOW;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
-	public static Item PETRIFIED_BUSH;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -380,6 +381,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(SCHLENK_BLOSSOMS));
 		VARGA_PLANT = register("varga_plant", new BlockItem(AitplusModBlocks.VARGA_PLANT, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(VARGA_PLANT));
+		PETRIFIED_BUSH = register("petrified_bush", new BlockItem(AitplusModBlocks.PETRIFIED_BUSH, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(PETRIFIED_BUSH));
+		PRESERVED_FLOWER = register("preserved_flower", new BlockItem(AitplusModBlocks.PRESERVED_FLOWER, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(PRESERVED_FLOWER));
 		YELLOW_JELLY_BABIES = register("yellow_jelly_babies", new YellowJellyBabiesItem());
 		RED_JELLY_BABIES = register("red_jelly_babies", new RedJellyBabiesItem());
 		PURPLE_JELLY_BABIES = register("purple_jelly_babies", new PurpleJellyBabiesItem());
@@ -459,8 +464,6 @@ public class AitplusModItems {
 		LED_ROUNDEL_YELLOW = register("led_roundel_yellow", new BlockItem(AitplusModBlocks.LED_ROUNDEL_YELLOW, new Item.Properties()));
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
-		PETRIFIED_BUSH = register("petrified_bush", new BlockItem(AitplusModBlocks.PETRIFIED_BUSH, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(PETRIFIED_BUSH));
 	}
 
 	public static void clientLoad() {

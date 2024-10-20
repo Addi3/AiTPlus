@@ -1,9 +1,9 @@
 {
-  "feature": "aitplus:varga_plant",
+  "feature": "aitplus:preserved_flower",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 25
+      "count": 5
     },
     {
       "type": "minecraft:rarity_filter",
