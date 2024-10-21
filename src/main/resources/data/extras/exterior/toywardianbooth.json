@@ -1,5 +1,5 @@
 {
-    "id": "toywardian:toywardianbooth",
+    "id": "extras:toywardianbooth",
     "category":"ait:exterior/booth",
     "parent": "ait:exterior/booth/default",
     "texture": "extras:textures/exteriors/booth_toywardian.png",

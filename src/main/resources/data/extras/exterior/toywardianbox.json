@@ -1,5 +1,5 @@
 {
-    "id": "toywardian:toywardianbox",
+    "id": "extras:toywardianbox",
     "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/default",
     "texture": "extras:textures/exteriors/toywardianbox_policebox.png",
