@@ -11,6 +11,7 @@ import net.addie.aitplus.procedures.TestrecipeProcedure;
 import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
+import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.LEDRoundelYellowRedstoneOnProcedure;
@@ -56,5 +57,6 @@ public class AitplusModProcedures {
 		new CandelStandLitOnBlockRightClickedProcedure();
 		new CandelStandLitUpdateTickProcedure();
 		new VargaPlantMobplayerCollidesWithPlantProcedure();
+		new RecorderRightclickedProcedure();
 	}
 }

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "group": "bowties",
+  "category": "equipment",
   "pattern": [
     "a a",
     "aaa",

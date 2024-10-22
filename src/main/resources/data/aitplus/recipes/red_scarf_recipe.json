@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "group": "scarfs",
+  "category": "equipment",
   "ingredients": [
     {
       "item": "aitplus:scarf_chestplate"
