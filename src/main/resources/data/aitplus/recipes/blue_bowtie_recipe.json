@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "aitplus:blue_bowtie_chestplate",
+    "count": 1
+  }
+}
