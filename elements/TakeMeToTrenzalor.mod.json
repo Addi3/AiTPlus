@@ -10,7 +10,7 @@
     "name": "Take Me To Trenzalor",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:AiTPlus"
+      "value": "CUSTOM:AitPlusItems"
     },
     "stackSize": 64,
     "enchantability": 0,

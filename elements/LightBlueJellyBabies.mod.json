@@ -10,7 +10,7 @@
     "name": "Light Blue Jelly Babies",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:AiTPlus"
+      "value": "CUSTOM:AitPlusItems"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -10,7 +10,7 @@
     "name": "Recorder",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:AiTPlus"
+      "value": "CUSTOM:AitPlusItems"
     },
     "stackSize": 1,
     "enchantability": 0,

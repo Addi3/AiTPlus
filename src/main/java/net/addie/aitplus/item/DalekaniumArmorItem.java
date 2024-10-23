@@ -73,7 +73,7 @@ public abstract class DalekaniumArmorItem extends ArmorItem {
 	public static class Helmet extends DalekaniumArmorItem {
 		public Helmet() {
 			super(Type.HELMET, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -86,7 +86,7 @@ public abstract class DalekaniumArmorItem extends ArmorItem {
 
 		public Chestplate() {
 			super(Type.CHESTPLATE, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -99,7 +99,7 @@ public abstract class DalekaniumArmorItem extends ArmorItem {
 
 		public Leggings() {
 			super(Type.LEGGINGS, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -112,7 +112,7 @@ public abstract class DalekaniumArmorItem extends ArmorItem {
 
 		public Boots() {
 			super(Type.BOOTS, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 		}
 
 		@Override

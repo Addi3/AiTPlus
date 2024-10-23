@@ -11,7 +11,7 @@
     "enableBoots": false,
     "textureBoots": "",
     "creativeTab": {
-      "value": "CUSTOM:AiTPlus"
+      "value": "CUSTOM:AitPlusItems"
     },
     "armorTextureFile": "white_bowtie",
     "helmetName": "",

@@ -5809,6 +5809,18 @@
         ]
       },
       "path": "~/Items/Cosmetics/Recorder"
+    },
+    {
+      "name": "AitPlusItems",
+      "type": "tab",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ait_plus_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -6103,6 +6115,7 @@
       "subtitles.flutterwing_fluttering": "Flutterwing Flutters",
       "block.aitplus.stripped_acacia_log_stained_roundel": "Stripped Acacia Log Stained Roundel",
       "block.aitplus.candel_stand_lit": "Candle Stand",
+      "item_group.aitplus.ait_plus_items": "Ait Plus Items",
       "item.aitplus.cyan_jelly_babies": "Cyan Jelly Babies",
       "block.aitplus.stripped_bamboo_block_stained_roundel": "Stripped Bamboo Block Stained Roundel",
       "item.aitplus.yellow_bowtie_boots": "",
@@ -6214,7 +6227,7 @@
       "item.aitplus.pink_bowtie_leggings": "",
       "block.aitplus.stripped_dark_oak_log_stained_roundel": "Stripped Dark Oak Log Stained Roundel",
       "item.aitplus.the_mighty_jelly_babies": "The Mighty Jelly Babies",
-      "item_group.aitplus.ai_t_plus": "AiT Plus",
+      "item_group.aitplus.ai_t_plus": "AiT Plus Blocks",
       "block.aitplus.stripped_thalma_wood": "Stripped Thalma Wood",
       "item.aitplus.dalekanium_nugget": "Dalekanium Nugget",
       "subtitles.flubble_hurt": "Flubble Hurt",

@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "dalekanium_boots",
     "creativeTab": {
-      "value": "CUSTOM:AiTPlus"
+      "value": "CUSTOM:AitPlusItems"
     },
     "armorTextureFile": "dalekanium_",
     "helmetName": "Dalekanium Armor Helmet",

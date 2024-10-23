@@ -44,7 +44,7 @@ public class DalekaniumShovelItem extends ShovelItem {
 				return Ingredient.of(new ItemStack(AitplusModItems.DALEKANIUM_INGOT));
 			}
 		}, 1, -3f, new Item.Properties());
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 	}
 
 	@Override

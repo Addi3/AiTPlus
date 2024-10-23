@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "tab",
   "definition": {
-    "name": "AiT Plus Blocks",
+    "name": "Ait Plus Items",
     "icon": {
-      "value": "CUSTOM:BrachackiA"
+      "value": "CUSTOM:CreativeTabItem"
     },
     "showSearch": false
   }

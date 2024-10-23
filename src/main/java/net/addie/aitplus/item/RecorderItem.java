@@ -22,7 +22,7 @@ import java.util.List;
 public class RecorderItem extends Item {
 	public RecorderItem() {
 		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 	}
 
 	@Override

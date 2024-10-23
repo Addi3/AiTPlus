@@ -17,7 +17,7 @@ import java.util.List;
 public class BowlRoundelBlueprintItem extends Item {
 	public BowlRoundelBlueprintItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(this));
 	}
 
 	@Override
