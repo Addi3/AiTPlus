@@ -232,6 +232,8 @@ public class AitplusModItems {
 	public static Item RECONNAISSANCE_DALEK_SPAWN_EGG;
 	public static Item DAVAROS_SPAWN_EGG;
 	public static Item MONDASIAN_CYBERMAN_SPAWN_EGG;
+	public static Item EARTHSHOCK_CYBERMAN_SPAWN_EGG;
+	public static Item REVENGE_CYBER_LEADER_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
@@ -541,6 +543,10 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(DAVAROS_SPAWN_EGG));
 		MONDASIAN_CYBERMAN_SPAWN_EGG = register("mondasian_cyberman_spawn_egg", new SpawnEggItem(AitplusModEntities.MONDASIAN_CYBERMAN, -7237231, -13553359, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(MONDASIAN_CYBERMAN_SPAWN_EGG));
+		EARTHSHOCK_CYBERMAN_SPAWN_EGG = register("earthshock_cyberman_spawn_egg", new SpawnEggItem(AitplusModEntities.EARTHSHOCK_CYBERMAN, -4802890, -3092272, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(EARTHSHOCK_CYBERMAN_SPAWN_EGG));
+		REVENGE_CYBER_LEADER_SPAWN_EGG = register("revenge_cyber_leader_spawn_egg", new SpawnEggItem(AitplusModEntities.REVENGE_CYBER_LEADER, -4802890, -15790578, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(REVENGE_CYBER_LEADER_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());

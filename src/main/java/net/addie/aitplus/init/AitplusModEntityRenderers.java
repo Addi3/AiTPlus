@@ -10,6 +10,7 @@ import net.fabricmc.api.EnvType;
 
 import net.addie.aitplus.client.renderer.VictorianChairRenderer;
 import net.addie.aitplus.client.renderer.TimeWarDalekRenderer;
+import net.addie.aitplus.client.renderer.RevengeCyberLeaderRenderer;
 import net.addie.aitplus.client.renderer.RenegadeDalekRenderer;
 import net.addie.aitplus.client.renderer.ReconnaissanceDalekRenderer;
 import net.addie.aitplus.client.renderer.OfficeChairRenderer;
@@ -19,6 +20,7 @@ import net.addie.aitplus.client.renderer.ImperialDalekRenderer;
 import net.addie.aitplus.client.renderer.FlyRenderer;
 import net.addie.aitplus.client.renderer.FlutterwingRenderer;
 import net.addie.aitplus.client.renderer.FlubbleRenderer;
+import net.addie.aitplus.client.renderer.EarthshockCybermanRenderer;
 import net.addie.aitplus.client.renderer.DavarosRenderer;
 import net.addie.aitplus.client.renderer.CyberLazerRenderer;
 import net.addie.aitplus.client.renderer.ClassicDalekRenderer;
@@ -38,6 +40,8 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.RECONNAISSANCE_DALEK, ReconnaissanceDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.DAVAROS, DavarosRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.MONDASIAN_CYBERMAN, MondasianCybermanRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.EARTHSHOCK_CYBERMAN, EarthshockCybermanRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.REVENGE_CYBER_LEADER, RevengeCyberLeaderRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.CYBER_LAZER, CyberLazerRenderer::new);
 	}

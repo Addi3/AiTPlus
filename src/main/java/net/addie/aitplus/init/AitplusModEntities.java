@@ -17,6 +17,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 
 import net.addie.aitplus.entity.VictorianChairEntity;
 import net.addie.aitplus.entity.TimeWarDalekEntity;
+import net.addie.aitplus.entity.RevengeCyberLeaderEntity;
 import net.addie.aitplus.entity.RenegadeDalekEntity;
 import net.addie.aitplus.entity.ReconnaissanceDalekEntity;
 import net.addie.aitplus.entity.OfficeChairEntity;
@@ -26,6 +27,7 @@ import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
 import net.addie.aitplus.entity.FlubbleEntity;
+import net.addie.aitplus.entity.EarthshockCybermanEntity;
 import net.addie.aitplus.entity.DavarosEntity;
 import net.addie.aitplus.entity.CyberLazerEntity;
 import net.addie.aitplus.entity.ClassicDalekEntity;
@@ -44,6 +46,8 @@ public class AitplusModEntities {
 	public static EntityType<ReconnaissanceDalekEntity> RECONNAISSANCE_DALEK;
 	public static EntityType<DavarosEntity> DAVAROS;
 	public static EntityType<MondasianCybermanEntity> MONDASIAN_CYBERMAN;
+	public static EntityType<EarthshockCybermanEntity> EARTHSHOCK_CYBERMAN;
+	public static EntityType<RevengeCyberLeaderEntity> REVENGE_CYBER_LEADER;
 	public static EntityType<LazerEntity> LAZER;
 	public static EntityType<CyberLazerEntity> CYBER_LAZER;
 
@@ -96,6 +100,14 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, MondasianCybermanEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		MondasianCybermanEntity.init();
 		FabricDefaultAttributeRegistry.register(MONDASIAN_CYBERMAN, MondasianCybermanEntity.createAttributes());
+		EARTHSHOCK_CYBERMAN = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "earthshock_cyberman"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, EarthshockCybermanEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		EarthshockCybermanEntity.init();
+		FabricDefaultAttributeRegistry.register(EARTHSHOCK_CYBERMAN, EarthshockCybermanEntity.createAttributes());
+		REVENGE_CYBER_LEADER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "revenge_cyber_leader"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, RevengeCyberLeaderEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		RevengeCyberLeaderEntity.init();
+		FabricDefaultAttributeRegistry.register(REVENGE_CYBER_LEADER, RevengeCyberLeaderEntity.createAttributes());
 		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
 		CYBER_LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "cyber_lazer"), createArrowEntityType(CyberLazerEntity::new));
 	}
