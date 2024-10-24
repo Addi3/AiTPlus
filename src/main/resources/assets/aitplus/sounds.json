@@ -184,5 +184,35 @@
         "stream": false
       }
     ]
+  },
+  "cyberman_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "cyberman_move": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_move",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_move",
+        "stream": false
+      }
+    ]
+  },
+  "cyberman_lazer": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_lazer",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_lazer",
+        "stream": false
+      }
+    ]
   }
 }

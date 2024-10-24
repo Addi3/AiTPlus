@@ -231,6 +231,7 @@ public class AitplusModItems {
 	public static Item TIME_WAR_DALEK_SPAWN_EGG;
 	public static Item RECONNAISSANCE_DALEK_SPAWN_EGG;
 	public static Item DAVAROS_SPAWN_EGG;
+	public static Item MONDASIAN_CYBERMAN_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
@@ -538,6 +539,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(RECONNAISSANCE_DALEK_SPAWN_EGG));
 		DAVAROS_SPAWN_EGG = register("davaros_spawn_egg", new SpawnEggItem(AitplusModEntities.DAVAROS, -16053493, -14671840, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(DAVAROS_SPAWN_EGG));
+		MONDASIAN_CYBERMAN_SPAWN_EGG = register("mondasian_cyberman_spawn_egg", new SpawnEggItem(AitplusModEntities.MONDASIAN_CYBERMAN, -7237231, -13553359, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(MONDASIAN_CYBERMAN_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());

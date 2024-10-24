@@ -29,6 +29,9 @@ public class AitplusModSounds {
 	public static SoundEvent DALEK_DEATH = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_death"));
 	public static SoundEvent DALEK_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "dalek_hurt"));
 	public static SoundEvent CLASSIC_DOOR = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "classic_door"));
+	public static SoundEvent CYBERMAN_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_hurt"));
+	public static SoundEvent CYBERMAN_MOVE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_move"));
+	public static SoundEvent CYBERMAN_LAZER = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_lazer"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
@@ -50,5 +53,8 @@ public class AitplusModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_death"), DALEK_DEATH);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "dalek_hurt"), DALEK_HURT);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "classic_door"), CLASSIC_DOOR);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_hurt"), CYBERMAN_HURT);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_move"), CYBERMAN_MOVE);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_lazer"), CYBERMAN_LAZER);
 	}
 }

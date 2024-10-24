@@ -20,12 +20,14 @@ import net.addie.aitplus.entity.TimeWarDalekEntity;
 import net.addie.aitplus.entity.RenegadeDalekEntity;
 import net.addie.aitplus.entity.ReconnaissanceDalekEntity;
 import net.addie.aitplus.entity.OfficeChairEntity;
+import net.addie.aitplus.entity.MondasianCybermanEntity;
 import net.addie.aitplus.entity.LazerEntity;
 import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
 import net.addie.aitplus.entity.FlubbleEntity;
 import net.addie.aitplus.entity.DavarosEntity;
+import net.addie.aitplus.entity.CyberLazerEntity;
 import net.addie.aitplus.entity.ClassicDalekEntity;
 import net.addie.aitplus.AitplusMod;
 
@@ -41,7 +43,9 @@ public class AitplusModEntities {
 	public static EntityType<TimeWarDalekEntity> TIME_WAR_DALEK;
 	public static EntityType<ReconnaissanceDalekEntity> RECONNAISSANCE_DALEK;
 	public static EntityType<DavarosEntity> DAVAROS;
+	public static EntityType<MondasianCybermanEntity> MONDASIAN_CYBERMAN;
 	public static EntityType<LazerEntity> LAZER;
+	public static EntityType<CyberLazerEntity> CYBER_LAZER;
 
 	public static void load() {
 		VICTORIAN_CHAIR = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "victorian_chair"),
@@ -88,7 +92,12 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.MISC, DavarosEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		DavarosEntity.init();
 		FabricDefaultAttributeRegistry.register(DAVAROS, DavarosEntity.createAttributes());
+		MONDASIAN_CYBERMAN = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "mondasian_cyberman"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, MondasianCybermanEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		MondasianCybermanEntity.init();
+		FabricDefaultAttributeRegistry.register(MONDASIAN_CYBERMAN, MondasianCybermanEntity.createAttributes());
 		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
+		CYBER_LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "cyber_lazer"), createArrowEntityType(CyberLazerEntity::new));
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

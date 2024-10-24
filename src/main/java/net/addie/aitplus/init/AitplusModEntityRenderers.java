@@ -13,12 +13,14 @@ import net.addie.aitplus.client.renderer.TimeWarDalekRenderer;
 import net.addie.aitplus.client.renderer.RenegadeDalekRenderer;
 import net.addie.aitplus.client.renderer.ReconnaissanceDalekRenderer;
 import net.addie.aitplus.client.renderer.OfficeChairRenderer;
+import net.addie.aitplus.client.renderer.MondasianCybermanRenderer;
 import net.addie.aitplus.client.renderer.LazerRenderer;
 import net.addie.aitplus.client.renderer.ImperialDalekRenderer;
 import net.addie.aitplus.client.renderer.FlyRenderer;
 import net.addie.aitplus.client.renderer.FlutterwingRenderer;
 import net.addie.aitplus.client.renderer.FlubbleRenderer;
 import net.addie.aitplus.client.renderer.DavarosRenderer;
+import net.addie.aitplus.client.renderer.CyberLazerRenderer;
 import net.addie.aitplus.client.renderer.ClassicDalekRenderer;
 
 @Environment(EnvType.CLIENT)
@@ -35,6 +37,8 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.TIME_WAR_DALEK, TimeWarDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.RECONNAISSANCE_DALEK, ReconnaissanceDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.DAVAROS, DavarosRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.MONDASIAN_CYBERMAN, MondasianCybermanRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.CYBER_LAZER, CyberLazerRenderer::new);
 	}
 }
