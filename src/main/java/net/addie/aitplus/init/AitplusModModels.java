@@ -9,6 +9,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
 import net.addie.aitplus.client.model.Modelvictorian_chair;
+import net.addie.aitplus.client.model.Modelreconnaissance_dalek;
 import net.addie.aitplus.client.model.Modelold_dalek;
 import net.addie.aitplus.client.model.Modeloffice_chair;
 import net.addie.aitplus.client.model.Modelnew_dalek;
@@ -26,6 +27,7 @@ public class AitplusModModels {
 		EntityModelLayerRegistry.registerModelLayer(Modeloffice_chair.LAYER_LOCATION, Modeloffice_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelflutterwing.LAYER_LOCATION, Modelflutterwing::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelnew_dalek.LAYER_LOCATION, Modelnew_dalek::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(Modelreconnaissance_dalek.LAYER_LOCATION, Modelreconnaissance_dalek::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modeldavaros.LAYER_LOCATION, Modeldavaros::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelvictorian_chair.LAYER_LOCATION, Modelvictorian_chair::createBodyLayer);

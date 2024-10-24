@@ -32,8 +32,8 @@ import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModEntities;
 import net.addie.aitplus.AitplusMod;
 
-public class TimeWarDalekEntity extends Monster implements RangedAttackMob {
-	public TimeWarDalekEntity(EntityType<TimeWarDalekEntity> type, Level world) {
+public class ReconnaissanceDalekEntity extends Monster implements RangedAttackMob {
+	public ReconnaissanceDalekEntity(EntityType<ReconnaissanceDalekEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
 		xpReward = 10;
@@ -45,7 +45,7 @@ public class TimeWarDalekEntity extends Monster implements RangedAttackMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, ReconnaissanceDalekEntity.class, true, true));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, TimeWarDalekEntity.class, true, true));
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.4));
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
@@ -89,8 +89,8 @@ public class TimeWarDalekEntity extends Monster implements RangedAttackMob {
 	}
 
 	public static void init() {
-		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "timewardalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.TIME_WAR_DALEK, 15, 2, 4)));
+		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "reconnaissancedalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.RECONNAISSANCE_DALEK, 5, 4, 4)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

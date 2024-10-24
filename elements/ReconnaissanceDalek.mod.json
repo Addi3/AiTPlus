@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Time War Dalek",
+    "mobName": "Reconnaissance Dalek",
     "mobLabel": "",
-    "mobModelName": "Modelnew_dalek",
-    "mobModelTexture": "new_dalek.png",
+    "mobModelName": "Modelreconnaissance_dalek",
+    "mobModelTexture": "reconnaissance_dalek.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -23,8 +23,8 @@
     },
     "modelLayers": [
       {
-        "model": "Modelnew_dalek",
-        "texture": "new_dalek_emissive.png",
+        "model": "Modelreconnaissance_dalek",
+        "texture": "reconnaissance_dalek_emissive.png",
         "glow": true
       }
     ],
@@ -34,11 +34,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6982581,
+      "value": -13421773,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -2640283,
+      "value": -16737844,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -123,7 +123,7 @@
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:ReconnaissanceDalek</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.4</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:TimeWarDalek</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.4</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -136,9 +136,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 15,
+    "spawningProbability": 5,
     "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 2,
+    "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
     "spawnInDungeons": false

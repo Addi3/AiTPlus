@@ -18,6 +18,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.addie.aitplus.entity.VictorianChairEntity;
 import net.addie.aitplus.entity.TimeWarDalekEntity;
 import net.addie.aitplus.entity.RenegadeDalekEntity;
+import net.addie.aitplus.entity.ReconnaissanceDalekEntity;
 import net.addie.aitplus.entity.OfficeChairEntity;
 import net.addie.aitplus.entity.LazerEntity;
 import net.addie.aitplus.entity.ImperialDalekEntity;
@@ -35,9 +36,10 @@ public class AitplusModEntities {
 	public static EntityType<FlyEntity> FLY;
 	public static EntityType<FlubbleEntity> FLUBBLE;
 	public static EntityType<ClassicDalekEntity> CLASSIC_DALEK;
-	public static EntityType<TimeWarDalekEntity> TIME_WAR_DALEK;
 	public static EntityType<ImperialDalekEntity> IMPERIAL_DALEK;
 	public static EntityType<RenegadeDalekEntity> RENEGADE_DALEK;
+	public static EntityType<TimeWarDalekEntity> TIME_WAR_DALEK;
+	public static EntityType<ReconnaissanceDalekEntity> RECONNAISSANCE_DALEK;
 	public static EntityType<DavarosEntity> DAVAROS;
 	public static EntityType<LazerEntity> LAZER;
 
@@ -66,10 +68,6 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ClassicDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ClassicDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(CLASSIC_DALEK, ClassicDalekEntity.createAttributes());
-		TIME_WAR_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "time_war_dalek"),
-				FabricEntityTypeBuilder.create(MobCategory.CREATURE, TimeWarDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
-		TimeWarDalekEntity.init();
-		FabricDefaultAttributeRegistry.register(TIME_WAR_DALEK, TimeWarDalekEntity.createAttributes());
 		IMPERIAL_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "imperial_dalek"),
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ImperialDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ImperialDalekEntity.init();
@@ -78,6 +76,14 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, RenegadeDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		RenegadeDalekEntity.init();
 		FabricDefaultAttributeRegistry.register(RENEGADE_DALEK, RenegadeDalekEntity.createAttributes());
+		TIME_WAR_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "time_war_dalek"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, TimeWarDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		TimeWarDalekEntity.init();
+		FabricDefaultAttributeRegistry.register(TIME_WAR_DALEK, TimeWarDalekEntity.createAttributes());
+		RECONNAISSANCE_DALEK = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "reconnaissance_dalek"),
+				FabricEntityTypeBuilder.create(MobCategory.CREATURE, ReconnaissanceDalekEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		ReconnaissanceDalekEntity.init();
+		FabricDefaultAttributeRegistry.register(RECONNAISSANCE_DALEK, ReconnaissanceDalekEntity.createAttributes());
 		DAVAROS = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "davaros"),
 				FabricEntityTypeBuilder.create(MobCategory.MISC, DavarosEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		DavarosEntity.init();

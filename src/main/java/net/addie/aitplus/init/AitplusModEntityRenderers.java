@@ -11,6 +11,7 @@ import net.fabricmc.api.EnvType;
 import net.addie.aitplus.client.renderer.VictorianChairRenderer;
 import net.addie.aitplus.client.renderer.TimeWarDalekRenderer;
 import net.addie.aitplus.client.renderer.RenegadeDalekRenderer;
+import net.addie.aitplus.client.renderer.ReconnaissanceDalekRenderer;
 import net.addie.aitplus.client.renderer.OfficeChairRenderer;
 import net.addie.aitplus.client.renderer.LazerRenderer;
 import net.addie.aitplus.client.renderer.ImperialDalekRenderer;
@@ -29,9 +30,10 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.FLY, FlyRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLUBBLE, FlubbleRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.CLASSIC_DALEK, ClassicDalekRenderer::new);
-		EntityRendererRegistry.register(AitplusModEntities.TIME_WAR_DALEK, TimeWarDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.IMPERIAL_DALEK, ImperialDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.RENEGADE_DALEK, RenegadeDalekRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.TIME_WAR_DALEK, TimeWarDalekRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.RECONNAISSANCE_DALEK, ReconnaissanceDalekRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.DAVAROS, DavarosRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 	}
