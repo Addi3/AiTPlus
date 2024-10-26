@@ -113,6 +113,7 @@ public class AitplusModItems {
 	public static Item METAL_GRATE;
 	public static Item METAL_GRATE_STAIRS;
 	public static Item METAL_GRATE_SLAB;
+	public static Item METAL_GRATE_TRAPDOOR;
 	public static Item METAL_GRATE_WALL;
 	public static Item DALEKANIUM_ORE;
 	public static Item BLOCK_OF_DALEKANIUM;
@@ -343,6 +344,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_STAIRS));
 		METAL_GRATE_SLAB = register("metal_grate_slab", new BlockItem(AitplusModBlocks.METAL_GRATE_SLAB, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_SLAB));
+		METAL_GRATE_TRAPDOOR = register("metal_grate_trapdoor", new BlockItem(AitplusModBlocks.METAL_GRATE_TRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_TRAPDOOR));
 		METAL_GRATE_WALL = register("metal_grate_wall", new BlockItem(AitplusModBlocks.METAL_GRATE_WALL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(METAL_GRATE_WALL));
 		DALEKANIUM_ORE = register("dalekanium_ore", new BlockItem(AitplusModBlocks.DALEKANIUM_ORE, new Item.Properties()));

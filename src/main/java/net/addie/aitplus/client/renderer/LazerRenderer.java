@@ -16,7 +16,7 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class LazerRenderer extends EntityRenderer<LazerEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("aitplus:textures/entities/lazer.png");
+	private static final ResourceLocation texture = new ResourceLocation("aitplus:textures/entities/lazer_blue.png");
 	private final Modellazer model;
 
 	public LazerRenderer(EntityRendererProvider.Context context) {

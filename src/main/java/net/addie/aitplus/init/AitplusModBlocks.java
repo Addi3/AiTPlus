@@ -76,6 +76,7 @@ import net.addie.aitplus.block.PolishedBlackstoneStainedRoundelBlock;
 import net.addie.aitplus.block.PetrifiedBushBlock;
 import net.addie.aitplus.block.MoonlightBloomBlock;
 import net.addie.aitplus.block.MetalGrateWallBlock;
+import net.addie.aitplus.block.MetalGrateTrapdoorBlock;
 import net.addie.aitplus.block.MetalGrateStairsBlock;
 import net.addie.aitplus.block.MetalGrateSlabBlock;
 import net.addie.aitplus.block.MetalGrateBlock;
@@ -163,6 +164,7 @@ public class AitplusModBlocks {
 	public static Block METAL_GRATE;
 	public static Block METAL_GRATE_STAIRS;
 	public static Block METAL_GRATE_SLAB;
+	public static Block METAL_GRATE_TRAPDOOR;
 	public static Block METAL_GRATE_WALL;
 	public static Block DALEKANIUM_ORE;
 	public static Block BLOCK_OF_DALEKANIUM;
@@ -281,6 +283,7 @@ public class AitplusModBlocks {
 		METAL_GRATE = register("metal_grate", new MetalGrateBlock());
 		METAL_GRATE_STAIRS = register("metal_grate_stairs", new MetalGrateStairsBlock());
 		METAL_GRATE_SLAB = register("metal_grate_slab", new MetalGrateSlabBlock());
+		METAL_GRATE_TRAPDOOR = register("metal_grate_trapdoor", new MetalGrateTrapdoorBlock());
 		METAL_GRATE_WALL = register("metal_grate_wall", new MetalGrateWallBlock());
 		DALEKANIUM_ORE = register("dalekanium_ore", new DalekaniumOreBlock());
 		BLOCK_OF_DALEKANIUM = register("block_of_dalekanium", new BlockOfDalekaniumBlock());
@@ -400,6 +403,7 @@ public class AitplusModBlocks {
 		MetalGrateBlock.clientInit();
 		MetalGrateStairsBlock.clientInit();
 		MetalGrateSlabBlock.clientInit();
+		MetalGrateTrapdoorBlock.clientInit();
 		MetalGrateWallBlock.clientInit();
 		DalekaniumOreBlock.clientInit();
 		BlockOfDalekaniumBlock.clientInit();
