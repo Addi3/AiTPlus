@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:AiTPlus"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,7 +54,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 10,
+    "lightOpacity": 0,
     "material": {
       "value": "GLASS"
     },
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 10,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
@@ -119,9 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRedstoneOn": {
-      "name": "LEDRoundelCyanRedstoneOn"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

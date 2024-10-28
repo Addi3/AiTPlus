@@ -30,12 +30,14 @@ import net.addie.aitplus.entity.FlubbleEntity;
 import net.addie.aitplus.entity.EarthshockCybermanEntity;
 import net.addie.aitplus.entity.DavarosEntity;
 import net.addie.aitplus.entity.CyberLazerEntity;
+import net.addie.aitplus.entity.CoralChairEntity;
 import net.addie.aitplus.entity.ClassicDalekEntity;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModEntities {
 	public static EntityType<VictorianChairEntity> VICTORIAN_CHAIR;
 	public static EntityType<OfficeChairEntity> OFFICE_CHAIR;
+	public static EntityType<CoralChairEntity> CORAL_CHAIR;
 	public static EntityType<FlutterwingEntity> FLUTTERWING;
 	public static EntityType<FlyEntity> FLY;
 	public static EntityType<FlubbleEntity> FLUBBLE;
@@ -60,6 +62,10 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.MONSTER, OfficeChairEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(1).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		OfficeChairEntity.init();
 		FabricDefaultAttributeRegistry.register(OFFICE_CHAIR, OfficeChairEntity.createAttributes());
+		CORAL_CHAIR = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "coral_chair"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, CoralChairEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(1).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		CoralChairEntity.init();
+		FabricDefaultAttributeRegistry.register(CORAL_CHAIR, CoralChairEntity.createAttributes());
 		FLUTTERWING = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "flutterwing"),
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, FlutterwingEntity::new).dimensions(new EntityDimensions(0.7f, 0.6f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		FlutterwingEntity.init();

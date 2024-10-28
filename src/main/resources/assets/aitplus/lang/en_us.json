@@ -58,6 +58,7 @@
   "block.aitplus.thalma_trapdoor": "Thalma Trapdoor",
   "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
   "item.aitplus.quartz_roundel_blueprint": "Blueprint",
+  "item.aitplus.coral_chair_spawn_egg": "Coral Chair Spawn Egg",
   "block.aitplus.metal_grate_stairs": "Metal Grate Stairs",
   "block.aitplus.seal_of_rassilon": "Seal Of Rassilon",
   "item.aitplus.cyan_bowtie_leggings": "",
@@ -306,6 +307,7 @@
   "item.aitplus.classic_dalek_spawn_egg": "Classic Dalek Spawn Egg",
   "item.aitplus.white_bowtie_chestplate": "White Bowtie",
   "gui.aitplus.roundel_table_gui.label_roundel_table": "Roundel Table",
+  "entity.aitplus.coral_chair": "Coral Chair",
   "item.aitplus.fly_spawn_egg": "Fly Spawn Egg",
   "item.aitplus.pink_bowtie_boots": "",
   "block.aitplus.maldor_planks": "Maldor Planks"

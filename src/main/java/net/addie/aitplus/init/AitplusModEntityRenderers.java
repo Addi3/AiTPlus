@@ -23,6 +23,7 @@ import net.addie.aitplus.client.renderer.FlubbleRenderer;
 import net.addie.aitplus.client.renderer.EarthshockCybermanRenderer;
 import net.addie.aitplus.client.renderer.DavarosRenderer;
 import net.addie.aitplus.client.renderer.CyberLazerRenderer;
+import net.addie.aitplus.client.renderer.CoralChairRenderer;
 import net.addie.aitplus.client.renderer.ClassicDalekRenderer;
 
 @Environment(EnvType.CLIENT)
@@ -30,6 +31,7 @@ public class AitplusModEntityRenderers {
 	public static void load() {
 		EntityRendererRegistry.register(AitplusModEntities.VICTORIAN_CHAIR, VictorianChairRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.OFFICE_CHAIR, OfficeChairRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.CORAL_CHAIR, CoralChairRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLUTTERWING, FlutterwingRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLY, FlyRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.FLUBBLE, FlubbleRenderer::new);

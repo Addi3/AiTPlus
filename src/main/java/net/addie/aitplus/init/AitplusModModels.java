@@ -22,6 +22,7 @@ import net.addie.aitplus.client.model.Modelearthshock_cybermen;
 import net.addie.aitplus.client.model.Modeldavaros_chair;
 import net.addie.aitplus.client.model.Modeldavaros;
 import net.addie.aitplus.client.model.Modelcyber_leader_classic;
+import net.addie.aitplus.client.model.Modelcoral_chair;
 
 @Environment(EnvType.CLIENT)
 public class AitplusModModels {
@@ -38,6 +39,7 @@ public class AitplusModModels {
 		EntityModelLayerRegistry.registerModelLayer(Modeldavaros_chair.LAYER_LOCATION, Modeldavaros_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelearthshock_cybermen.LAYER_LOCATION, Modelearthshock_cybermen::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelnew_dalek.LAYER_LOCATION, Modelnew_dalek::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(Modelcoral_chair.LAYER_LOCATION, Modelcoral_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelcyber_leader_classic.LAYER_LOCATION, Modelcyber_leader_classic::createBodyLayer);
 	}

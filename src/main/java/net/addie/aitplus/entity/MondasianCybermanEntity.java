@@ -48,10 +48,16 @@ public class MondasianCybermanEntity extends Monster implements RangedAttackMob 
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Villager.class, true, true));
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.4));
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, ClassicDalekEntity.class, true, true));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, DavarosEntity.class, true, true));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, TimeWarDalekEntity.class, true, true));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, RenegadeDalekEntity.class, true, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ReconnaissanceDalekEntity.class, true, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, ImperialDalekEntity.class, true, true));
+		this.goalSelector.addGoal(9, new RandomStrollGoal(this, 0.4));
+		this.targetSelector.addGoal(10, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(11, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(12, new FloatGoal(this));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
