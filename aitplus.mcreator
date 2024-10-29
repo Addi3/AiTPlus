@@ -5737,6 +5737,122 @@
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led/Recipes"
+    },
+    {
+      "name": "ChalkBoard",
+      "type": "block",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_board",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/blockstates/chalk_board.json",
+          "src/main/resources/assets/aitplus/models/item/chalk_board.json",
+          "src/main/java/net/addie/aitplus/block/ChalkBoardBlock.java",
+          "src/main/resources/assets/aitplus/models/block/chalk_board.json"
+        ]
+      },
+      "path": "~/Blocks/Decor/ChalkBoard"
+    },
+    {
+      "name": "ChalkBoardAlt",
+      "type": "block",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_board_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/chalk_board_alt.json",
+          "src/main/resources/assets/aitplus/models/item/chalk_board_alt.json",
+          "src/main/java/net/addie/aitplus/block/ChalkBoardAltBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/chalk_board_alt.json"
+        ]
+      },
+      "path": "~/Blocks/Decor/ChalkBoard"
+    },
+    {
+      "name": "ChalkBoardRecipe",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_board_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/chalk_board_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Decor/ChalkBoard"
+    },
+    {
+      "name": "ChalkBoardOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_board_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/ChalkBoardOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Decor/ChalkBoard"
+    },
+    {
+      "name": "ChalkBoardAltOnblockRightClicked",
+      "type": "procedure",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_board_alt_onblock_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/ChalkBoardAltOnblockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Decor/ChalkBoard"
     }
   ],
   "variable_elements": [],
@@ -5916,29 +6032,37 @@
       ],
       "category": "hostile",
       "subtitle": "Cyberman Shoots"
+    },
+    {
+      "name": "chalk_use",
+      "files": [
+        "chalk_use"
+      ],
+      "category": "block",
+      "subtitle": "Chalk Use"
     }
   ],
   "language_map": {
     "en_us": {
-      "block.aitplus.stripped_jungle_log_stained_roundel": "Stripped Jungle Log Stained Roundel",
       "item.aitplus.lime_bowtie_leggings": "",
-      "block.aitplus.led_roundel": "LED Roundel",
-      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
+      "block.aitplus.stripped_jungle_log_stained_roundel": "Stripped Jungle Log Stained Roundel",
       "item.aitplus.blue_bowtie_boots": "",
+      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
+      "block.aitplus.led_roundel": "LED Roundel",
       "subtitles.skaro_ambiance": "",
       "subtitles.classic_door": "Classic Door Use",
       "block.aitplus.maldor_door": "Maldor Door",
       "block.aitplus.gramophone": "Gramophone",
-      "block.aitplus.preserved_flower": "Preserved Flower",
       "item.aitplus.white_bowtie_leggings": "",
+      "block.aitplus.preserved_flower": "Preserved Flower",
       "subtitles.dalek_exterminate": "Exterminate!",
       "block.aitplus.led_roundel_yellow": "LED Roundel",
       "item.aitplus.magenta_bowtie_helmet": "",
       "block.aitplus.bowl_b": "Bowl B",
       "block.aitplus.bowl_a": "Bowl A",
       "subtitles.cyberman_hurt": "Cyberman Hurt",
-      "block.aitplus.stripped_warped_stem_stained_roundel": "Stripped Warped Stem Stained Roundel",
       "item.aitplus.brachacki_blueprint": "Blueprint",
+      "block.aitplus.stripped_warped_stem_stained_roundel": "Stripped Warped Stem Stained Roundel",
       "block.aitplus.block_of_raw_dalekanium": "Block Of Raw Dalekanium",
       "block.aitplus.stripped_maldor_wood": "Stripped Maldor Wood",
       "item.aitplus.renegade_dalek_spawn_egg": "Renegade Dalek Spawn Egg",
@@ -6047,6 +6171,7 @@
       "item.aitplus.purple_bowtie_leggings": "",
       "item.aitplus.ice_blue_roundel_blueprint": "Blueprint",
       "item.aitplus.rainbow_scarf_chestplate": "Rainbow Scarf",
+      "block.aitplus.chalk_board": "Chalk Board",
       "block.aitplus.stripped_birch_roundel": "Stripped Birch Roundel",
       "item.aitplus.purple_bowtie_helmet": "",
       "item.aitplus.reconnaissance_dalek_spawn_egg": "Reconnaissance Dalek Spawn Egg",
@@ -6115,6 +6240,7 @@
       "block.aitplus.stripped_acacia_roundel": "Stripped Acacia Roundel",
       "block.aitplus.flower_of_remeberance": "Flower Of Remeberance",
       "block.aitplus.stripped_spruce_log_stained_roundel": "Stripped Spruce Log Stained Roundel",
+      "subtitles.chalk_use": "Chalk Use",
       "block.aitplus.thalma_slab": "Thalma Slab",
       "subtitles.flutterwing_death": "Flutterwing Dies",
       "block.aitplus.jukebox_top": "Jukebox Top",
@@ -6189,6 +6315,7 @@
       "subtitles.trenzalor_ambiance2": "",
       "block.aitplus.led_roundel_pink": "LED Roundel",
       "subtitles.gallifrey_ambiance": "",
+      "block.aitplus.chalk_board_alt": "Chalk Board",
       "block.aitplus.maldor_fence_gate": "Maldor Fence Gate",
       "block.aitplus.thalma_door": "Thalma Door",
       "item.aitplus.lime_bowtie_boots": "",
@@ -6379,6 +6506,10 @@
               },
               {
                 "name": "StreetLamp",
+                "children": []
+              },
+              {
+                "name": "ChalkBoard",
                 "children": []
               }
             ]

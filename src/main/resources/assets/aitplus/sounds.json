@@ -214,5 +214,15 @@
         "stream": false
       }
     ]
+  },
+  "chalk_use": {
+    "category": "block",
+    "subtitle": "subtitles.chalk_use",
+    "sounds": [
+      {
+        "name": "aitplus:chalk_use",
+        "stream": false
+      }
+    ]
   }
 }

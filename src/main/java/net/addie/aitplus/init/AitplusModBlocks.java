@@ -112,6 +112,8 @@ import net.addie.aitplus.block.HatStandBlock;
 import net.addie.aitplus.block.GramophoneBlock;
 import net.addie.aitplus.block.FlowerOfRemeberanceBlock;
 import net.addie.aitplus.block.DalekaniumOreBlock;
+import net.addie.aitplus.block.ChalkBoardBlock;
+import net.addie.aitplus.block.ChalkBoardAltBlock;
 import net.addie.aitplus.block.CandleStandBlock;
 import net.addie.aitplus.block.CandelStandLitBlock;
 import net.addie.aitplus.block.BrachackiDoorBlock;
@@ -246,6 +248,8 @@ public class AitplusModBlocks {
 	public static Block STREET_LAMP;
 	public static Block ROUNDEL_TABLE;
 	public static Block CANDEL_STAND_LIT;
+	public static Block CHALK_BOARD;
+	public static Block CHALK_BOARD_ALT;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -365,6 +369,8 @@ public class AitplusModBlocks {
 		STREET_LAMP = register("street_lamp", new StreetLampBlock());
 		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
 		CANDEL_STAND_LIT = register("candel_stand_lit", new CandelStandLitBlock());
+		CHALK_BOARD = register("chalk_board", new ChalkBoardBlock());
+		CHALK_BOARD_ALT = register("chalk_board_alt", new ChalkBoardAltBlock());
 	}
 
 	public static void clientLoad() {
@@ -485,6 +491,8 @@ public class AitplusModBlocks {
 		StreetLampBlock.clientInit();
 		RoundelTableBlock.clientInit();
 		CandelStandLitBlock.clientInit();
+		ChalkBoardBlock.clientInit();
+		ChalkBoardAltBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

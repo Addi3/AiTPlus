@@ -32,6 +32,7 @@ public class AitplusModSounds {
 	public static SoundEvent CYBERMAN_HURT = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_hurt"));
 	public static SoundEvent CYBERMAN_MOVE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_move"));
 	public static SoundEvent CYBERMAN_LAZER = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "cyberman_lazer"));
+	public static SoundEvent CHALK_USE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "chalk_use"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
@@ -56,5 +57,6 @@ public class AitplusModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_hurt"), CYBERMAN_HURT);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_move"), CYBERMAN_MOVE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "cyberman_lazer"), CYBERMAN_LAZER);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "chalk_use"), CHALK_USE);
 	}
 }

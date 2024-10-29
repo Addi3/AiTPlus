@@ -273,6 +273,8 @@ public class AitplusModItems {
 	public static Item CREATIVE_TAB_ITEM;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
+	public static Item CHALK_BOARD;
+	public static Item CHALK_BOARD_ALT;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -600,6 +602,9 @@ public class AitplusModItems {
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
+		CHALK_BOARD = register("chalk_board", new BlockItem(AitplusModBlocks.CHALK_BOARD, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CHALK_BOARD));
+		CHALK_BOARD_ALT = register("chalk_board_alt", new BlockItem(AitplusModBlocks.CHALK_BOARD_ALT, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

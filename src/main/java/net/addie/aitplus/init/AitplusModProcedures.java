@@ -15,6 +15,8 @@ import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.DoorsOnRightClickedProcedure;
+import net.addie.aitplus.procedures.ChalkBoardOnBlockRightClickedProcedure;
+import net.addie.aitplus.procedures.ChalkBoardAltOnblockRightClickedProcedure;
 import net.addie.aitplus.procedures.CandleStandOnBlockRightClickedProcedure;
 import net.addie.aitplus.procedures.CandelStandLitUpdateTickProcedure;
 import net.addie.aitplus.procedures.CandelStandLitOnBlockRightClickedProcedure;
@@ -36,5 +38,7 @@ public class AitplusModProcedures {
 		new CandelStandLitUpdateTickProcedure();
 		new VargaPlantMobplayerCollidesWithPlantProcedure();
 		new RecorderRightclickedProcedure();
+		new ChalkBoardOnBlockRightClickedProcedure();
+		new ChalkBoardAltOnblockRightClickedProcedure();
 	}
 }
