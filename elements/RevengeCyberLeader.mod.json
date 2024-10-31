@@ -133,10 +133,13 @@
     "spawningProbability": 20,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 3,
     "restrictionBiomes": [
       {
-        "value": "snowy_slopes"
+        "value": "CUSTOM:MondasianSnowlands"
+      },
+      {
+        "value": "CUSTOM:MondasianIcePeaks"
       }
     ],
     "spawnInDungeons": false

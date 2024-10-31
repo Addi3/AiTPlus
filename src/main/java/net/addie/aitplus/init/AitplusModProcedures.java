@@ -10,6 +10,7 @@ import net.addie.aitplus.procedures.ThalmaLogOnRightClickedProcedure;
 import net.addie.aitplus.procedures.TestrecipeProcedure;
 import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
+import net.addie.aitplus.procedures.TakeMeToMondasRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
 import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
@@ -40,5 +41,6 @@ public class AitplusModProcedures {
 		new RecorderRightclickedProcedure();
 		new ChalkBoardOnBlockRightClickedProcedure();
 		new ChalkBoardAltOnblockRightClickedProcedure();
+		new TakeMeToMondasRightClickedProcedure();
 	}
 }

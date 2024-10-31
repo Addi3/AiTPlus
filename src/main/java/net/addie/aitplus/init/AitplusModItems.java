@@ -21,6 +21,7 @@ import net.addie.aitplus.item.WhiteBowtieItem;
 import net.addie.aitplus.item.TheMightyJellyBabiesItem;
 import net.addie.aitplus.item.TakeMeToTrenzalorItem;
 import net.addie.aitplus.item.TakeMeToSkaroItem;
+import net.addie.aitplus.item.TakeMeToMondasItem;
 import net.addie.aitplus.item.TakeMeToGallifreyItem;
 import net.addie.aitplus.item.StrippedWoodRoundelBlueprintItem;
 import net.addie.aitplus.item.StainedRoundelBlueprintItem;
@@ -251,6 +252,7 @@ public class AitplusModItems {
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
+	public static Item TAKE_ME_TO_MONDAS;
 	public static Item SCARF_CHESTPLATE;
 	public static Item RED_SCARF_CHESTPLATE;
 	public static Item RAINBOW_SCARF_CHESTPLATE;
@@ -583,6 +585,7 @@ public class AitplusModItems {
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());
+		TAKE_ME_TO_MONDAS = register("take_me_to_mondas", new TakeMeToMondasItem());
 		SCARF_CHESTPLATE = register("scarf_chestplate", new ScarfItem.Chestplate());
 		RED_SCARF_CHESTPLATE = register("red_scarf_chestplate", new RedScarfItem.Chestplate());
 		RAINBOW_SCARF_CHESTPLATE = register("rainbow_scarf_chestplate", new RainbowScarfItem.Chestplate());

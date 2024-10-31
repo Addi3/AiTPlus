@@ -224,5 +224,14 @@
         "stream": false
       }
     ]
+  },
+  "mondas_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:mondas_ambiance",
+        "stream": false
+      }
+    ]
   }
 }
