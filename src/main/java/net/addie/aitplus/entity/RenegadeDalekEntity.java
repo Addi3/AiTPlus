@@ -22,6 +22,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
@@ -89,7 +91,8 @@ public class RenegadeDalekEntity extends Monster implements RangedAttackMob {
 	}
 
 	public static void init() {
-		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "renegadedalek_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
+		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "renegadedalek_entity_spawn")).add(ModificationPhase.ADDITIONS,
+				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:irradiated_swamp"))),
 				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.RENEGADE_DALEK, 5, 4, 4)));
 	}
 

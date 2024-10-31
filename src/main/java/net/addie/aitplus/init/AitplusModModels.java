@@ -9,6 +9,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
 import net.addie.aitplus.client.model.Modelvictorian_chair;
+import net.addie.aitplus.client.model.Modelsilence;
 import net.addie.aitplus.client.model.Modelreconnaissance_dalek;
 import net.addie.aitplus.client.model.Modelold_dalek;
 import net.addie.aitplus.client.model.Modeloffice_chair;
@@ -39,6 +40,7 @@ public class AitplusModModels {
 		EntityModelLayerRegistry.registerModelLayer(Modeldavaros_chair.LAYER_LOCATION, Modeldavaros_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelearthshock_cybermen.LAYER_LOCATION, Modelearthshock_cybermen::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelnew_dalek.LAYER_LOCATION, Modelnew_dalek::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(Modelsilence.LAYER_LOCATION, Modelsilence::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelcoral_chair.LAYER_LOCATION, Modelcoral_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelcyber_leader_classic.LAYER_LOCATION, Modelcyber_leader_classic::createBodyLayer);

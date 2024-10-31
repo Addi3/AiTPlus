@@ -246,9 +246,9 @@ public class AitplusModBlocks {
 	public static Block TOYOTA_BOOKSHELF;
 	public static Block SEAL_OF_RASSILON;
 	public static Block STREET_LAMP;
+	public static Block CHALK_BOARD;
 	public static Block ROUNDEL_TABLE;
 	public static Block CANDEL_STAND_LIT;
-	public static Block CHALK_BOARD;
 	public static Block CHALK_BOARD_ALT;
 
 	public static void load() {
@@ -367,9 +367,9 @@ public class AitplusModBlocks {
 		TOYOTA_BOOKSHELF = register("toyota_bookshelf", new ToyotaBookshelfBlock());
 		SEAL_OF_RASSILON = register("seal_of_rassilon", new SealOfRassilonBlock());
 		STREET_LAMP = register("street_lamp", new StreetLampBlock());
+		CHALK_BOARD = register("chalk_board", new ChalkBoardBlock());
 		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
 		CANDEL_STAND_LIT = register("candel_stand_lit", new CandelStandLitBlock());
-		CHALK_BOARD = register("chalk_board", new ChalkBoardBlock());
 		CHALK_BOARD_ALT = register("chalk_board_alt", new ChalkBoardAltBlock());
 	}
 
@@ -489,9 +489,9 @@ public class AitplusModBlocks {
 		ToyotaBookshelfBlock.clientInit();
 		SealOfRassilonBlock.clientInit();
 		StreetLampBlock.clientInit();
+		ChalkBoardBlock.clientInit();
 		RoundelTableBlock.clientInit();
 		CandelStandLitBlock.clientInit();
-		ChalkBoardBlock.clientInit();
 		ChalkBoardAltBlock.clientInit();
 	}
 

@@ -1,16 +1,12 @@
 package net.addie.aitplus.entity;
 
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.RangedAttackMob;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -24,21 +20,20 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 
-import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModEntities;
 import net.addie.aitplus.AitplusMod;
 
-public class ImperialDalekEntity extends Monster implements RangedAttackMob {
-	public ImperialDalekEntity(EntityType<ImperialDalekEntity> type, Level world) {
+public class SilenceEntity extends EnderMan {
+	public SilenceEntity(EntityType<SilenceEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 10;
+		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
 	}
@@ -46,18 +41,16 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, true, true));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, RenegadeDalekEntity.class, true, true));
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.4));
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
-			public boolean canContinueToUse() {
-				return this.canUse();
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(5, new FloatGoal(this));
 	}
 
 	@Override
@@ -71,35 +64,29 @@ public class ImperialDalekEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(AitplusModSounds.DALEK_MOVE, 0.15f, 1);
+	public SoundEvent getAmbientSound() {
+		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.enderman.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return AitplusModSounds.DALEK_HURT;
+		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.enderman.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return AitplusModSounds.DALEK_DEATH;
-	}
-
-	@Override
-	public void performRangedAttack(LivingEntity target, float flval) {
-		LazerEntity.shoot(this, target);
+		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.enderman.death"));
 	}
 
 	public static void init() {
-		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "imperialdalek_entity_spawn")).add(ModificationPhase.ADDITIONS,
-				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:petrified_jungle"))),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.IMPERIAL_DALEK, 5, 4, 4)));
+		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "silence_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:trenzalore_wastes"))),
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.SILENCE, 20, 2, 6)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 25);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);

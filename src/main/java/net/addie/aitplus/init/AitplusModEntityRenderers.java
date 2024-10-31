@@ -10,6 +10,7 @@ import net.fabricmc.api.EnvType;
 
 import net.addie.aitplus.client.renderer.VictorianChairRenderer;
 import net.addie.aitplus.client.renderer.TimeWarDalekRenderer;
+import net.addie.aitplus.client.renderer.SilenceRenderer;
 import net.addie.aitplus.client.renderer.RevengeCyberLeaderRenderer;
 import net.addie.aitplus.client.renderer.RenegadeDalekRenderer;
 import net.addie.aitplus.client.renderer.ReconnaissanceDalekRenderer;
@@ -44,6 +45,7 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.MONDASIAN_CYBERMAN, MondasianCybermanRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.EARTHSHOCK_CYBERMAN, EarthshockCybermanRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.REVENGE_CYBER_LEADER, RevengeCyberLeaderRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.SILENCE, SilenceRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.CYBER_LAZER, CyberLazerRenderer::new);
 	}

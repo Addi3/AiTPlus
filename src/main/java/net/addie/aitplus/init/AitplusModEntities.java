@@ -17,6 +17,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 
 import net.addie.aitplus.entity.VictorianChairEntity;
 import net.addie.aitplus.entity.TimeWarDalekEntity;
+import net.addie.aitplus.entity.SilenceEntity;
 import net.addie.aitplus.entity.RevengeCyberLeaderEntity;
 import net.addie.aitplus.entity.RenegadeDalekEntity;
 import net.addie.aitplus.entity.ReconnaissanceDalekEntity;
@@ -50,6 +51,7 @@ public class AitplusModEntities {
 	public static EntityType<MondasianCybermanEntity> MONDASIAN_CYBERMAN;
 	public static EntityType<EarthshockCybermanEntity> EARTHSHOCK_CYBERMAN;
 	public static EntityType<RevengeCyberLeaderEntity> REVENGE_CYBER_LEADER;
+	public static EntityType<SilenceEntity> SILENCE;
 	public static EntityType<LazerEntity> LAZER;
 	public static EntityType<CyberLazerEntity> CYBER_LAZER;
 
@@ -114,6 +116,10 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, RevengeCyberLeaderEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		RevengeCyberLeaderEntity.init();
 		FabricDefaultAttributeRegistry.register(REVENGE_CYBER_LEADER, RevengeCyberLeaderEntity.createAttributes());
+		SILENCE = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "silence"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, SilenceEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		SilenceEntity.init();
+		FabricDefaultAttributeRegistry.register(SILENCE, SilenceEntity.createAttributes());
 		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
 		CYBER_LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "cyber_lazer"), createArrowEntityType(CyberLazerEntity::new));
 	}

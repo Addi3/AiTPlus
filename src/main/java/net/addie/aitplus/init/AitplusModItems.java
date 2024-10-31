@@ -196,6 +196,7 @@ public class AitplusModItems {
 	public static Item VICTORIAN_CHAIR_SPAWN_EGG;
 	public static Item OFFICE_CHAIR_SPAWN_EGG;
 	public static Item CORAL_CHAIR_SPAWN_EGG;
+	public static Item CHALK_BOARD;
 	public static Item DALEKANIUM_INGOT;
 	public static Item DALEKANIUM_NUGGET;
 	public static Item RAW_DALEKANIUM;
@@ -246,6 +247,7 @@ public class AitplusModItems {
 	public static Item MONDASIAN_CYBERMAN_SPAWN_EGG;
 	public static Item EARTHSHOCK_CYBERMAN_SPAWN_EGG;
 	public static Item REVENGE_CYBER_LEADER_SPAWN_EGG;
+	public static Item SILENCE_SPAWN_EGG;
 	public static Item TAKE_ME_TO_GALLIFREY;
 	public static Item TAKE_ME_TO_TRENZALOR;
 	public static Item TAKE_ME_TO_SKARO;
@@ -273,7 +275,6 @@ public class AitplusModItems {
 	public static Item CREATIVE_TAB_ITEM;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
-	public static Item CHALK_BOARD;
 	public static Item CHALK_BOARD_ALT;
 
 	public static void load() {
@@ -513,6 +514,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(OFFICE_CHAIR_SPAWN_EGG));
 		CORAL_CHAIR_SPAWN_EGG = register("coral_chair_spawn_egg", new SpawnEggItem(AitplusModEntities.CORAL_CHAIR, -1, -1, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CORAL_CHAIR_SPAWN_EGG));
+		CHALK_BOARD = register("chalk_board", new BlockItem(AitplusModBlocks.CHALK_BOARD, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CHALK_BOARD));
 		DALEKANIUM_INGOT = register("dalekanium_ingot", new DalekaniumIngotItem());
 		DALEKANIUM_NUGGET = register("dalekanium_nugget", new DalekaniumNuggetItem());
 		RAW_DALEKANIUM = register("raw_dalekanium", new RawDalekaniumItem());
@@ -575,6 +578,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(EARTHSHOCK_CYBERMAN_SPAWN_EGG));
 		REVENGE_CYBER_LEADER_SPAWN_EGG = register("revenge_cyber_leader_spawn_egg", new SpawnEggItem(AitplusModEntities.REVENGE_CYBER_LEADER, -4802890, -15790578, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(REVENGE_CYBER_LEADER_SPAWN_EGG));
+		SILENCE_SPAWN_EGG = register("silence_spawn_egg", new SpawnEggItem(AitplusModEntities.SILENCE, -16448251, -15856114, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AIT_PLUS_ITEMS).register(content -> content.accept(SILENCE_SPAWN_EGG));
 		TAKE_ME_TO_GALLIFREY = register("take_me_to_gallifrey", new TakeMeToGallifreyItem());
 		TAKE_ME_TO_TRENZALOR = register("take_me_to_trenzalor", new TakeMeToTrenzalorItem());
 		TAKE_ME_TO_SKARO = register("take_me_to_skaro", new TakeMeToSkaroItem());
@@ -602,8 +607,6 @@ public class AitplusModItems {
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
-		CHALK_BOARD = register("chalk_board", new BlockItem(AitplusModBlocks.CHALK_BOARD, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CHALK_BOARD));
 		CHALK_BOARD_ALT = register("chalk_board_alt", new BlockItem(AitplusModBlocks.CHALK_BOARD_ALT, new Item.Properties()));
 	}
 

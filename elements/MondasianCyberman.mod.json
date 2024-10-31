@@ -140,7 +140,11 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "snowy_slopes"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

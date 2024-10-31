@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Renegade Dalek",
+    "mobName": "Silence",
     "mobLabel": "",
-    "mobModelName": "Modelold_dalek",
-    "mobModelTexture": "renegade_dalek.png",
+    "mobModelName": "Modelsilence",
+    "mobModelTexture": "silence.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -21,24 +21,18 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [
-      {
-        "model": "Modelold_dalek",
-        "texture": "renegade_dalek_emissive.png",
-        "glow": true
-      }
-    ],
+    "modelLayers": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13421773,
+      "value": -16448251,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16250872,
+      "value": -15856114,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -75,8 +69,8 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 25,
-    "xpAmount": 10,
+    "health": 10,
+    "xpAmount": 0,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -109,40 +103,40 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.endermen.ambient"
     },
     "hurtSound": {
-      "value": "CUSTOM:dalek_hurt"
+      "value": "entity.endermen.hurt"
     },
     "deathSound": {
-      "value": "CUSTOM:dalek_death"
+      "value": "entity.endermen.death"
     },
     "stepSound": {
-      "value": "CUSTOM:dalek_move"
+      "value": ""
     },
     "entityDataEntries": [],
     "hasAI": true,
-    "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:ImperialDalek</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.4</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "Enderman",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "Lazer",
+    "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 5,
-    "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 6,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:IrradiatedSwamp"
+        "value": "CUSTOM:TrenzaloreWastes"
       }
     ],
     "spawnInDungeons": false

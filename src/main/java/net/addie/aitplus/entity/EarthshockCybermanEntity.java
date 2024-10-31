@@ -23,6 +23,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -97,7 +99,7 @@ public class EarthshockCybermanEntity extends Monster implements RangedAttackMob
 	}
 
 	public static void init() {
-		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "earthshockcyberman_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.all(),
+		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "earthshockcyberman_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("snowy_slopes"))),
 				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.EARTHSHOCK_CYBERMAN, 20, 2, 4)));
 	}
 

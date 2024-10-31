@@ -11,7 +11,6 @@ import net.minecraft.core.Registry;
 
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerType;
 
-import net.addie.aitplus.world.inventory.RoundelTableGuiMenu;
 import net.addie.aitplus.AitplusMod;
 
 public class AitplusModMenus {
