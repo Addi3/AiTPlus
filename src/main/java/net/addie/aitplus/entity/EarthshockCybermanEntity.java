@@ -100,7 +100,7 @@ public class EarthshockCybermanEntity extends Monster implements RangedAttackMob
 
 	public static void init() {
 		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "earthshockcyberman_entity_spawn")).add(ModificationPhase.ADDITIONS,
-				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_snowlands")), ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_ice_peaks"))),
+				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_snowlands")), ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:deleted_mod_element"))),
 				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.EARTHSHOCK_CYBERMAN, 20, 1, 2)));
 	}
 

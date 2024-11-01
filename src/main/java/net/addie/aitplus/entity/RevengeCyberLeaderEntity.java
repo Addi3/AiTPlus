@@ -100,7 +100,7 @@ public class RevengeCyberLeaderEntity extends Monster implements RangedAttackMob
 
 	public static void init() {
 		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "revengecyberleader_entity_spawn")).add(ModificationPhase.ADDITIONS,
-				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_snowlands")), ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_ice_peaks"))),
+				BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:mondasian_snowlands")), ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:deleted_mod_element"))),
 				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(AitplusModEntities.REVENGE_CYBER_LEADER, 20, 2, 3)));
 	}
 

@@ -5891,7 +5891,7 @@
       "type": "dimension",
       "sortid": 196,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mondas",
       "metadata": {
         "files": [
@@ -5937,20 +5937,36 @@
       "path": "~/Misc"
     },
     {
-      "name": "MondasianIcePeaks",
-      "type": "biome",
-      "sortid": 364,
+      "name": "Lab1",
+      "type": "structure",
+      "sortid": 365,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "mondasian_ice_peaks",
+      "locked_code": false,
+      "registry_name": "lab_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/placed_feature/mondasian_ice_peaks_tree.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/mondasian_ice_peaks_tree.json",
-          "src/main/resources/data/aitplus/worldgen/biome/mondasian_ice_peaks.json"
+          "src/main/resources/data/aitplus/worldgen/structure/lab_1.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/lab_1.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/lab_1.json"
         ]
       },
-      "path": "~/Planets/Mondas"
+      "path": "~/Structures/Mondas"
+    },
+    {
+      "name": "NorthPole",
+      "type": "structure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "north_pole",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/worldgen/structure_set/north_pole.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/north_pole.json",
+          "src/main/resources/data/aitplus/worldgen/structure/north_pole.json"
+        ]
+      },
+      "path": "~/Structures/Mondas"
     }
   ],
   "variable_elements": [],
@@ -6200,7 +6216,6 @@
       "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
       "item.aitplus.black_jelly_babies": "Black Jelly Babies",
       "item.aitplus.dalekanium_armor_boots": "Dalekanium Armor Boots",
-      "biome.aitplus.mondasian_ice_peaks": "Mondasian Snowlands",
       "block.aitplus.blow_up_a": "Blow Up A",
       "item.aitplus.red_scarf_helmet": "Scarf Helmet",
       "block.aitplus.blow_up_b": "Blow Up B",
@@ -6510,6 +6525,10 @@
           },
           {
             "name": "Skaro",
+            "children": []
+          },
+          {
+            "name": "Mondas",
             "children": []
           }
         ]
