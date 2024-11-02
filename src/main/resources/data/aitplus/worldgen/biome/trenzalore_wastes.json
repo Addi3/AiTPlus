@@ -21,9 +21,9 @@
     "monster": [
       {
         "type": "aitplus:silence",
-        "weight": 20,
-        "minCount": 2,
-        "maxCount": 6
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "creature": [],

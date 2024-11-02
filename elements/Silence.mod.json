@@ -130,10 +130,10 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
+    "spawningProbability": 10,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 6,
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:TrenzaloreWastes"

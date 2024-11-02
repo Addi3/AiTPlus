@@ -2,8 +2,8 @@
 package net.addie.aitplus.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -58,7 +58,13 @@ public class ChalkBoardAltBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
+		Vec3 offset = state.getOffset(world, pos);
+		return (switch (state.getValue(FACING)) {
+			default -> box(0, 0, 8, 16, 32, 12);
+			case NORTH -> box(0, 0, 4, 16, 32, 8);
+			case EAST -> box(8, 0, 0, 12, 32, 16);
+			case WEST -> box(4, 0, 0, 8, 32, 16);
+		}).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
