@@ -2,6 +2,7 @@
 package net.addie.aitplus.block;
 
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -20,10 +21,10 @@ import java.util.List;
 import java.util.Collections;
 
 public class MetalGrateTrapdoorBlock extends TrapDoorBlock {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.COPPER).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 
 	public MetalGrateTrapdoorBlock() {
-		super(PROPERTIES, BlockSetType.IRON);
+		super(PROPERTIES, BlockSetType.OAK);
 	}
 
 	@Override
