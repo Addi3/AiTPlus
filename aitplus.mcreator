@@ -5967,6 +5967,37 @@
         ]
       },
       "path": "~/Structures/Mondas"
+    },
+    {
+      "name": "TheMoment",
+      "type": "block",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/the_moment.json",
+          "src/main/java/net/addie/aitplus/block/TheMomentBlock.java",
+          "src/main/resources/assets/aitplus/models/item/the_moment.json",
+          "src/main/resources/assets/aitplus/blockstates/the_moment.json"
+        ]
+      },
+      "path": "~/Blocks/Other/TheMoment"
+    },
+    {
+      "name": "TheMomentRecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moment_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/the_moment_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Other/TheMoment/Recipes"
     }
   ],
   "variable_elements": [],
@@ -6232,6 +6263,7 @@
       "item.aitplus.cyan_bowtie_leggings": "",
       "biome.aitplus.gallifrey_plains": "Gallifrey Plains",
       "item.aitplus.red_scarf_leggings": "Scarf Leggings",
+      "block.aitplus.the_moment": "The Moment",
       "block.aitplus.candle_stand": "Candle Stand",
       "item.aitplus.blue_bowtie_chestplate": "Blue Bowtie",
       "item.aitplus.blue_jelly_babies": "Blue Jelly Babies",
@@ -6774,6 +6806,15 @@
                         "children": []
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "name": "TheMoment",
+                "children": [
+                  {
+                    "name": "Recipes",
+                    "children": []
                   }
                 ]
               }
