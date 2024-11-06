@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/flower_of_remeberance",
-    "particle": "aitplus:block/flower_of_remeberance"
-  },
-  "render_type": "cutout"
-}

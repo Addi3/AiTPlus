@@ -1,8 +1,0 @@
-{
-  "parent": "aitplus:block/custom_top_right_open",
-  "textures": {
-    "bottom": "aitplus:block/quartz_roundel_door",
-    "top": "aitplus:block/quartz_roundel_door"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "aitplus:block/maldor_trapdoor",
-    "particle": "aitplus:block/maldor_trapdoor"
-  },
-  "render_type": "translucent"
-}

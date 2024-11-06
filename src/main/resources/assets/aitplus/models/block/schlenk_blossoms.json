@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/schlenk_blossoms",
-    "particle": "aitplus:block/schlenk_blossoms"
-  },
-  "render_type": "cutout"
-}

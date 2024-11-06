@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/petrified_bush",
-    "particle": "aitplus:block/petrified_bush"
-  },
-  "render_type": "cutout"
-}

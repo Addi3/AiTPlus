@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/moonlight_bloom",
-    "particle": "aitplus:block/moonlight_bloom"
-  },
-  "render_type": "cutout"
-}

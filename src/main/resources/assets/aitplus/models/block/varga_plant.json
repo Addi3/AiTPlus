@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/varga_top",
-    "particle": "aitplus:block/varga_top"
-  },
-  "render_type": "cutout"
-}

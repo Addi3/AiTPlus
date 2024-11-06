@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "aitplus:blueprint"
-  },
-  "result": "aitplus:stripped_wood_roundel_blueprint"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "aitplus:stained_roundel_blueprint"
-  },
-  "result": "aitplus:stone_bricks_stained_roundel"
-}

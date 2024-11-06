@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "aitplus:retro_roundel_blueprint"
-  },
-  "result": "aitplus:retro_a"
-}

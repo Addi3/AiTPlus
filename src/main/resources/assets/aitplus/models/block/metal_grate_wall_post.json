@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "aitplus:block/metal_grate",
-    "particle": "aitplus:block/metal_grate"
-  },
-  "render_type": "translucent"
-}

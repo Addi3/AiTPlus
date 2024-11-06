@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_bottom_right",
-  "textures": {
-    "bottom": "aitplus:block/thalma_door_bottom",
-    "top": "aitplus:block/thalma_door_top"
-  },
-  "render_type": "solid"
-}

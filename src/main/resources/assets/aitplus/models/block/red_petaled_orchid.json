@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/red_petaled_orchid",
-    "particle": "aitplus:block/red_petaled_orchid"
-  },
-  "render_type": "cutout"
-}

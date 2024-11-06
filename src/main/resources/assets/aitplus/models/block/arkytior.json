@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aitplus:block/arkytior",
-    "particle": "aitplus:block/arkytior"
-  },
-  "render_type": "cutout"
-}
